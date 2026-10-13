@@ -170,6 +170,29 @@
  ],
  "quellen": [
   {
+   "id": "bekenstein1981bound",
+   "typ": "article",
+   "gruppe": "Physik und Berechnung",
+   "autor": "Bekenstein, Jacob D.",
+   "jahr": "1981",
+   "titel": "Universal upper bound on the entropy-to-energy ratio for bounded systems",
+   "untertitel": "",
+   "in": "Physical Review D 23 (2)",
+   "seiten": "287–298",
+   "verlag": "American Physical Society",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1103/PhysRevD.23.287",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Informationsdichte (Grenze der)"
+   ]
+  },
+  {
    "id": "benacerraf1967god",
    "typ": "article",
    "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
@@ -197,7 +220,31 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Gödelsche Argumente gegen den Mechanismus",
     "Prämisse P2"
+   ]
+  },
+  {
+   "id": "cameron2022regress",
+   "typ": "online",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Cameron, Ross",
+   "jahr": "2022",
+   "titel": "Infinite Regress Arguments",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "https://plato.stanford.edu/entries/infinite-regress/",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Regress (unendlicher)"
    ]
   },
   {
@@ -227,7 +274,32 @@
      "aussage": "Wenn ein formales System arithmetisch stark genug ist, um Gödelisierung zu ermöglichen, dann können wir Sätze formulieren, die Dinge sagen wie „ich habe diese oder jene Eigenschaft“."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Diagonallemma / Fixpunktsatz"
+   ]
+  },
+  {
+   "id": "carnap1950probability",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Carnap, Rudolf",
+   "jahr": "1950",
+   "titel": "Logical Foundations of Probability",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "University of Chicago Press",
+   "ort": "Chicago, IL",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Explikation (Begriffsexplikation)"
+   ]
   },
   {
    "id": "church1936unsolvable",
@@ -256,7 +328,10 @@
      "aussage": "Diese Überzeugung nennt man die Church-Turing-These."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Church-Turing-These",
+    "Glossar: Rekursiv (im Sinne von berechenbar)"
+   ]
   },
   {
    "id": "copeland2023church",
@@ -285,7 +360,12 @@
      "aussage": "Diese Überzeugung nennt man die Church-Turing-These."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Algorithmus",
+    "Glossar: Church-Turing-These",
+    "Glossar: Halteproblem",
+    "Glossar: Physikalische Church-Turing-These"
+   ]
   },
   {
    "id": "davis1958computability",
@@ -314,7 +394,9 @@
      "aussage": "Turing hat gezeigt, dass es eine solche Maschine nicht geben kann."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Halteproblem"
+   ]
   },
   {
    "id": "deutsch1985quantum",
@@ -344,6 +426,7 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Physikalische Church-Turing-These",
     "Prämisse M5"
    ]
   },
@@ -374,7 +457,34 @@
      "aussage": "Diese Intelligenz, genauer das Konzept, für das sie als Anschauung dient, wird seither als „Laplacescher Dämon“ bezeichnet."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Laplacescher Dämon / Intellekt (Laplace)"
+   ]
+  },
+  {
+   "id": "ebbinghaus2021mengenlehre",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Ebbinghaus, Heinz-Dieter",
+   "jahr": "2021",
+   "titel": "Einführung in die Mengenlehre",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Springer Spektrum",
+   "ort": "Berlin and Heidelberg",
+   "auflage": "5",
+   "doi": "10.1007/978-3-662-63866-8",
+   "url": "",
+   "isbn": "978-3-662-63865-1",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Abzählbar",
+    "Glossar: Injektiv (Injektivität)",
+    "Glossar: Kardinalität"
+   ]
   },
   {
    "id": "ebbinghaus2018einfuehrung",
@@ -409,6 +519,19 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Disjunktion",
+    "Glossar: Erststufige Theorie (Prädikatenlogik erster Stufe)",
+    "Glossar: Isomorphie (bis auf Isomorphie)",
+    "Glossar: Kalkül",
+    "Glossar: Löwenheim-Skolem (Satz von)",
+    "Glossar: Modell (einer Theorie)",
+    "Glossar: Modelltheorie",
+    "Glossar: Negation",
+    "Glossar: Prädikat",
+    "Glossar: Reductio ad absurdum (Widerspruchsbeweis)",
+    "Glossar: Semantik / semantischer Gehalt",
+    "Glossar: Syntax / syntaktisch",
+    "Glossar: Theorie (formale Theorie, vollständige Theorie)",
     "Prämisse K5"
    ]
   },
@@ -474,7 +597,11 @@
      "aussage": "Die Idee, der Geist könne sich durch immer stärkere Systeme hindurcharbeiten, lässt sich technisch präzise fassen: als eine Leiter von Theorien, bei der man auf jeder Stufe als neues Axiom hinzunimmt, dass die Stufe darunter in Ordnung ist (man spricht von Reflexionsprinzipien), und die man sogar über unendlich viele Stufen hinaus fortsetzen kann (eine sogenannte transfinite Progression)."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Ordinalnotation (Ordinalzahl)",
+    "Glossar: Reflexionsprinzip",
+    "Glossar: Transfinite Progression"
+   ]
   },
   {
    "id": "feferman1995penrose",
@@ -509,7 +636,37 @@
      "aussage": "Die Kritik an Penrose, vorgebracht unter anderem von Feferman und Minsky, läuft denn auch darauf hinaus, dass der Nachweis fehlt."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Erweiterung $S + \\mathrm{Con}(S)$",
+    "Glossar: Gödelsche Argumente gegen den Mechanismus",
+    "Glossar: Ordinalnotation (Ordinalzahl)",
+    "Glossar: Transfinite Progression"
+   ]
+  },
+  {
+   "id": "forster2023analysis1",
+   "typ": "book",
+   "gruppe": "Physik und Berechnung",
+   "autor": "Forster, Otto; Lindemann, Florian",
+   "jahr": "2023",
+   "titel": "Analysis 1",
+   "untertitel": "Differential- und Integralrechnung einer Veränderlichen",
+   "in": "",
+   "seiten": "",
+   "verlag": "Springer Spektrum",
+   "ort": "Wiesbaden",
+   "auflage": "13",
+   "doi": "10.1007/978-3-658-40130-6",
+   "url": "",
+   "isbn": "978-3-658-40129-0",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Abzählbar",
+    "Glossar: Reelle Zahlen / Kontinuum",
+    "Glossar: Stetigkeit"
+   ]
   },
   {
    "id": "graca2009computability",
@@ -539,6 +696,7 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Picard-Lindelöf (Satz von)",
     "Prämisse K4"
    ]
   },
@@ -592,7 +750,18 @@
      "aussage": "Formal schreibt man $S_M \\vdash \\mathrm{Con}(S_M) \\to G_M$, in Worten: $S_M$ beweist „Wenn ich konsistent bin, dann gilt $G_M$.“"
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: $\\omega$-Widerspruchsfreiheit",
+    "Glossar: Entscheidbar / unentscheidbar",
+    "Glossar: Erster Gödelscher Unvollständigkeitssatz",
+    "Glossar: Gödelisierung (Gödelnummerierung)",
+    "Glossar: Gödelsatz / Gödelformel",
+    "Glossar: Konditional (Wenn-dann-Aussage) / Konditionalität",
+    "Glossar: Konsistenzaussage $\\mathrm{Con}(S)$",
+    "Glossar: Lügner-Paradoxie",
+    "Glossar: Substitution / Substitutionsfunktion",
+    "Glossar: Zweiter Gödelscher Unvollständigkeitssatz"
+   ]
   },
   {
    "id": "goedel1934undecidable",
@@ -650,7 +819,10 @@
      "aussage": "Entweder übersteigt der menschliche Geist jede endliche Maschine, oder es gibt absolut unentscheidbare zahlentheoretische Probleme, also wahre Sätze, die kein denkbares formales System beweisen kann."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Entscheidbar / unentscheidbar",
+    "Glossar: Gödel-Disjunktion (Gibbs-Vorlesung)"
+   ]
   },
   {
    "id": "hameroff1996orchestrated",
@@ -679,7 +851,10 @@
      "aussage": "Konkret erwägt er, gemeinsam mit Stuart Hameroff, Quantenprozesse in den Mikrotubuli, den feinen Röhrchen des Zellskeletts der Neuronen, als Träger des Bewusstseins."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Mikrotubuli",
+    "Glossar: Quantenkohärenz"
+   ]
   },
   {
    "id": "hoefer2023causal",
@@ -715,6 +890,14 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Determinismus",
+    "Glossar: Epistemisch / Erkenntnistheorie",
+    "Glossar: Epistemischer Determinismus",
+    "Glossar: Kausalität / Kausaldeterminismus",
+    "Glossar: Laplacescher Dämon / Intellekt (Laplace)",
+    "Glossar: Naturgesetz",
+    "Glossar: Ontologie / ontologisch",
+    "Glossar: Vorhersagbarkeit",
     "Prämisse G1"
    ]
   },
@@ -745,7 +928,12 @@
      "aussage": "Sie legen fest, wie man aus einem oder mehreren Sätzen einen neuen Satz schließt."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Alphabet",
+    "Glossar: Formales System",
+    "Glossar: Satz (eines formalen Systems) / Zeichenkette",
+    "Glossar: Schlussregel"
+   ]
   },
   {
    "id": "kane2005contemporary",
@@ -774,7 +962,32 @@
      "aussage": "Die Ergebnisse dieser Arbeit betreffen allein die erste Frage und lassen die zweite ausdrücklich offen."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Willensfreiheit / Freiheitskonflikt"
+   ]
+  },
+  {
+   "id": "kleene1952metamathematics",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Kleene, Stephen Cole",
+   "jahr": "1952",
+   "titel": "Introduction to Metamathematics",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "North-Holland",
+   "ort": "Amsterdam",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Metamathematik"
+   ]
   },
   {
    "id": "laplace1886versuch",
@@ -803,7 +1016,13 @@
      "aussage": "Eine Intelligenz, welche für einen gegebenen Augenblick alle Kräfte, von denen die Natur belebt ist, sowie die gegenseitige Lage der Wesen, die sie zusammen setzen, kennen würde, und überdies umfassend genug wäre, um diese gegebenen Grössen einer Analyse zu unterwerfen, würde in derselben Formel die Bewegungen der grössten Weltkörper wie die des leichtesten Atoms ausdrücken: nichts würde für sie ungewiss sein und Zukunft wie Vergangenheit ihr offen vor Augen liegen.“"
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Dämon (Regelvollzug)",
+    "Glossar: Laplacescher Dämon / Intellekt (Laplace)",
+    "Glossar: Mechanistischer Determinismus",
+    "Glossar: Systemimmanent / Regelvollzug",
+    "Glossar: Zustandsdeterminismus / Historiendeterminismus"
+   ]
   },
   {
    "id": "lewis1979counterfactual",
@@ -832,7 +1051,9 @@
      "aussage": "Wenn \\(w^*\\) dieselben Naturgesetze hat wie \\(w\\) und mit \\(w\\) zu einem bestimmten Zeitpunkt \\(t\\) im exakt gleichen Zustand übereinstimmt, dann stimmt \\(w^*\\) mit \\(w\\) zu allen Zeitpunkten – in der Vergangenheit wie in der Zukunft – überein."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Zustandsdeterminismus / Historiendeterminismus"
+   ]
   },
   {
    "id": "lewis1983newwork",
@@ -861,7 +1082,34 @@
      "aussage": "Wenn \\(w^*\\) dieselben Naturgesetze hat wie \\(w\\) und mit \\(w\\) zu einem bestimmten Zeitpunkt \\(t\\) im exakt gleichen Zustand übereinstimmt, dann stimmt \\(w^*\\) mit \\(w\\) zu allen Zeitpunkten – in der Vergangenheit wie in der Zukunft – überein."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Mechanistischer Determinismus",
+    "Glossar: Mögliche Welten",
+    "Glossar: Zustandsdeterminismus / Historiendeterminismus"
+   ]
+  },
+  {
+   "id": "liebesman2026types",
+   "typ": "online",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Liebesman, David",
+   "jahr": "2026",
+   "titel": "Types and Tokens",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "https://plato.stanford.edu/entries/types-tokens/",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Token / Gehalt (Tokenisierung)"
+   ]
   },
   {
    "id": "lucas1961minds",
@@ -974,6 +1222,10 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Gödelsche Argumente gegen den Mechanismus",
+    "Glossar: Instanziierung",
+    "Glossar: Mechanismus / mechanistisch",
+    "Glossar: Metamaschine",
     "Prämisse P1",
     "Prämisse P2",
     "Prämisse P3",
@@ -1009,7 +1261,9 @@
      "aussage": "Mit welcher physikalischen Theorie wir auch arbeiten, es gibt immer mehrere Modelle, und darunter stets auch ein abzählbares."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Löwenheim-Skolem (Satz von)"
+   ]
   },
   {
    "id": "minsky1991conscious",
@@ -1067,7 +1321,11 @@
      "aussage": "Wir nennen eine Aussage beweisbar, wenn sie sich mithilfe festgelegter Schlussregeln auf besonders grundlegende Prämissen zurückführen lässt, die man Axiome nennt, etwa „jede natürliche Zahl hat einen Nachfolger“."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Axiom",
+    "Glossar: Natürliche Zahlen / Nachfolger",
+    "Glossar: Peano-Axiome / Peano-Arithmetik"
+   ]
   },
   {
    "id": "penrose1989emperor",
@@ -1102,7 +1360,10 @@
      "aussage": "Diese Einsicht, so Penrose, sei keine algorithmische Leistung; sie gehe über jede Symbolmanipulation hinaus."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Gödelsche Argumente gegen den Mechanismus",
+    "Glossar: Nicht-algorithmisch / nicht berechenbar"
+   ]
   },
   {
    "id": "penrose1994shadows",
@@ -1138,6 +1399,7 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Mikrotubuli",
     "Prämisse M5"
    ]
   },
@@ -1169,6 +1431,7 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Physikalische Church-Turing-These",
     "Prämisse M5"
    ]
   },
@@ -1199,7 +1462,9 @@
      "aussage": "Denn nach Russell gilt in der Logik, dass ein einziger Widerspruch, also die Beweisbarkeit einer Aussage und ihrer Negation, ausreicht, damit jede beliebige Aussage beweisbar wird."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Ex falso quodlibet (Explosionsprinzip)"
+   ]
   },
   {
    "id": "putnam1960minds",
@@ -1229,6 +1494,7 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Gödelsche Argumente gegen den Mechanismus",
     "Prämisse P3",
     "Prämisse P5"
    ]
@@ -1260,7 +1526,32 @@
      "aussage": "Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Erster Gödelscher Unvollständigkeitssatz"
+   ]
+  },
+  {
+   "id": "sipser2013computation",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Sipser, Michael",
+   "jahr": "2013",
+   "titel": "Introduction to the Theory of Computation",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Cengage Learning",
+   "ort": "Boston, MA",
+   "auflage": "3",
+   "doi": "",
+   "url": "",
+   "isbn": "978-1-133-18779-0",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Kodierung / Binärkette"
+   ]
   },
   {
    "id": "skolem1920logisch",
@@ -1289,7 +1580,9 @@
      "aussage": "Mit welcher physikalischen Theorie wir auch arbeiten, es gibt immer mehrere Modelle, und darunter stets auch ein abzählbares."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Löwenheim-Skolem (Satz von)"
+   ]
   },
   {
    "id": "smith2013",
@@ -1381,6 +1674,37 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Ableitbarkeitszeichen $\\vdash$",
+    "Glossar: Alphabet",
+    "Glossar: Arithmetik",
+    "Glossar: Arithmetische Stärke",
+    "Glossar: Axiom",
+    "Glossar: Berechenbarkeit",
+    "Glossar: Beweisbarkeit",
+    "Glossar: Diagonalargument",
+    "Glossar: Diagonalisierung",
+    "Glossar: Diagonallemma / Fixpunktsatz",
+    "Glossar: Entscheidbar / unentscheidbar",
+    "Glossar: Erster Gödelscher Unvollständigkeitssatz",
+    "Glossar: Erweiterung $S + \\mathrm{Con}(S)$",
+    "Glossar: Formales System",
+    "Glossar: Gödelisierung (Gödelnummerierung)",
+    "Glossar: Gödelsatz / Gödelformel",
+    "Glossar: Halteproblem",
+    "Glossar: Konditional (Wenn-dann-Aussage) / Konditionalität",
+    "Glossar: Konsistenz (Widerspruchsfreiheit)",
+    "Glossar: Korrektheit",
+    "Glossar: Negationsvollständigkeit",
+    "Glossar: Nicht-algorithmisch / nicht berechenbar",
+    "Glossar: Peano-Axiome / Peano-Arithmetik",
+    "Glossar: Rekursive Axiomatisierbarkeit",
+    "Glossar: Satz (eines formalen Systems) / Zeichenkette",
+    "Glossar: Schlussregel",
+    "Glossar: Substitution / Substitutionsfunktion",
+    "Glossar: Tarskis Undefinierbarkeitssatz",
+    "Glossar: Turingmaschine",
+    "Glossar: Wahrheitsprädikat",
+    "Glossar: Zweiter Gödelscher Unvollständigkeitssatz",
     "Prämisse P5"
    ]
   },
@@ -1445,7 +1769,14 @@
      "aussage": "Keine Sprache, die stark genug ist, um einfache Arithmetik auszudrücken, kann ein Wahrheitsprädikat für ihre eigenen Sätze definieren, ohne in einen Widerspruch zu geraten."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Lügner-Paradoxie",
+    "Glossar: Objektsprache / Metasprache (Metaebene)",
+    "Glossar: Tarskis Undefinierbarkeitssatz",
+    "Glossar: Wahrheit (Wahrheitswert)",
+    "Glossar: Wahrheitsprädikat",
+    "Glossar: Zustandsebene / Aussagenebene"
+   ]
   },
   {
    "id": "tarski1951decision",
@@ -1475,6 +1806,7 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Vollständigkeit der Theorie der reellen Zahlen (Tarski)",
     "Prämisse K1"
    ]
   },
@@ -1505,7 +1837,9 @@
      "aussage": "Zweitens legt selbst eine vollständige Theorie, die jede Frage ihrer Sprache entscheidet, die Trajektorie nicht bis auf Isomorphie fest."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Löwenheim-Skolem (Satz von)"
+   ]
   },
   {
    "id": "tegmark2000importance",
@@ -1534,7 +1868,10 @@
      "aussage": "Es ist nicht gezeigt, dass menschliche Einsicht echte, im Sinne Turings nicht berechenbare Funktionen verwendet, und erst recht nicht, dass die vermuteten Quantenprozesse im warmen Gehirn die dafür nötige Kohärenz, also die Stabilität ihrer empfindlichen Quantenzustände, überhaupt erreichen."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Mikrotubuli",
+    "Glossar: Quantenkohärenz"
+   ]
   },
   {
    "id": "teschl2012ordinary",
@@ -1569,7 +1906,40 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Differentialgleichung / Anfangswertproblem",
+    "Glossar: Diskret / kontinuierlich",
+    "Glossar: Lipschitz-Stetigkeit",
+    "Glossar: Metrik",
+    "Glossar: Picard-Lindelöf (Satz von)",
+    "Glossar: Trajektorie",
+    "Glossar: Zustand / Zustandsraum",
     "Prämisse K4"
+   ]
+  },
+  {
+   "id": "tetens2004argumentieren",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Tetens, Holm",
+   "jahr": "2004",
+   "titel": "Philosophisches Argumentieren",
+   "untertitel": "Eine Einführung",
+   "in": "",
+   "seiten": "",
+   "verlag": "C.H. Beck",
+   "ort": "München",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "978-3-406-51114-1",
+   "verwendung": "",
+   "zitiert_in": [],
+   "fundstellen": [],
+   "verweise_anhang": [
+    "Glossar: Konklusion / Zwischenkonklusion",
+    "Glossar: Prämisse",
+    "Glossar: Reductio ad absurdum (Widerspruchsbeweis)",
+    "Glossar: petitio principii (Zirkelschluss)"
    ]
   },
   {
@@ -1611,6 +1981,11 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Berechenbarkeit",
+    "Glossar: Church-Turing-These",
+    "Glossar: Diagonalargument",
+    "Glossar: Halteproblem",
+    "Glossar: Turingmaschine",
     "Prämisse K2"
    ]
   },
@@ -1641,7 +2016,11 @@
      "aussage": "Die Idee, der Geist könne sich durch immer stärkere Systeme hindurcharbeiten, lässt sich technisch präzise fassen: als eine Leiter von Theorien, bei der man auf jeder Stufe als neues Axiom hinzunimmt, dass die Stufe darunter in Ordnung ist (man spricht von Reflexionsprinzipien), und die man sogar über unendlich viele Stufen hinaus fortsetzen kann (eine sogenannte transfinite Progression)."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Ordinalnotation (Ordinalzahl)",
+    "Glossar: Reflexionsprinzip",
+    "Glossar: Transfinite Progression"
+   ]
   },
   {
    "id": "turing1950computing",
@@ -1705,6 +2084,7 @@
     }
    ],
    "verweise_anhang": [
+    "Glossar: Name / Approximation / Näherung",
     "Prämisse K3"
    ]
   },
@@ -1735,7 +2115,9 @@
      "aussage": "Denn nach Russell gilt in der Logik, dass ein einziger Widerspruch, also die Beweisbarkeit einer Aussage und ihrer Negation, ausreicht, damit jede beliebige Aussage beweisbar wird."
     }
    ],
-   "verweise_anhang": []
+   "verweise_anhang": [
+    "Glossar: Ex falso quodlibet (Explosionsprinzip)"
+   ]
   }
  ],
  "praemissen": [
@@ -2122,7 +2504,2121 @@
    ]
   }
  ],
- "glossar": [],
+ "glossar": [
+  {
+   "begriff": "Alphabet",
+   "slug": "alphabet",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Der Vorrat an Zeichen, aus dem alle Ausdrücke eines Systems zusammengesetzt werden, so wie die Buchstaben eines Alphabets die Wörter einer Sprache bilden.",
+   "praezise": "Eine Menge von Grundzeichen; die Ausdrücke eines formalen Systems sind endliche Zeichenfolgen (Wörter) über dem Alphabet. Im Text heißt es $V$ (2.1); für die Zustände im ersten der vier Fälle wird ein endliches Alphabet angenommen (4.5).",
+   "quellen": [
+    {
+     "id": "hoffmann2013goedel",
+     "stelle": "Abschn. 1.2"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.3, S. 29–31"
+    }
+   ],
+   "abschnitte": [
+    "2.1",
+    "4.5"
+   ]
+  },
+  {
+   "begriff": "Axiom",
+   "slug": "axiom",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein Ausgangssatz, der ohne Beweis festgelegt wird und von dem aus alles Weitere hergeleitet wird, zum Beispiel „jede natürliche Zahl hat einen Nachfolger“.",
+   "praezise": "Ein Satz, der in einem formalen System als Ausgangspunkt der Ableitungen vorgegeben ist. Im Text heißen die Axiome „grundlegend wahre Sätze“ (2.1); fachlich gehört die Wahrheit der Axiome aber nicht zum Begriff eines axiomatisierten Systems, sondern ist eine zusätzliche Frage (Korrektheit). Das Beispiel ist Axiom 6 in Peanos *Arithmetices principia* (1889); dort beginnen die natürlichen Zahlen bei 1.",
+   "quellen": [
+    {
+     "id": "peano1889arithmetices",
+     "stelle": "§ 1, Axiom 6"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.3, S. 29"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "2.1",
+    "2.2",
+    "2.5",
+    "5.1",
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Beweisbarkeit",
+   "slug": "beweisbarkeit",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein Satz ist beweisbar, wenn man ihn in endlich vielen erlaubten Schritten aus den Ausgangssätzen herleiten kann. Beweisbar ist nicht dasselbe wie wahr.",
+   "praezise": "Ein Satz $\\varphi$ ist in der Theorie $T$ beweisbar ($T \\vdash \\varphi$), wenn es eine endliche Folge von Formeln gibt, in der jedes Glied ein Axiom von $T$ oder durch eine Schlussregel aus früheren Gliedern gewonnen ist und die mit $\\varphi$ endet. Beweisbarkeit ist ein rein syntaktischer Begriff; ob ein beweisbarer Satz auch wahr ist, ist die Frage der Korrektheit.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.3, S. 29–31"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "2.1",
+    "2.3",
+    "2.4",
+    "2.5",
+    "4.1",
+    "4.3",
+    "5.2",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Disjunktion",
+   "slug": "disjunktion",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Eine Oder-Aussage, die mehrere Möglichkeiten nebeneinanderstellt: „A oder B“.",
+   "praezise": "Die Verknüpfung $A \\lor B$; sie ist wahr, wenn mindestens eines der Glieder wahr ist (nicht ausschließendes Oder). Im Text (5.3) geht es um die Disjunktion aus Gödels Gibbs-Vorlesung; siehe *Gödel-Disjunktion*.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. 2"
+    }
+   ],
+   "abschnitte": [
+    "5.3"
+   ]
+  },
+  {
+   "begriff": "Ex falso quodlibet (Explosionsprinzip)",
+   "slug": "ex-falso-quodlibet-explosionsprinzip",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Wenn ein System einen Widerspruch zulässt, lässt sich mit ihm alles beweisen, auch das Falsche. Deshalb ist ein widersprüchliches System wertlos.",
+   "praezise": "In der klassischen Logik folgt aus einem Widerspruch jede beliebige Aussage $q$ (lat.\\ *ex contradictione quodlibet*); formal ist das der Satz $\\neg p \\to (p \\to q)$, in den *Principia Mathematica* Satz *2$\\cdot$21. Das Prinzip ist älter als die *Principia*; es wird schon im 12. Jahrhundert diskutiert. In parakonsistenten Logiken gilt es nicht. Ein widersprüchliches System beweist also jeden Satz und ist deshalb trivialerweise negationsvollständig.",
+   "quellen": [
+    {
+     "id": "whitehead1910principia",
+     "stelle": "Bd. 1, S. 104, *2$\\cdot$21"
+    },
+    {
+     "id": "priest2026paraconsistent",
+     "stelle": "Abschn. 1.2"
+    }
+   ],
+   "abschnitte": [
+    "2.5",
+    "5.1",
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Formales System",
+   "slug": "formales-system",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein streng geregeltes Zeichenspiel: Es gibt einen Vorrat an Zeichen, einige Ausgangssätze und Regeln, wie man aus Sätzen neue Sätze erzeugt. Was die Zeichen bedeuten, spielt für die Regeln keine Rolle.",
+   "praezise": "Im Text (Definition 1, 2.1): ein Tripel aus Alphabet $V$, Axiomenmenge $A$ und Schlussregeln $R$, wobei die Regeln rein syntaktisch sind. Üblich ist, zusätzlich festzulegen, welche Zeichenfolgen als Formeln beziehungsweise Sätze zulässig sind; die aus den Axiomen ableitbaren Sätze heißen Theoreme.",
+   "quellen": [
+    {
+     "id": "hoffmann2013goedel",
+     "stelle": "Abschn. 1.2"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.3, S. 29–31"
+    }
+   ],
+   "abschnitte": [
+    "2.1",
+    "2.2",
+    "4.2",
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Kalkül",
+   "slug": "kalkuel",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein Verfahren mit festen Regeln, mit dem man aus Bekanntem Neues herleitet, ähnlich wie beim schriftlichen Rechnen.",
+   "praezise": "In der Logik ein System aus Axiomen und Schlussregeln, mit dem sich Sätze rein schematisch ableiten lassen. Im Text (1.2) ist allgemeiner jedes Verfahren gemeint, mit dem man aus Bekanntem Unbekanntes, insbesondere die Zukunft, herleitet; in 2.4 steht „Kalkül“ für das Rechnen mit Zahlen.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. 4"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "2.4"
+   ]
+  },
+  {
+   "begriff": "Konditional (Wenn-dann-Aussage) / Konditionalität",
+   "slug": "konditional-wenn-dann-aussage-konditionalitaet",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Eine Wenn-dann-Aussage behauptet etwas nur unter einer Bedingung. Wenn die Arbeit von Konditionalität spricht, meint sie, dass ein Ergebnis nur unter bestimmten Voraussetzungen gilt.",
+   "praezise": "Das Konditional (die Implikation) $A \\to B$ ist in der klassischen Logik nur dann falsch, wenn $A$ wahr und $B$ falsch ist. Im Text (5.2) kann ein Mensch nur einsehen, dass $G_M$ wahr ist, *wenn* $S_M$ konsistent ist; das System beweist dieses Konditional selbst: $S_M \\vdash \\mathrm{Con}(S_M) \\to G_M$. Konditionalität in 6.2 und 6.3 bedeutet, dass die Ergebnisse der Arbeit von ihren Prämissen abhängen.",
+   "quellen": [
+    {
+     "id": "goedel1931ueber",
+     "stelle": "S. 196 f."
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 31.2, S. 234 f."
+    }
+   ],
+   "abschnitte": [
+    "5.2",
+    "6.2",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Konklusion / Zwischenkonklusion",
+   "slug": "konklusion-zwischenkonklusion",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Die Schlussfolgerung eines Arguments. Eine Zwischenkonklusion ist ein Teilergebnis auf dem Weg dorthin, das für den nächsten Schritt wieder als Voraussetzung dient.",
+   "praezise": "Die Konklusion ist der Satz, der aus den Prämissen folgen soll. Eine Zwischenkonklusion folgt aus einem Teil der Prämissen und ist selbst Prämisse des weiteren Arguments. Im Text sind die Zwischenkonklusionen im Lucas-Argument mit Z1 bis Z3 gekennzeichnet (5.1).",
+   "quellen": [
+    {
+     "id": "tetens2004argumentieren",
+     "stelle": "Kap. 4"
+    }
+   ],
+   "abschnitte": [
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Konsistenz (Widerspruchsfreiheit)",
+   "slug": "konsistenz-widerspruchsfreiheit",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein System ist konsistent, wenn es sich nie selbst widerspricht.",
+   "praezise": "Eine Theorie $T$ ist konsistent, wenn es keinen Satz $\\varphi$ gibt mit $T \\vdash \\varphi$ und $T \\vdash \\neg\\varphi$. In der klassischen Logik ist das gleichwertig dazu, dass nicht jeder Satz beweisbar ist. Konsistenz ist schwächer als $\\omega$-Widerspruchsfreiheit und folgt aus Korrektheit.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.4, S. 32"
+    }
+   ],
+   "abschnitte": [
+    "2.3",
+    "2.5",
+    "2.6",
+    "4.2",
+    "5.1",
+    "5.2",
+    "5.3",
+    "6.2"
+   ]
+  },
+  {
+   "begriff": "Korrektheit",
+   "slug": "korrektheit",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein System ist korrekt, wenn es nur Wahres beweist; es „lügt“ also nie.",
+   "praezise": "Eine Theorie, deren Sätze eine Interpretation haben, ist korrekt (engl.\\ *sound*), wenn jeder in ihr beweisbare Satz unter dieser Interpretation wahr ist. Korrektheit zieht Konsistenz nach sich, nicht umgekehrt. Mit „Korrektheitsnorm“ meint der Text (4.3) die Verpflichtung, nur Wahres hervorzubringen.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.4, S. 32"
+    }
+   ],
+   "abschnitte": [
+    "2.3",
+    "2.4",
+    "4.3",
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Metamathematik",
+   "slug": "metamathematik",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Mathematik, die die Mathematik selbst untersucht: Sie fragt zum Beispiel, was sich mit bestimmten Regeln beweisen lässt und was nicht.",
+   "praezise": "Die mathematische Untersuchung formaler Systeme und ihrer Eigenschaften wie Beweisbarkeit, Konsistenz, Vollständigkeit und Entscheidbarkeit. Gödels Sätze sind metamathematische Ergebnisse.",
+   "quellen": [
+    {
+     "id": "kleene1952metamathematics",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "1.2"
+   ]
+  },
+  {
+   "begriff": "Negation",
+   "slug": "negation",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Das Gegenteil einer Aussage: „Der Himmel ist nicht blau“ ist die Negation von „Der Himmel ist blau“.",
+   "praezise": "Die Verknüpfung $\\neg\\varphi$; in der klassischen Logik ist $\\neg\\varphi$ genau dann wahr, wenn $\\varphi$ falsch ist, ein Satz und seine Negation haben also nie denselben Wahrheitswert.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. 2"
+    }
+   ],
+   "abschnitte": [
+    "2.3",
+    "2.5",
+    "4.2"
+   ]
+  },
+  {
+   "begriff": "Negationsvollständigkeit",
+   "slug": "negationsvollstaendigkeit",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein System ist (negations-)vollständig, wenn es zu jeder Aussage, die es ausdrücken kann, entweder die Aussage selbst oder ihr Gegenteil beweisen kann und somit keine Frage offen lässt.",
+   "praezise": "Eine Theorie $T$ ist negationsvollständig, wenn für jeden Satz $\\varphi$ ihrer Sprache $T \\vdash \\varphi$ oder $T \\vdash \\neg\\varphi$ gilt. Nicht zu verwechseln mit der semantischen Vollständigkeit der Prädikatenlogik (Gödels Vollständigkeitssatz: jede allgemeingültige Formel ist beweisbar). Das kurze „vollständig“ ist deshalb mehrdeutig.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.4, S. 32"
+    }
+   ],
+   "abschnitte": [
+    "2.3",
+    "2.5",
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Objektsprache / Metasprache (Metaebene)",
+   "slug": "objektsprache-metasprache-metaebene",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Die Objektsprache ist die Sprache, über die man spricht; die Metasprache ist die Sprache, in der man über sie spricht, etwa ein deutsches Lehrbuch über die Grammatik des Französischen.",
+   "praezise": "Tarskis Unterscheidung: Die Wahrheit der Sätze einer hinreichend ausdrucksstarken Sprache $L$ lässt sich nicht in $L$ selbst, wohl aber in einer ausdrucksstärkeren Metasprache definieren. Diese kann ihrerseits Objektsprache einer weiteren Metasprache sein, es entsteht eine Stufung. Im Text (4.3, 4.4) heißt die Ebene der Aussagen über Aussagen „Metaebene“.",
+   "quellen": [
+    {
+     "id": "tarski1935wahrheitsbegriff",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "2.7",
+    "4.3",
+    "4.4",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "petitio principii (Zirkelschluss)",
+   "slug": "petitio-principii-zirkelschluss",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein Zirkelschluss: Man setzt stillschweigend voraus, was man erst beweisen will.",
+   "praezise": "Ein Argument, dessen Konklusion bereits in einer Prämisse enthalten ist. Der Schluss ist formal gültig, beweist aber nichts, weil die Prämisse nur akzeptiert werden kann, wer die Konklusion schon akzeptiert. Im Text (5.2): Lucas' Begründung der eigenen Konsistenz setzt sie voraus.",
+   "quellen": [
+    {
+     "id": "tetens2004argumentieren",
+     "stelle": "Kap. 6"
+    }
+   ],
+   "abschnitte": [
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Prädikat",
+   "slug": "praedikat",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein Ausdruck, der etwas über Dinge oder Sätze aussagt, etwa „ist wahr“ oder „ist beweisbar“.",
+   "praezise": "Ein Ausdruck $P(x)$ mit einer freien Variablen, der auf Gegenstände zutrifft oder nicht. Im Text sind Wahrheits- und Beweisbarkeitsprädikate gemeint, die auf Sätze beziehungsweise deren Gödelnummern angewendet werden.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. 2"
+    }
+   ],
+   "abschnitte": [
+    "2.7",
+    "4.2",
+    "4.3",
+    "4.4"
+   ]
+  },
+  {
+   "begriff": "Prämisse",
+   "slug": "praemisse",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Eine Voraussetzung, von der ein Argument ausgeht und die man annehmen muss, damit die Schlussfolgerung gilt.",
+   "praezise": "Eine Aussage, die in einem Argument als Ausgangspunkt dient. Im Text gibt es drei Verwendungen: die Axiome als „grundlegende Prämissen“ (1.2), die im Anhang aufgeführten Prämissen der Arbeit, etwa die Beschreibbarkeit des Universums (4.1), und die Prämissen des Lucas-Arguments (5.1).",
+   "quellen": [
+    {
+     "id": "tetens2004argumentieren",
+     "stelle": "Kap. 4"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "3.4",
+    "4.1",
+    "4.6",
+    "4.7",
+    "5.1",
+    "5.2",
+    "5.4",
+    "6.2"
+   ]
+  },
+  {
+   "begriff": "Reductio ad absurdum (Widerspruchsbeweis)",
+   "slug": "reductio-ad-absurdum-widerspruchsbeweis",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Man nimmt das Gegenteil dessen an, was man zeigen will, führt es zu einem Widerspruch und schließt, dass die Annahme falsch war.",
+   "praezise": "Eine Beweisform: Aus der Annahme $A$ (zusammen mit anderen Prämissen) wird ein Widerspruch abgeleitet, daraus folgt $\\neg A$. Ein Widerspruchsbeweis zeigt nur, dass die Annahmen nicht alle zugleich gelten können; welche von ihnen falsch ist, zeigt er nicht. Im Text steht die Annahme des Lucas-Arguments als „Annahme (Reductio)“ (5.1), und das Fazit hat diese Form (6.3).",
+   "quellen": [
+    {
+     "id": "tetens2004argumentieren",
+     "stelle": "Kap. 4"
+    },
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. 4"
+    }
+   ],
+   "abschnitte": [
+    "5.1",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Satz (eines formalen Systems) / Zeichenkette",
+   "slug": "satz-eines-formalen-systems-zeichenkette",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Eine Zeichenkette ist eine Reihe von Zeichen hintereinander, etwa ein Wort. Ein Satz ist eine Zeichenkette, die nach den Regeln des Systems richtig gebildet ist.",
+   "praezise": "Im Text (2.1) sind die „Sätze“ die „sinnvollen Wörter“ über dem Alphabet $V$, also die wohlgeformten Zeichenketten; „sinnvoll“ meint hier nur wohlgeformt, nicht bedeutungsvoll. In der Logik heißen wohlgeformte Ausdrücke Formeln, Sätze sind die Formeln ohne freie Variable. Davon zu unterscheiden ist „Satz“ im Sinn eines bewiesenen Theorems (Satz von Picard-Lindelöf). Der Zustand des Universums wird im Modell ebenfalls als Zeichenkette gedacht (4.1).",
+   "quellen": [
+    {
+     "id": "hoffmann2013goedel",
+     "stelle": "Abschn. 1.2"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.3, S. 29–31"
+    }
+   ],
+   "abschnitte": [
+    "2.1",
+    "4.1",
+    "4.2",
+    "4.5"
+   ]
+  },
+  {
+   "begriff": "Schlussregel",
+   "slug": "schlussregel",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Eine erlaubte Umformung, die aus gegebenen Sätzen einen neuen Satz macht, etwa: aus „Wenn A, dann B“ und „A“ folgt „B“.",
+   "praezise": "Eine Regel, die aus einer oder mehreren Formeln (den Prämissen) eine Formel (die Konklusion) liefert. Das klassische Beispiel ist der Modus ponens: aus $A$ und $A \\to B$ folgt $B$. In einem formalen System ist sie rein syntaktisch, sie bezieht sich nur auf die Form der Zeichenketten.",
+   "quellen": [
+    {
+     "id": "hoffmann2013goedel",
+     "stelle": "Abschn. 1.2"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.3, S. 29–31"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "2.1",
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Semantik / semantischer Gehalt",
+   "slug": "semantik-semantischer-gehalt",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Die Bedeutung von Zeichen und Sätzen, im Unterschied zu ihrer bloßen Form.",
+   "praezise": "Der Teil der Logik, der den Zeichen Bedeutungen zuordnet (Strukturen, Interpretationen, Wahrheitswerte); Gegenstück zur Syntax. Im Text (4.3) bezeichnet der semantische Gehalt, was ein Satz besagt, im Unterschied zu seinem physischen Vorkommen als Token (siehe *Token / Gehalt*).",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. 3"
+    }
+   ],
+   "abschnitte": [
+    "4.3"
+   ]
+  },
+  {
+   "begriff": "Syntax / syntaktisch",
+   "slug": "syntax-syntaktisch",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Die Form von Sätzen: wie sie aus Zeichen aufgebaut sind, ohne danach zu fragen, was sie bedeuten.",
+   "praezise": "Die Regeln über Zeichenfolgen: welche Folgen wohlgeformte Formeln sind und welche Umformungen erlaubt sind, unabhängig von jeder Interpretation. Ableitbarkeit ($\\vdash$) ist syntaktisch, Wahrheit und semantische Folgerung ($\\models$) sind semantisch.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. 2"
+    }
+   ],
+   "abschnitte": [
+    "2.1",
+    "4.4"
+   ]
+  },
+  {
+   "begriff": "Wahrheit (Wahrheitswert)",
+   "slug": "wahrheit-wahrheitswert",
+   "kategorie": "Formale Systeme und Logik",
+   "einfach": "Ein Satz ist wahr, wenn es sich so verhält, wie er es sagt, und sonst falsch.",
+   "praezise": "Im Text (2.3) wird Wahrheit als Funktion betrachtet, die jedem Satz den Wert wahr oder falsch zuordnet, wobei ein Satz und seine Negation nie denselben Wert erhalten. Fachlich ist Wahrheit in der formalen Logik auf eine Interpretation bezogen ($\\mathfrak{A} \\models \\varphi$) und vom Beweisbarkeitsbegriff unabhängig. Nach Tarski lässt sich die Wahrheit einer hinreichend starken Sprache nicht in ihr selbst definieren (siehe *Tarskis Undefinierbarkeitssatz*).",
+   "quellen": [
+    {
+     "id": "tarski1935wahrheitsbegriff",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "2.3",
+    "2.7",
+    "4.2",
+    "4.4"
+   ]
+  },
+  {
+   "begriff": "Ableitbarkeitszeichen $\\vdash$",
+   "slug": "ableitbarkeitszeichen",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Das Zeichen $\\vdash$ steht für „ist ableitbar“ oder „ist beweisbar“.",
+   "praezise": "$T \\vdash \\varphi$ bedeutet: In der Theorie $T$ gibt es eine Ableitung von $\\varphi$; $T \\nvdash \\varphi$ ist die Verneinung. Davon zu unterscheiden ist $\\models$, das Zeichen für semantische Folgerung. Im Text (5.2): $S_M \\vdash \\mathrm{Con}(S_M) \\to G_M$, „$S_M$ beweist: wenn ich konsistent bin, dann gilt $G_M$“.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.4, S. 32"
+    }
+   ],
+   "abschnitte": [
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Arithmetik",
+   "slug": "arithmetik",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Die Lehre vom Rechnen mit den natürlichen Zahlen: zählen, vergleichen, addieren, multiplizieren.",
+   "praezise": "Die Theorie der natürlichen Zahlen $\\mathbb{N}$ mit Nachfolger, Addition und Multiplikation. Formalisiert wird sie etwa durch die Robinson-Arithmetik $Q$ oder die Peano-Arithmetik in der Sprache mit $0$, $S$, $+$ und $\\cdot$. Mit „klassischer Arithmetik“ meint der Text (2.4) die gewöhnliche Zahlentheorie, auf die sich Gödels Satz bezieht.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 10.3, S. 67"
+    }
+   ],
+   "abschnitte": [
+    "2.4",
+    "2.7",
+    "4.3",
+    "5.1",
+    "5.2",
+    "5.3"
+   ]
+  },
+  {
+   "begriff": "Arithmetische Stärke",
+   "slug": "arithmetische-staerke",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Wie viel ein System über Zahlen ausdrücken und herleiten kann. Für Gödels Satz genügt es nicht, nur zählen und addieren zu können; auch das Multiplizieren muss ausdrückbar sein.",
+   "praezise": "Im Text (2.2): Maß dafür, wie viel das System über Zahlen aussagen kann (Zahlen, Ordnung, Addition, Multiplikation). Fachlich heißt eine Theorie hinreichend stark, wenn sie alle effektiv entscheidbaren Eigenschaften natürlicher Zahlen erfasst; dafür genügt schon die Robinson-Arithmetik $Q$. Dabei muss sowohl die Addition als auch die Multiplikation vorhanden sein: Die Presburger-Arithmetik, die nur Nachfolger und Addition kennt, ist negationsvollständig und somit nicht von Gödels Satz betroffen.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 7.1, S. 49–50"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 10.3, S. 67"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 13.1, S. 93"
+    }
+   ],
+   "abschnitte": [
+    "2.2",
+    "2.4",
+    "2.5",
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Diagonalargument",
+   "slug": "diagonalargument",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Ein Beweisverfahren: Man baut ein Objekt so, dass es sich von jedem Eintrag einer angeblich vollständigen Liste unterscheidet. Wendet man es auf sich selbst an, entsteht ein Widerspruch.",
+   "praezise": "Ursprünglich Cantors Diagonalverfahren (Überabzählbarkeit der reellen Zahlen). In der Logik und Berechenbarkeitstheorie wird die Idee auf Selbstanwendung übertragen: Die Maschine $D$ aus dem Beweis der Unentscheidbarkeit des Halteproblems tut auf Eingabe ihrer eigenen Beschreibung das Gegenteil dessen, was die angenommene Entscheidungsmaschine $H$ vorhersagt. Turing verwendet das Verfahren 1936 in §8 für die Frage, ob eine Maschine unendlich viele Ziffern druckt.",
+   "quellen": [
+    {
+     "id": "turing1936computable",
+     "stelle": "§ 8, S. 246–248"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 43.3, S. 329 f."
+    }
+   ],
+   "abschnitte": [
+    "2.8"
+   ]
+  },
+  {
+   "begriff": "Diagonalisierung",
+   "slug": "diagonalisierung",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Im Text bedeutet das Wort, dass man Sätze als Zahlen darstellt und dadurch über Sätze Aussagen treffen kann.",
+   "praezise": "Im Text (2.4): Darstellung von Sätzen als Zahlen; dieser Vorgang heißt fachlich Gödelisierung (Arithmetisierung der Syntax). Üblich bedeutet Diagonalisierung etwas Engeres: Die Gödelnummer einer Formel $\\varphi(x)$ wird in diese Formel selbst eingesetzt, es entsteht $\\varphi(\\ulcorner\\varphi\\urcorner)$, und dadurch Selbstbezug. Der Name erinnert an Cantors Diagonalverfahren (siehe *Diagonalargument*). Auf diesem Einsetzen beruht das Diagonallemma.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 24.4, S. 180 f."
+    }
+   ],
+   "abschnitte": [
+    "2.4"
+   ]
+  },
+  {
+   "begriff": "Diagonallemma / Fixpunktsatz",
+   "slug": "diagonallemma-fixpunktsatz",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Man kann Sätze bauen, die über sich selbst sprechen und von sich sagen: „Ich habe diese oder jene Eigenschaft.“",
+   "praezise": "Zu jeder Formel $\\varphi(x)$ mit einer freien Variablen gibt es in einer hinreichend starken Theorie $T$ (etwa $Q$ oder der Peano-Arithmetik) einen Satz $\\gamma$ mit $T \\vdash \\gamma \\leftrightarrow \\varphi(\\ulcorner\\gamma\\urcorner)$; $\\gamma$ ist ein Fixpunkt von $\\varphi$. In dieser allgemeinen Form findet es sich zuerst bei Carnap (1934, § 35, semantisch formuliert); Gödel konstruiert seinen Satz 1931 direkt und erkennt Carnaps Priorität später an. Im Text (4.3, 4.4) wird eine physikalisch nachgebaute Version des Lemmas betrachtet.",
+   "quellen": [
+    {
+     "id": "carnap1934logische",
+     "stelle": "§ 35"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 24.4, S. 180 f."
+    }
+   ],
+   "abschnitte": [
+    "2.4",
+    "2.5",
+    "4.3",
+    "4.4"
+   ]
+  },
+  {
+   "begriff": "Erster Gödelscher Unvollständigkeitssatz",
+   "slug": "erster-goedelscher-unvollstaendigkeitssatz",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "In jedem hinreichend starken, widerspruchsfreien und mechanisch beschreibbaren Regelsystem für die Arithmetik gibt es Aussagen, die sich weder beweisen noch widerlegen lassen.",
+   "praezise": "Im Text (Satz 7): Jedes formale, rekursiv axiomatisierbare, konsistente System, das stark genug ist, die Peano-Axiome zu formalisieren, ist negationsunvollständig. Gödels Originalfassung (1931, Satz VI, S. 187) setzt $\\omega$-Widerspruchsfreiheit statt bloßer Konsistenz voraus; die Fassung mit Konsistenz stammt von Rosser (1936) und heißt Gödel-Rosser-Satz. Hinreichend ist schon, dass die Robinson-Arithmetik $Q$ enthalten ist. Gödels Original betrifft das System $P$ und rekursive Axiomenklassen im damaligen Sinn (heute: primitiv rekursiv).",
+   "quellen": [
+    {
+     "id": "goedel1931ueber",
+     "stelle": "Satz VI, S. 187"
+    },
+    {
+     "id": "rosser1936extensions",
+     "stelle": ""
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 25.5, S. 189"
+    }
+   ],
+   "abschnitte": [
+    "2.5",
+    "2.6",
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Erweiterung $S + \\mathrm{Con}(S)$",
+   "slug": "erweiterung",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Das System, das entsteht, wenn man zu $S$ die zusätzliche Annahme „$S$ ist widerspruchsfrei“ hinzunimmt. Es ist stärker als $S$.",
+   "praezise": "Die Theorie $S$ plus das Axiom $\\mathrm{Con}(S)$. Für ein hinreichend starkes, rekursiv axiomatisiertes $S$ gilt $S \\vdash \\mathrm{Con}(S) \\to G_S$; deshalb beweist $S + \\mathrm{Con}(S)$ die Gödelformel $G_S$, die in $S$ selbst nicht beweisbar ist. Die Erweiterung ist wieder rekursiv axiomatisiert und hat daher ihre eigene Gödelformel. Sie ist genau dann konsistent, wenn $S \\nvdash \\neg\\mathrm{Con}(S)$; für korrektes $S$ ist das der Fall, für ein konsistentes $S$, das $\\neg\\mathrm{Con}(S)$ beweist, nicht.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 31.3, S. 235 f."
+    },
+    {
+     "id": "feferman1995penrose",
+     "stelle": "Abs. 3.8"
+    }
+   ],
+   "abschnitte": [
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Gödelisierung (Gödelnummerierung)",
+   "slug": "goedelisierung-goedelnummerierung",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Jedem Zeichen, jeder Formel und jedem Beweis wird eine eindeutige Zahl zugeordnet, so wie ein Strichcode eine Ware kennzeichnet. Damit kann ein System durch Rechnen mit Zahlen über Sätze sprechen.",
+   "praezise": "Eine injektive und berechenbar umkehrbare Zuordnung $\\varphi \\mapsto \\ulcorner\\varphi\\urcorner \\in \\mathbb{N}$ von Zeichenfolgen, Formeln und Beweisen zu natürlichen Zahlen (Gödelnummern), sodass syntaktische Begriffe wie „Formel“ oder „Beweis“ zu arithmetischen Eigenschaften werden. Gödel 1931 ordnet den Grundzeichen eineindeutig Zahlen zu und kodiert Zeichenreihen über Primzahlpotenzen; das Wort „Gödelnummer“ verwendet er nicht.",
+   "quellen": [
+    {
+     "id": "goedel1931ueber",
+     "stelle": "S. 178 f."
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 19.1, S. 136"
+    }
+   ],
+   "abschnitte": [
+    "2.4",
+    "4.3"
+   ]
+  },
+  {
+   "begriff": "Gödelsatz / Gödelformel",
+   "slug": "goedelsatz-goedelformel",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Der Satz, der von sich selbst sagt: „Ich bin nicht beweisbar.“ Ist das System widerspruchsfrei, dann kann er nicht bewiesen werden, und gerade deshalb stimmt, was er sagt.",
+   "praezise": "Für eine hinreichend starke, rekursiv axiomatisierte Theorie $T$ ein Satz $G_T$ mit $T \\vdash G_T \\leftrightarrow \\neg\\mathrm{Prov}_T(\\ulcorner G_T\\urcorner)$, also ein Fixpunkt von $\\neg\\mathrm{Prov}_T(x)$. Ist $T$ konsistent, so gilt $T \\nvdash G_T$, und da $G_T$ genau dies besagt, ist $G_T$ (im Standardmodell) wahr. „Gödelsatz“ und „Gödelformel“ bezeichnen im Text dasselbe; $G_M$ ist die Gödelformel des Systems $S_M$ der Maschine $M$ (5.1).",
+   "quellen": [
+    {
+     "id": "goedel1931ueber",
+     "stelle": "S. 174–176"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 22.2, S. 165"
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "2.4",
+    "2.5",
+    "4.3",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "6.1",
+    "6.2"
+   ]
+  },
+  {
+   "begriff": "Konsistenzaussage $\\mathrm{Con}(S)$",
+   "slug": "konsistenzaussage",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Die Aussage „Dieses System ist widerspruchsfrei“, formuliert als Satz in der Sprache des Systems selbst.",
+   "praezise": "Ein arithmetischer Satz $\\mathrm{Con}(T)$, der besagt, dass es in $T$ keinen Beweis eines Widerspruchs (etwa von $0 = 1$) gibt, also $\\neg\\mathrm{Prov}_T(\\ulcorner 0 = 1 \\urcorner)$. Nach dem zweiten Unvollständigkeitssatz ist er in einer konsistenten, hinreichend starken Theorie nicht beweisbar.",
+   "quellen": [
+    {
+     "id": "goedel1931ueber",
+     "stelle": "Satz XI, S. 196"
+    }
+   ],
+   "abschnitte": [
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Lügner-Paradoxie",
+   "slug": "luegner-paradoxie",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Der Satz „Dieser Satz ist nicht wahr“ ist genau dann wahr, wenn er nicht wahr ist.",
+   "praezise": "Ein Satz $\\lambda$ mit $\\lambda \\leftrightarrow \\neg\\mathrm{Wahr}(\\ulcorner\\lambda\\urcorner)$. Bei klassischer Logik und uneingeschränktem Wahrheitsprädikat führt er zum Widerspruch. Tarski zeigt, dass sich der Widerspruch nur vermeiden lässt, wenn die Wahrheit einer Sprache in einer höheren Metasprache definiert wird. Gödel ersetzt „wahr“ durch „beweisbar“; der entstehende Satz ist kein Widerspruch, sondern unbeweisbar. Gödel nennt die Verwandtschaft mit dem Lügner selbst.",
+   "quellen": [
+    {
+     "id": "tarski1935wahrheitsbegriff",
+     "stelle": ""
+    },
+    {
+     "id": "goedel1931ueber",
+     "stelle": "S. 175"
+    }
+   ],
+   "abschnitte": [
+    "2.7"
+   ]
+  },
+  {
+   "begriff": "Natürliche Zahlen / Nachfolger",
+   "slug": "natuerliche-zahlen-nachfolger",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Die Zählzahlen $0$ (oder $1$), $2$, $3$ und so fort. Der Nachfolger einer Zahl ist die nächste Zahl in der Reihe.",
+   "praezise": "Die Menge $\\mathbb{N}$ mit der Nachfolgerfunktion $S$, $S(n) = n+1$. Dass jede natürliche Zahl einen Nachfolger hat, ist eines der Peano-Axiome; in Peanos Schrift von 1889 beginnt die Zählung bei 1.",
+   "quellen": [
+    {
+     "id": "peano1889arithmetices",
+     "stelle": "§ 1, Axiom 6"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "2.2",
+    "2.5",
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "$\\omega$-Widerspruchsfreiheit",
+   "slug": "widerspruchsfreiheit",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Eine stärkere Form der Widerspruchsfreiheit, die Gödel für die erste Fassung seines Satzes brauchte.",
+   "praezise": "Eine Theorie $T$ ist $\\omega$-widerspruchsfrei ($\\omega$-konsistent), wenn es keine Formel $\\varphi(x)$ gibt, für die $T \\vdash \\exists x\\,\\varphi(x)$ und zugleich $T \\vdash \\neg\\varphi(\\overline{n})$ für jede natürliche Zahl $n$ gilt. Jede $\\omega$-konsistente Theorie ist konsistent, die Umkehrung gilt nicht; jede korrekte arithmetische Theorie ist $\\omega$-konsistent.",
+   "quellen": [
+    {
+     "id": "goedel1931ueber",
+     "stelle": "S. 187"
+    }
+   ],
+   "abschnitte": [
+    "2.5"
+   ]
+  },
+  {
+   "begriff": "Peano-Axiome / Peano-Arithmetik",
+   "slug": "peano-axiome-peano-arithmetik",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Die bekannten Grundregeln für die natürlichen Zahlen (jede Zahl hat einen Nachfolger, es gilt das Prinzip der vollständigen Induktion) und das darauf aufgebaute Rechensystem.",
+   "praezise": "Die Peano-Arithmetik $\\mathsf{PA}$ ist die Theorie erster Stufe in der Sprache mit $0$, $S$, $+$ und $\\cdot$, mit Axiomen über Nachfolger, den rekursiven Gleichungen für Addition und Multiplikation und dem Induktionsschema; sie ist nicht endlich axiomatisierbar. Peanos Axiome von 1889 waren nicht erststufig formuliert. Um den ersten Unvollständigkeitssatz zu erhalten, genügt eine schwächere Theorie als $\\mathsf{PA}$, nämlich schon die Robinson-Arithmetik $Q$.",
+   "quellen": [
+    {
+     "id": "peano1889arithmetices",
+     "stelle": "§ 1, Axiom 6"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Kap. 13, Fn. 1"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 10.6, S. 70"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "2.5",
+    "4.3",
+    "5.3"
+   ]
+  },
+  {
+   "begriff": "Rekursive Axiomatisierbarkeit",
+   "slug": "rekursive-axiomatisierbarkeit",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Die Axiome des Systems lassen sich mechanisch überprüfen: Ein Programm kann für jeden Satz feststellen, ob er ein Axiom ist.",
+   "praezise": "Im Text (Definition 2, 2.2): Die Axiomenmenge besteht aus endlich vielen Axiomen und aus solchen, die von endlich vielen Algorithmen erzeugt werden. Üblich ist: Es ist entscheidbar, ob ein gegebener Satz ein Axiom der Theorie ist (effektive Axiomatisierung; zusätzlich soll sich prüfen lassen, ob eine gegebene Ableitung ein Beweis ist). Endlich viele Axiome sind keine Bedingung; die Peano-Arithmetik hat unendlich viele Axiome (das Induktionsschema) und ist dennoch rekursiv axiomatisiert. Gleichwertig ist die Forderung, dass die Axiome rekursiv aufzählbar sind.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "§ 4.3, S. 31"
+    }
+   ],
+   "abschnitte": [
+    "2.2",
+    "2.5",
+    "4.6",
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Tarskis Undefinierbarkeitssatz",
+   "slug": "tarskis-undefinierbarkeitssatz",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Eine Sprache, die einfache Arithmetik ausdrücken kann, kann ihre eigene Wahrheit nicht ausdrücken.",
+   "praezise": "Es gibt keine Formel $W(x)$ der Sprache der Arithmetik, die im Standardmodell auf genau die Gödelnummern wahrer Sätze zutrifft; allgemeiner kann in keiner Sprache $L$, die die Sprache der Arithmetik enthält, ein Prädikat die Wahrheit der Sätze von $L$ selbst ausdrücken. Syntaktisch: Keine konsistente, hinreichend starke Theorie $T$ hat eine Formel $W$ mit $T \\vdash W(\\ulcorner\\varphi\\urcorner) \\leftrightarrow \\varphi$ für alle Sätze $\\varphi$. Der Satz verbietet die Wahrheitsdefinition in der Sprache selbst; in einer ausdrucksstärkeren Metasprache ist sie möglich.",
+   "quellen": [
+    {
+     "id": "tarski1935wahrheitsbegriff",
+     "stelle": ""
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 27.2, S. 199"
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "2.7",
+    "4.2",
+    "4.3",
+    "4.4",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Wahrheitsprädikat",
+   "slug": "wahrheitspraedikat",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Ein Ausdruck, mit dem eine Sprache über ihre eigenen Sätze sagen kann: \\enquote{…{} ist wahr}.",
+   "praezise": "Ein einstelliges Prädikat $W(x)$, das auf Sätze (genauer auf ihre Gödelnummern) zutrifft und für alle Sätze $\\varphi$ der Sprache $W(\\ulcorner\\varphi\\urcorner) \\leftrightarrow \\varphi$ erfüllt. Nach Tarskis Satz gibt es ein solches Prädikat für die Sprache der Arithmetik nicht.",
+   "quellen": [
+    {
+     "id": "tarski1935wahrheitsbegriff",
+     "stelle": ""
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 27.2, S. 199"
+    }
+   ],
+   "abschnitte": [
+    "2.7",
+    "4.2",
+    "4.3",
+    "4.4"
+   ]
+  },
+  {
+   "begriff": "Zweiter Gödelscher Unvollständigkeitssatz",
+   "slug": "zweiter-goedelscher-unvollstaendigkeitssatz",
+   "kategorie": "Arithmetik, Gödel und Tarski",
+   "einfach": "Ein solches System kann seine eigene Widerspruchsfreiheit nicht beweisen, sofern es widerspruchsfrei ist.",
+   "praezise": "Ist $T$ konsistent, rekursiv axiomatisiert und stark genug, um den Beweis des ersten Satzes zu formalisieren (hinreichend sind die Hilbert-Bernays-Löb-Ableitbarkeitsbedingungen, erfüllt etwa von der Peano-Arithmetik), so gilt $T \\nvdash \\mathrm{Con}(T)$. Ist $T$ inkonsistent, beweist es alles, auch $\\mathrm{Con}(T)$. Gödel (1931) skizziert den Beweis nur; die Formalisierung führt er nicht aus.",
+   "quellen": [
+    {
+     "id": "goedel1931ueber",
+     "stelle": "Satz XI, S. 196"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 33.3"
+    }
+   ],
+   "abschnitte": [
+    "2.6",
+    "2.7",
+    "5.1",
+    "5.2",
+    "6.2"
+   ]
+  },
+  {
+   "begriff": "Algorithmus",
+   "slug": "algorithmus",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Eine Schritt-für-Schritt-Anleitung, die man ohne Nachdenken befolgen kann und die nach endlich vielen Schritten zum Ergebnis führt, etwa das schriftliche Dividieren.",
+   "praezise": "Ein endlich beschriebenes, mechanisch ausführbares Verfahren (effektives Verfahren). Der informelle Begriff wird durch die Church-Turing-These mit der Berechenbarkeit durch eine Turingmaschine gleichgesetzt.",
+   "quellen": [
+    {
+     "id": "copeland2023church",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "2.2",
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Berechenbarkeit",
+   "slug": "berechenbarkeit",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Etwas ist berechenbar, wenn ein Rechenverfahren, etwa ein Computerprogramm, es bei beliebig viel Zeit und Speicher ausrechnen kann.",
+   "praezise": "Eine Funktion $f\\colon \\mathbb{N}^k \\to \\mathbb{N}$ ist (Turing-)berechenbar, wenn es eine Turingmaschine gibt, die bei Eingabe von $\\vec{n}$ den Wert $f(\\vec{n})$ ausgibt. Im Text (2.8) wird „berechenbar“ mit „durch eine Turingmaschine berechenbar“ gleichgesetzt. Auch reelle Zahlen können berechenbar sein, wenn eine Maschine ihre Ziffern oder Näherungen beliebig genau liefert (so Turing 1936; Näherungen siehe *Name / Approximation*).",
+   "quellen": [
+    {
+     "id": "turing1936computable",
+     "stelle": "S. 231 f."
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 41.1, S. 310"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "1.4",
+    "2.8",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.6",
+    "5.3",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Church-Turing-These",
+   "slug": "church-turing-these",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Die Überzeugung, dass alles, was sich nach festen Regeln Schritt für Schritt ausrechnen lässt, auch von einer Turingmaschine berechnet werden kann. Sie lässt sich nicht beweisen, weil der Alltagsbegriff „ausrechenbar“ nicht streng definiert ist.",
+   "praezise": "Die These, dass jede effektiv berechenbare Funktion Turing-berechenbar ist (gleichwertig: rekursiv, $\\lambda$-definierbar). Church (1936) identifiziert die effektiv berechenbaren Funktionen mit den rekursiven Funktionen; Turing begründet sie über sein Maschinenmodell. Sie bezieht sich ursprünglich auf das Rechnen eines Menschen nach festen Regeln, nicht auf beliebige physikalische Maschinen; Letzteres ist die physikalische Church-Turing-These.",
+   "quellen": [
+    {
+     "id": "church1936unsolvable",
+     "stelle": "S. 356"
+    },
+    {
+     "id": "turing1936computable",
+     "stelle": "§ 9, S. 249 ff."
+    },
+    {
+     "id": "copeland2023church",
+     "stelle": "Abschn. 1.4"
+    }
+   ],
+   "abschnitte": [
+    "2.8",
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Entscheidbar / unentscheidbar",
+   "slug": "entscheidbar-unentscheidbar",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Eine Frage ist entscheidbar, wenn es ein Verfahren gibt, das für jeden Einzelfall nach endlich vielen Schritten „ja“ oder „nein“ antwortet. Ist das nicht möglich, ist sie unentscheidbar.",
+   "praezise": "Eine Menge $A \\subseteq \\mathbb{N}$ (oder ein Problem) ist entscheidbar, wenn ihre charakteristische Funktion berechenbar ist, sonst unentscheidbar. Zwei Gebrauchsweisen sind zu unterscheiden: Unentscheidbar kann ein *Problem* sein (Halteproblem), aber auch ein *Satz* in einer Theorie, wenn weder er noch seine Negation beweisbar ist („formal unentscheidbar“, so im Titel von Gödels Aufsatz). In 5.3 meint „absolut unentscheidbar“ bei Gödel, dass kein dem menschlichen Geist zugänglicher Beweis entscheidet.",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 43.3, S. 329 f."
+    },
+    {
+     "id": "goedel1931ueber",
+     "stelle": ""
+    },
+    {
+     "id": "goedel1995gibbs",
+     "stelle": "S. 310"
+    }
+   ],
+   "abschnitte": [
+    "2.8",
+    "5.3"
+   ]
+  },
+  {
+   "begriff": "Halteproblem",
+   "slug": "halteproblem",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Die Frage, ob ein gegebenes Programm bei einer gegebenen Eingabe irgendwann fertig wird oder ewig weiterläuft. Es gibt kein Verfahren, das sie für alle Programme und Eingaben richtig beantwortet.",
+   "praezise": "Die Menge $\\{(M, w) : M \\text{ hält bei Eingabe } w\\}$ ist nicht entscheidbar, aber rekursiv aufzählbar (man kann $M$ einfach laufen lassen). Der Beweis nutzt ein Diagonalargument. Turing zeigte 1936 mit diesem Verfahren die Unentscheidbarkeit der verwandten Frage, ob eine Maschine unendlich viele Ziffern druckt; die heutige Fassung als Halteproblem geht auf Davis zurück.",
+   "quellen": [
+    {
+     "id": "turing1936computable",
+     "stelle": "§ 8, S. 246–248"
+    },
+    {
+     "id": "davis1958computability",
+     "stelle": ""
+    },
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 43.3, S. 329 f."
+    },
+    {
+     "id": "copeland2023church",
+     "stelle": "Abschn. 5.3.2"
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "2.8",
+    "5.3"
+   ]
+  },
+  {
+   "begriff": "Injektiv (Injektivität)",
+   "slug": "injektiv-injektivitaet",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Eine Zuordnung ist injektiv, wenn nie zwei verschiedene Dinge dasselbe Ergebnis bekommen, ähnlich wie Matrikelnummern, die höchstens eine Person bezeichnen.",
+   "praezise": "Eine Abbildung $f\\colon A \\to B$ ist injektiv, wenn aus $f(x) = f(y)$ stets $x = y$ folgt. Im Text (4.3) muss die Einbettung der Aussagenebene in die Zustandsebene injektiv sein: Verschiedene Sätze dürfen nicht durch dieselbe physische Schrift dargestellt werden, ein geschriebener Satz gehört also zu höchstens einem Satz der Aussagenebene.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2021mengenlehre",
+     "stelle": "Kap. IX"
+    }
+   ],
+   "abschnitte": [
+    "4.3"
+   ]
+  },
+  {
+   "begriff": "Kodierung / Binärkette",
+   "slug": "kodierung-binaerkette",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Information in Zeichen übersetzen. Jede Zeichenfolge lässt sich als Folge von Nullen und Einsen schreiben, so wie es ein Computer tut.",
+   "praezise": "Eine umkehrbare Abbildung von Objekten auf Zeichenketten über einem Alphabet; eine Binärkette ist eine Zeichenkette über $\\{0, 1\\}$. Im Text (4.1) lautet die erste Prämisse, dass sich die Information des Universumszustands exakt kodieren lässt. Die Gödelisierung ist eine Kodierung von Zeichenfolgen durch Zahlen.",
+   "quellen": [
+    {
+     "id": "sipser2013computation",
+     "stelle": "§ 3.3"
+    }
+   ],
+   "abschnitte": [
+    "2.4",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.6",
+    "4.7"
+   ]
+  },
+  {
+   "begriff": "Nicht-algorithmisch / nicht berechenbar",
+   "slug": "nicht-algorithmisch-nicht-berechenbar",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Etwas, das sich durch kein Rechenverfahren ausrechnen lässt, auch wenn das Ergebnis eindeutig feststeht.",
+   "praezise": "Eine Funktion oder ein Problem, das nicht Turing-berechenbar ist, wie das Halteproblem. Nicht berechenbar ist nicht dasselbe wie nicht determiniert: Ob eine bestimmte Maschine bei einer bestimmten Eingabe anhält, steht fest, ohne dass es ein allgemeines Verfahren dafür gibt. Penrose behauptet, die mathematische Einsicht und die zugrunde liegende Physik seien nicht algorithmisch (5.3).",
+   "quellen": [
+    {
+     "id": "smith2013",
+     "stelle": "Thm. 43.3, S. 329 f."
+    },
+    {
+     "id": "penrose1989emperor",
+     "stelle": "Kap. 4"
+    }
+   ],
+   "abschnitte": [
+    "5.3",
+    "5.4",
+    "6.1",
+    "6.2"
+   ]
+  },
+  {
+   "begriff": "Physikalische Church-Turing-These",
+   "slug": "physikalische-church-turing-these",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Die Annahme, dass sich jeder Vorgang in der Natur durch eine Turingmaschine beliebig genau nachrechnen lässt, die Natur also nichts „Unberechenbares“ tut.",
+   "praezise": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der nur die physikalisch berechenbaren Funktionen Turing-berechenbar sind. Im Text (4.3, 4.7) wird sie in der zugespitzten Form gebraucht, dass auch die physische Substitution Turing-berechenbar ist. Copeland rät von der Bezeichnung „physikalische Church-Turing-These“ ab, weil sich diese Thesen weit von den Thesen Churchs und Turings entfernen.",
+   "quellen": [
+    {
+     "id": "deutsch1985quantum",
+     "stelle": "S. 99"
+    },
+    {
+     "id": "piccinini2025computation",
+     "stelle": "Abschn. 4.1"
+    },
+    {
+     "id": "copeland2023church",
+     "stelle": "Abschn. 6.4"
+    }
+   ],
+   "abschnitte": [
+    "4.3",
+    "4.7",
+    "5.3",
+    "5.4",
+    "6.2"
+   ]
+  },
+  {
+   "begriff": "Rekursiv (im Sinne von berechenbar)",
+   "slug": "rekursiv-im-sinne-von-berechenbar",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "In der Logik heißt „rekursiv“ nicht einfach „sich selbst aufrufend“, sondern „durch ein Rechenverfahren bestimmbar“.",
+   "praezise": "Eine rekursive Funktion ist eine berechenbare Funktion; der Begriff geht auf die Definition über Grundfunktionen, Komposition, primitive Rekursion und Minimierung zurück und stimmt nach der Church-Turing-These mit der Turing-Berechenbarkeit überein. Eine rekursive Menge ist entscheidbar. Im Text (4.3, 4.7) steht „rekursiv“ in diesem Sinn; die Wendung „rekursiv axiomatisiert“ bezieht sich auf die Axiomenmenge.",
+   "quellen": [
+    {
+     "id": "church1936unsolvable",
+     "stelle": "S. 356"
+    }
+   ],
+   "abschnitte": [
+    "4.3",
+    "4.7"
+   ]
+  },
+  {
+   "begriff": "Substitution / Substitutionsfunktion",
+   "slug": "substitution-substitutionsfunktion",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Etwas durch etwas anderes ersetzen, wie in einem Lückentext, in dem man ein Wort einsetzt.",
+   "praezise": "Das Ersetzen einer freien Variablen $x$ in einer Formel $\\varphi(x)$ durch einen Term. Die Substitutionsfunktion auf Gödelnummern, $(\\ulcorner\\varphi\\urcorner, n) \\mapsto \\ulcorner\\varphi(\\overline{n})\\urcorner$, ist berechenbar und der technische Kern des Diagonallemmas. Im Text (4.3) wird die physische Substitution gebraucht (Schneiden und Zusammenfügen von Schrift).",
+   "quellen": [
+    {
+     "id": "goedel1931ueber",
+     "stelle": "S. 175"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 24.4, S. 180 f."
+    }
+   ],
+   "abschnitte": [
+    "4.3"
+   ]
+  },
+  {
+   "begriff": "Turingmaschine",
+   "slug": "turingmaschine",
+   "kategorie": "Berechenbarkeit",
+   "einfach": "Ein Gedankenmodell eines Computers: ein unendlich langes Band mit Feldern, ein Kopf, der liest, schreibt und ein Feld weiterrückt, und eine endliche Regeltabelle, die zu jedem gelesenen Zeichen und inneren Zustand sagt, was zu tun ist.",
+   "praezise": "Fachlich ein Tupel aus Bandalphabet, endlicher Zustandsmenge und Übergangsfunktion $\\delta$, die jedem Paar aus Zustand und gelesenem Zeichen ein neues Zeichen, eine Kopfbewegung und einen Folgezustand zuordnet. Turing (1936, §1) nennt endlich viele „m-Konfigurationen“ und ein Band mit Feldern; die Beschreibung mit beidseitig unbegrenztem Band ist die moderne Lehrbuchfassung. Es gibt eine universelle Turingmaschine, die jede andere simuliert (§6). Ein realer Computer hat endlichen Speicher und entspricht der Turingmaschine nur als Idealisierung.",
+   "quellen": [
+    {
+     "id": "turing1936computable",
+     "stelle": "S. 231 f."
+    },
+    {
+     "id": "turing1936computable",
+     "stelle": "§ 6, S. 241"
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 41.1, S. 310"
+    }
+   ],
+   "abschnitte": [
+    "2.8",
+    "4.1",
+    "4.3",
+    "4.5",
+    "4.6",
+    "5.1",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Abzählbar",
+   "slug": "abzaehlbar",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Eine Menge ist abzählbar, wenn man ihre Elemente der Reihe nach durchnummerieren kann (erstes, zweites, drittes …) und keines vergisst. Die natürlichen Zahlen sind abzählbar, die reellen Zahlen nicht.",
+   "praezise": "Eine Menge ist abzählbar unendlich, wenn es eine Bijektion zu $\\mathbb{N}$ gibt, und höchstens abzählbar, wenn sie endlich oder abzählbar unendlich ist. Die Menge $\\mathbb{R}$ ist nach Cantor überabzählbar.",
+   "quellen": [
+    {
+     "id": "forster2023analysis1",
+     "stelle": "§ 9"
+    },
+    {
+     "id": "ebbinghaus2021mengenlehre",
+     "stelle": "Kap. IX"
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Differentialgleichung / Anfangswertproblem",
+   "slug": "differentialgleichung-anfangswertproblem",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Eine Differentialgleichung beschreibt, wie sich eine Größe in jedem Augenblick ändert, abhängig vom gerade vorliegenden Zustand. Beim Anfangswertproblem gibt man zusätzlich den Zustand zum Startzeitpunkt vor und fragt nach dem weiteren Verlauf.",
+   "praezise": "Das Anfangswertproblem $\\dot{x} = f(t, x)$, $x(t_0) = x_0$ sucht eine differenzierbare Funktion $x(t)$, die die Gleichung erfüllt und den vorgegebenen Anfangswert annimmt. Im Text (4.6) beschreiben Differentialgleichungen, wie sich der Zustand des Universums von Augenblick zu Augenblick ändert.",
+   "quellen": [
+    {
+     "id": "teschl2012ordinary",
+     "stelle": "Kap. 2"
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Diskret / kontinuierlich",
+   "slug": "diskret-kontinuierlich",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Diskret heißt: in einzelnen Schritten, wie die Stufen einer Treppe. Kontinuierlich heißt: ohne Lücken, wie eine Rampe, bei der zwischen zwei Punkten immer weitere liegen.",
+   "praezise": "Diskret: abzählbar und schrittweise, wie die Zeitpunkte $0, 1, 2, \\dots$. Kontinuierlich: wie die reellen Zahlen, ohne Lücken; zwischen zwei Punkten liegen unendlich viele weitere. Im Text (4.5) unterscheiden Zeit und Zustandsraum jeweils diskret und kontinuierlich und ergeben vier Fälle.",
+   "quellen": [
+    {
+     "id": "teschl2012ordinary",
+     "stelle": "Abschn. 6.1"
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "4.5",
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Erststufige Theorie (Prädikatenlogik erster Stufe)",
+   "slug": "erststufige-theorie-praedikatenlogik-erster-stufe",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Eine Theorie, die nur über einzelne Dinge spricht („für alle Zustände gilt …“, „es gibt einen Zustand, für den …“), aber nicht über beliebige Mengen von Dingen oder deren Eigenschaften.",
+   "praezise": "Eine Theorie in der Prädikatenlogik erster Stufe: Die Quantoren $\\forall$ und $\\exists$ binden nur Variablen für Individuen, nicht für Mengen oder Eigenschaften (das wäre zweite Stufe). Für erststufige Theorien gelten unter anderem der Vollständigkeits- und der Endlichkeitssatz und der Satz von Löwenheim-Skolem. Die erststufige Peano-Arithmetik ersetzt das Induktionsaxiom durch ein Induktionsschema.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Isomorphie (bis auf Isomorphie)",
+   "slug": "isomorphie-bis-auf-isomorphie",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Zwei Strukturen sind isomorph, wenn sie sich nur durch die Namen der Elemente unterscheiden, also dieselbe Struktur sind, anders beschriftet.",
+   "praezise": "Zwischen den Grundmengen zweier Strukturen gibt es eine Bijektion, die alle Konstanten, Funktionen und Relationen erhält. Isomorphe Strukturen erfüllen dieselben Sätze, aber nicht umgekehrt. Eine Theorie, deren Modelle alle isomorph sind, heißt kategorisch; „bis auf Isomorphie festgelegt“ heißt, dass die Theorie in diesem Sinn nur ein Modell zulässt.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Kardinalität",
+   "slug": "kardinalitaet",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Die „Größe“ einer Menge, auch bei unendlichen Mengen: Zwei Mengen sind gleich groß, wenn man ihre Elemente einander paarweise zuordnen kann.",
+   "praezise": "Die Kardinalität (Mächtigkeit) $|M|$ einer Menge $M$; für zwei Mengen $M$ und $N$ gilt $|M| = |N|$ genau dann, wenn es eine Bijektion $M \\to N$ gibt. Es gilt $|\\mathbb{N}| = \\aleph_0$ und $|\\mathbb{R}| = 2^{\\aleph_0} > \\aleph_0$. Im Text (4.6) geht es darum, dass der Satz von Löwenheim-Skolem die Größe der Modelle betrifft.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2021mengenlehre",
+     "stelle": "Kap. IX"
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Lipschitz-Stetigkeit",
+   "slug": "lipschitz-stetigkeit",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Nichts kann beliebig steil werden: Die Änderung des Ergebnisses ist höchstens ein festes Vielfaches der Änderung der Eingabe.",
+   "praezise": "Eine Funktion $f$ ist Lipschitz-stetig mit Konstante $L$, wenn $d(f(x), f(y)) \\leq L \\cdot d(x, y)$ für alle $x, y$ gilt. Für den Satz von Picard-Lindelöf genügt bereits die lokale Fassung, die Lipschitz-Stetigkeit im zweiten Argument, gleichmäßig im ersten.",
+   "quellen": [
+    {
+     "id": "teschl2012ordinary",
+     "stelle": "S. 37"
+    }
+   ],
+   "abschnitte": [
+    "4.6",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Löwenheim-Skolem (Satz von)",
+   "slug": "loewenheim-skolem-satz-von",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Hat eine erststufige Theorie überhaupt ein unendliches Modell, dann hat sie (bei abzählbar vielen Symbolen) auch ein „kleines“ Modell, dessen Elemente sich durchnummerieren lassen, selbst wenn die Theorie eigentlich von den überabzählbar vielen reellen Zahlen handeln soll.",
+   "praezise": "Abwärts: Hat eine Satzmenge einer abzählbaren Sprache erster Stufe ein unendliches Modell, so hat sie auch ein abzählbares Modell (allgemein: eines der Mächtigkeit höchstens $\\max(|L|, \\aleph_0)$). Für Sprachen mit überabzählbar vielen Symbolen, etwa einem Namen je reeller Zahl, gilt die abzählbare Fassung nicht in dieser Form. Aufwärts (Tarski und Vaught): Hat die Theorie ein unendliches Modell, so hat sie Modelle beliebig großer Mächtigkeit; solche Modelle sind nicht isomorph, auch dann nicht, wenn die Theorie vollständig ist. Löwenheim bewies den Satz 1915 für einzelne Sätze, Skolem verallgemeinerte ihn 1920.",
+   "quellen": [
+    {
+     "id": "lowenheim1915moeglichkeiten",
+     "stelle": ""
+    },
+    {
+     "id": "skolem1920logisch",
+     "stelle": ""
+    },
+    {
+     "id": "tarski1957arithmetical",
+     "stelle": ""
+    },
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. VI"
+    }
+   ],
+   "abschnitte": [
+    "4.6",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Metrik",
+   "slug": "metrik",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Eine Abstandsfunktion, die für je zwei Zustände angibt, wie weit sie voneinander entfernt sind oder wie ähnlich sie einander sind.",
+   "praezise": "Eine Funktion $d\\colon X \\times X \\to \\mathbb{R}_{\\geq 0}$ mit $d(x, y) = 0 \\iff x = y$, $d(x, y) = d(y, x)$ und der Dreiecksungleichung $d(x, z) \\leq d(x, y) + d(y, z)$. Mit einer Metrik lassen sich Konvergenz, Stetigkeit und Lipschitz-Stetigkeit definieren.",
+   "quellen": [
+    {
+     "id": "teschl2012ordinary",
+     "stelle": "§ 2.1, S. 33"
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Modell (einer Theorie)",
+   "slug": "modell-einer-theorie",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Eine mögliche „Welt“, genauer eine mathematische Struktur, in der alle Sätze der Theorie zutreffen.",
+   "praezise": "Eine Struktur $\\mathfrak{A}$ (Grundmenge mit Interpretation der Symbole), in der alle Axiome der Theorie wahr sind: $\\mathfrak{A} \\models \\varphi$ für alle Axiome $\\varphi$. Eine Theorie kann mehrere nicht isomorphe Modelle haben. Davon zu unterscheiden ist „Modell“ im Sinn eines vereinfachten Abbilds der Wirklichkeit, etwa „das Modell“ des Universums (4.1) oder das Modell des Geistes (5.1).",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Modelltheorie",
+   "slug": "modelltheorie",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Das Teilgebiet der Logik, das untersucht, welche mathematischen Strukturen die Sätze einer Theorie wahr machen und was sich daraus über die Theorie schließen lässt.",
+   "praezise": "Die Untersuchung der Beziehung zwischen formalen Sprachen (meist erster Stufe), ihren Theorien und deren Modellen. Zu den klassischen Ergebnissen zählen der Kompaktheitssatz und der Satz von Löwenheim-Skolem.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Name / Approximation / Näherung",
+   "slug": "name-approximation-naeherung",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Eine Zahl, die man nicht fertig aufschreiben kann, „nennt“ man durch eine Folge immer genauerer Näherungswerte, so wie man die Nachkommastellen von $\\pi$ eine nach der anderen erfährt.",
+   "praezise": "Im Text (4.6): Ein Name eines Zustands ist eine Folge endlich genauer Näherungen, die mit festgelegter Geschwindigkeit gegen ihn konvergiert. Fachlich ist das die Idee der Darstellungen (Namen) in der berechenbaren Analysis, etwa die Cauchy-Darstellung einer reellen Zahl $x$ durch eine Folge rationaler Zahlen $q_n$ mit $|x - q_n| < 2^{-n}$. Eine Funktion auf den reellen Zahlen heißt berechenbar, wenn eine Maschine aus jedem Namen von $x$ einen Namen von $f(x)$ berechnet.",
+   "quellen": [
+    {
+     "id": "weihrauch2000computable",
+     "stelle": "Kap. 3–4"
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Picard-Lindelöf (Satz von)",
+   "slug": "picard-lindeloef-satz-von",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Ist das Gesetz, das die Änderung vorgibt, „nicht zu wild“ (lipschitz-stetig), dann gibt es zu jedem Anfangszustand genau einen Verlauf, zumindest für eine gewisse Zeit.",
+   "praezise": "Ist $f$ stetig und im zweiten Argument lokal lipschitz-stetig (gleichmäßig im ersten), so besitzt das Anfangswertproblem $\\dot{x} = f(t, x)$, $x(t_0) = x_0$ in einem Intervall um $t_0$ genau eine Lösung. Der Satz liefert nur die lokale Lösung; ihre Fortsetzung zu einer maximalen Lösung braucht weitere Argumente. Er ist ein Existenz- und Eindeutigkeitssatz, kein Rechenverfahren: Algorithmisch beliebig genau annähern lässt sich die Lösung nur unter Zusatzvoraussetzungen (Berechenbarkeit und effektive lokale Lipschitz-Stetigkeit von $f$, berechenbarer Anfangswert), und das maximale Existenzintervall muss selbst nicht berechenbar sein.",
+   "quellen": [
+    {
+     "id": "teschl2012ordinary",
+     "stelle": "Thm. 2.2, S. 38"
+    },
+    {
+     "id": "graca2009computability",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Reelle Zahlen / Kontinuum",
+   "slug": "reelle-zahlen-kontinuum",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Die Zahlen auf der lückenlosen Zahlengeraden, also auch Brüche und Zahlen wie $\\sqrt{2}$ und $\\pi$. Das Kontinuum ist diese Gerade als lückenloses Ganzes.",
+   "praezise": "Die Menge $\\mathbb{R}$, ein vollständiger angeordneter Körper; sie ist überabzählbar mit der Mächtigkeit des Kontinuums $2^{\\aleph_0}$. Im Text (4.6) werden die Zustände des Universums im vierten Fall als reelle Zahlen beschrieben.",
+   "quellen": [
+    {
+     "id": "forster2023analysis1",
+     "stelle": "§§ 2–5"
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Stetigkeit",
+   "slug": "stetigkeit",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Kleine Ursachen haben kleine Wirkungen: Ändert man die Eingabe nur ein wenig, ändert sich das Ergebnis nur ein wenig, es gibt keine Sprünge.",
+   "praezise": "Eine Funktion $f$ ist an der Stelle $x_0$ stetig, wenn zu jedem $\\varepsilon > 0$ ein $\\delta > 0$ existiert, sodass aus $d(x, x_0) < \\delta$ folgt: $d(f(x), f(x_0)) < \\varepsilon$. Gleichwertig: Urbilder offener Mengen sind offen. Mit einer Metrik wird der Begriff auf Zustandsräume übertragbar.",
+   "quellen": [
+    {
+     "id": "forster2023analysis1",
+     "stelle": "§ 10"
+    }
+   ],
+   "abschnitte": [
+    "3.2",
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Theorie (formale Theorie, vollständige Theorie)",
+   "slug": "theorie-formale-theorie-vollstaendige-theorie",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Eine Sammlung von Sätzen, die als gültig gelten, samt allem, was daraus folgt, etwa „die Physik“ als Gesamtheit ihrer Aussagen. Vollständig heißt sie, wenn sie jede Frage ihrer Sprache entscheidet.",
+   "praezise": "Eine Menge von Sätzen einer formalen Sprache, abgeschlossen unter Folgerung, meist gegeben durch eine Axiomenmenge. Sie ist vollständig (negationsvollständig), wenn zu jedem Satz $\\varphi$ der Sprache $\\varphi$ oder $\\neg\\varphi$ zur Theorie gehört. Alle Modelle einer vollständigen Theorie erfüllen dieselben Sätze, sind aber nicht unbedingt isomorph; deshalb legt auch eine vollständige Theorie die Trajektorie nicht bis auf Isomorphie fest (4.6).",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.2",
+    "4.6",
+    "5.2",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Token / Gehalt (Tokenisierung)",
+   "slug": "token-gehalt-tokenisierung",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Ein Token ist das physische Vorkommen eines Satzes, etwa als Tinte auf Papier, als Gehirnzustand oder als Speicherinhalt. Der Gehalt ist das, was der Satz besagt. Daraus, dass ein Satz irgendwo dasteht, folgt nicht, dass er wahr ist.",
+   "praezise": "Begriff dieser Arbeit (Abschnitt 4.3), der an die in der Philosophie übliche Unterscheidung zwischen Typ und Token anknüpft: Ein Token ist die physische Verkörperung eines Satzes auf der Zustandsebene, der (semantische) Gehalt gehört zur Aussagenebene. Tokenisieren heißt, Aussagen der Aussagenebene physisch in die Zustandsebene einzubetten. Ob ein Token vorkommt und ob sein Gehalt wahr ist, sind unabhängige Fragen; die Physik bringt Sätze ohne Korrektheitsnorm hervor. In 5.2 werden Überzeugungs-Token von gültigen Ableitungen unterschieden.",
+   "quellen": [
+    {
+     "id": "liebesman2026types",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.3",
+    "4.4",
+    "5.2",
+    "5.4",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Trajektorie",
+   "slug": "trajektorie",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Die Bahn, die das System durch die Zeit zeichnet: die Folge aller Zustände, die es nacheinander durchläuft.",
+   "praezise": "Im Text (4.1) die Zeitreihe aller Zustände des Universums. Fachlich die Lösungskurve $t \\mapsto x(t)$ im Zustandsraum; bei einem Anfangswertproblem mit lipschitz-stetigem Gesetz ist sie lokal durch den Anfangszustand eindeutig bestimmt (siehe *Picard-Lindelöf (Satz von)*).",
+   "quellen": [
+    {
+     "id": "teschl2012ordinary",
+     "stelle": "Abschn. 6.1–6.3"
+    }
+   ],
+   "abschnitte": [
+    "4.1",
+    "4.2",
+    "4.6",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Vollständigkeit der Theorie der reellen Zahlen (Tarski)",
+   "slug": "vollstaendigkeit-der-theorie-der-reellen-zahlen-tarski",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Für das Rechnen mit den reellen Zahlen im engen Sinn (Addition, Multiplikation, Ordnung) lässt sich jede Frage der Sprache durch Beweis oder Widerlegung entscheiden, anders als bei den natürlichen Zahlen.",
+   "praezise": "Tarski zeigte, dass die elementare (erststufige) Theorie der reellen Zahlen in der Sprache der geordneten Körper (mit $+$, $\\cdot$, $<$ und den Konstanten $0$, $1$), das heißt die Theorie der reell abgeschlossenen Körper, vollständig und entscheidbar ist (Quantorenelimination). Das gilt nur für diese Sprache; erweitert man sie etwa um ein Prädikat für die ganzen Zahlen, geht die Eigenschaft verloren. Der Satz deckt daher nur den algebraischen Teil ab, nicht die Analysis mit Differentialgleichungen.",
+   "quellen": [
+    {
+     "id": "tarski1951decision",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Zustand / Zustandsraum",
+   "slug": "zustand-zustandsraum",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Der Zustand beschreibt vollständig, wie ein System zu einem Zeitpunkt beschaffen ist. Der Zustandsraum ist die Menge aller möglichen Zustände.",
+   "praezise": "Im Text (4.1) wird der Zustand des Universums als exakt kodierbare Zeichenkette gedacht, im vierten Fall (4.6) auch als Punkt auf einer kontinuierlichen Zahlengeraden oder als unendlich lange Zeichenkette. Der Zustandsraum entspricht dem, was in der Dynamik Zustands- oder Phasenraum heißt; im vierten Fall trägt er eine Metrik.",
+   "quellen": [
+    {
+     "id": "teschl2012ordinary",
+     "stelle": "Abschn. 6.1–6.2"
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "3.1",
+    "4.1",
+    "4.5",
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Zustandsebene / Aussagenebene",
+   "slug": "zustandsebene-aussagenebene",
+   "kategorie": "Modelltheorie und Analysis",
+   "einfach": "Die Zustandsebene ist die Welt, wie sie ist: die Zeichenkette des Universums und der Ablauf der Regeln. Die Aussagenebene ist das Nachdenken darüber: Aussagen über die Welt und ihren Verlauf.",
+   "praezise": "Begriff dieser Arbeit (Abschnitt 4.2). Auf der Zustandsebene (Zeichenkette und Regelvollzug) spielt Berechenbarkeit die entscheidende Rolle; Wahrheit, Negation und Konsistenz kommen dort nicht vor. Auf der Aussagenebene werden Aussagen über die Zustandsebene und die Trajektorie in Gestalt eines formalen Systems formuliert; hier geht es um Beweisbarkeit. Die Trennung entspricht der Unterscheidung von Objekt- und Metasprache nach Tarski.",
+   "quellen": [
+    {
+     "id": "tarski1935wahrheitsbegriff",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Dämon (Regelvollzug)",
+   "slug": "daemon-regelvollzug",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Der „Dämon“ dieser Arbeit ist kein Beobachter, der von außen auf das Universum schaut, sondern das Universum selbst, soweit es sich nach seinen Regeln entwickelt.",
+   "praezise": "Begriff dieser Arbeit (Abschnitt 3.4). Der Name „Dämon“ ist dem systemimmanenten Regelvollzug vorbehalten, dem vollständigen, unmittelbaren Vollzug der Regeln, die die Folgezustände hervorbringen. Er ist nicht mit dem Laplaceschen Dämon (dort „Intellekt“) gleichzusetzen, der als äußerer Beobachter gedacht ist.",
+   "quellen": [
+    {
+     "id": "laplace1886versuch",
+     "stelle": "S. 4"
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "3.4",
+    "4.1",
+    "4.2",
+    "4.5",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Determinismus",
+   "slug": "determinismus",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Alles, was geschieht, steht fest und musste genau so geschehen; es gab keine andere Möglichkeit.",
+   "praezise": "Eine ontologische These über die Welt, keine über Wissen oder Vorhersage. Die gängige Fassung lautet: Ist gegeben, wie die Dinge zu einem Zeitpunkt sind, so ist durch die Naturgesetze festgelegt, wie sie danach verlaufen. Die Arbeit unterscheidet drei Fassungen: Laplace (Definition 12, 3.1), Lewis (Definition 13, 3.2) und eine eigene (Definition 14, 3.4). Determinismus ist weder mit Vorhersagbarkeit noch mit der Frage der Willensfreiheit gleichzusetzen.",
+   "quellen": [
+    {
+     "id": "hoefer2023causal",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "1.1",
+    "1.2",
+    "1.4",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Epistemisch / Erkenntnistheorie",
+   "slug": "epistemisch-erkenntnistheorie",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Es geht darum, was wir wissen, erkennen oder begründen können, nicht darum, wie die Welt tatsächlich beschaffen ist.",
+   "praezise": "Erkenntnistheorie (Epistemologie) untersucht Wissen, Rechtfertigung und die Grenzen der Erkenntnis; „epistemisch“ betrifft den Wissensstatus. Im Text (1.2, 4.1) sind Vorhersagbarkeit, Berechenbarkeit und Beweisbarkeit epistemische Begriffe, im Gegensatz zum ontologischen Determinismus.",
+   "quellen": [
+    {
+     "id": "hoefer2023causal",
+     "stelle": "Abschn. 3"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "1.4",
+    "3.1",
+    "3.2",
+    "3.4",
+    "4.1",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Epistemischer Determinismus",
+   "slug": "epistemischer-determinismus",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Die Erwartung, dass man in einer vollständig festgelegten Welt grundsätzlich auch wissen oder ausrechnen kann, was geschehen wird.",
+   "praezise": "Begriff dieser Arbeit (Abschnitt 1.4): die These, dass sich in einer determinierten Welt auch wissen lässt, was geschehen wird, also dass Determiniertheit Vorhersagbarkeit nach sich zieht. Er ist vom Determinismus als ontologischer These darüber, wie die Welt ist, zu unterscheiden (siehe *Determinismus*).",
+   "quellen": [
+    {
+     "id": "hoefer2023causal",
+     "stelle": "Abschn. 1 und 3"
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Explikation (Begriffsexplikation)",
+   "slug": "explikation-begriffsexplikation",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Einen unscharfen Alltagsbegriff durch einen genaueren ersetzen, der für einen bestimmten Zweck brauchbar ist.",
+   "praezise": "Nach Carnap der Ersatz eines vorwissenschaftlichen, unklaren Begriffs (Explikandum) durch einen exakten Begriff (Explikat), der dem alten hinreichend ähnlich, exakt, fruchtbar und einfach sein soll. Im Text (3.4) ist die „dritte Explikation“ die eigene, präzisierte Fassung des Determinismus.",
+   "quellen": [
+    {
+     "id": "carnap1950probability",
+     "stelle": "Kap. I, §§ 2–3"
+    }
+   ],
+   "abschnitte": [
+    "3.4"
+   ]
+  },
+  {
+   "begriff": "Gödel-Disjunktion (Gibbs-Vorlesung)",
+   "slug": "goedel-disjunktion-gibbs-vorlesung",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Gödel behauptete nur ein Entweder-oder: Entweder ist der menschliche Geist jeder Maschine überlegen, oder es gibt Probleme aus der Zahlentheorie, die absolut unlösbar sind. Dass der Geist keine Maschine ist, behauptet er damit nicht.",
+   "praezise": "Aus Gödels Gibbs-Vorlesung (1951): Entweder übersteigt der menschliche Geist, auch in der reinen Mathematik, unendlich die Fähigkeiten jeder endlichen Maschine, oder es gibt absolut unentscheidbare diophantische Probleme der angegebenen Art. „Absolut unentscheidbar“ bedeutet hier, dass kein dem menschlichen Geist zugänglicher Beweis entscheidet; es ist nicht gleichbedeutend mit „in keinem formalen System beweisbar“. Die Disjunktion ist als logisches Oder nicht ausschließend.",
+   "quellen": [
+    {
+     "id": "goedel1995gibbs",
+     "stelle": "S. 310"
+    }
+   ],
+   "abschnitte": [
+    "5.3"
+   ]
+  },
+  {
+   "begriff": "Gödelsche Argumente gegen den Mechanismus",
+   "slug": "goedelsche-argumente-gegen-den-mechanismus",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Überlegungen, die aus Gödels Sätzen folgern wollen, dass der menschliche Geist keine Maschine sein kann.",
+   "praezise": "Eine Familie von Argumenten bei Lucas (1961) und Penrose (1989, 1994): Eine Maschine entspricht einem formalen System und hat daher eine unbeweisbare Gödelformel; der Mensch könne ihre Wahrheit einsehen, also sei er keine Maschine. Kritisiert wird das Argument unter anderem von Putnam (1960), Benacerraf (1967) und Feferman (1995); ein zentraler Punkt ist, dass die Einsicht in die Gödelformel nur unter der Voraussetzung der Konsistenz des Systems gegeben ist. Gödels eigene Aussage ist vorsichtiger (siehe *Gödel-Disjunktion*).",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": ""
+    },
+    {
+     "id": "penrose1989emperor",
+     "stelle": "Kap. 4"
+    },
+    {
+     "id": "putnam1960minds",
+     "stelle": "S. 152 f."
+    },
+    {
+     "id": "benacerraf1967god",
+     "stelle": ""
+    },
+    {
+     "id": "feferman1995penrose",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "5.1",
+    "5.4"
+   ]
+  },
+  {
+   "begriff": "Informationsdichte (Grenze der)",
+   "slug": "informationsdichte-grenze-der",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Wie viel Information in einem bestimmten Raumbereich Platz hat. Möglicherweise gibt es dafür eine Obergrenze.",
+   "praezise": "Eine vermutete Obergrenze der Information, die ein Raumgebiet mit begrenzter Energie fassen kann; ein bekanntes Beispiel ist die Bekenstein-Schranke $S \\leq 2\\pi k R E/(\\hbar c)$ für die Entropie $S$ eines Systems der Energie $E$ in einer Kugel vom Radius $R$. Im Text (4.7) wird sie als offene Möglichkeit genannt, die Sätze verhindern könnte, die auf unendlichen Regressionen aufbauen.",
+   "quellen": [
+    {
+     "id": "bekenstein1981bound",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.7"
+   ]
+  },
+  {
+   "begriff": "Instanziierung",
+   "slug": "instanziierung",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Die konkrete Verwirklichung von etwas Allgemeinem: Ein Rezept auf dem Papier ist allgemein, der Kuchen im Ofen seine Instanziierung.",
+   "praezise": "Die konkrete Verwirklichung eines abstrakten Gebildes. Nach Lucas gehört es zum Wesen einer Maschine, dass sie die konkrete Instanziierung eines formalen Systems ist.",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 113"
+    }
+   ],
+   "abschnitte": [
+    "5.1",
+    "6.1"
+   ]
+  },
+  {
+   "begriff": "Kausalität / Kausaldeterminismus",
+   "slug": "kausalitaet-kausaldeterminismus",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Kausalität heißt, dass Ursachen ihre Wirkungen haben. Kausaldeterminismus heißt, dass jedes Ereignis durch frühere Ursachen und die Naturgesetze festgelegt ist.",
+   "praezise": "Kausaldeterminismus ist die These, dass jedes Ereignis durch vorangehende Ereignisse und Bedingungen zusammen mit den Naturgesetzen notwendig gemacht wird. Der Text (1.2, 3.3) betont, dass der Determinismus als bloßes Feststehen der Zukunft nicht an Kausalität gebunden sein muss, wie das Bild der Filmrolle zeigt; Laplaces Fassung ist ein Kausaldeterminismus in epistemischer Formulierung (3.1).",
+   "quellen": [
+    {
+     "id": "hoefer2023causal",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "1.1",
+    "1.2",
+    "3.1",
+    "3.3"
+   ]
+  },
+  {
+   "begriff": "Laplacescher Dämon / Intellekt (Laplace)",
+   "slug": "laplacescher-daemon-intellekt-laplace",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Eine gedachte Intelligenz, die zu einem Augenblick alle Kräfte und Lagen aller Dinge kennt und daraus die ganze Zukunft und Vergangenheit berechnen kann.",
+   "praezise": "Die Intelligenz aus Laplaces Gedankenexperiment: Sie kennt für einen Augenblick alle Kräfte der Natur und die Lage aller Wesen und kann diese Daten einer Analyse unterwerfen; nichts wäre ihr ungewiss, Zukunft wie Vergangenheit lägen offen vor ihren Augen. Laplace selbst spricht von einer „Intelligenz“, nicht von einem Dämon, Du Bois-Reymond (1872) von einem „Geist“; „Laplacescher Dämon“ ist die spätere Bezeichnung für dieses Gedankenbild. Im Text steht für diese externe Intelligenz das Wort „Intellekt“, „Dämon“ ist dem Regelvollzug vorbehalten (3.4).",
+   "quellen": [
+    {
+     "id": "laplace1886versuch",
+     "stelle": ""
+    },
+    {
+     "id": "duboisreymond1912reden",
+     "stelle": "S. 443"
+    },
+    {
+     "id": "hoefer2023causal",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "3.1",
+    "3.4",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Mechanismus / mechanistisch",
+   "slug": "mechanismus-mechanistisch",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Die Auffassung, dass alles, auch der Geist, wie eine Maschine abläuft: aus Teilen, die nach festen Regeln zusammenwirken.",
+   "praezise": "Im Text (5.1) nach Lucas: Das Verhalten des Ganzen ist aus den Teilen erklärbar, wobei jeder Teil entweder durch Zustand und Bauart festgelegt ist oder zufällig zwischen einer festen Zahl bestimmter Operationen wählt. In der Philosophie des Geistes ist Mechanismus die These, dass der Geist eine Maschine ist, im Sinn der Debatte also die Instanziierung eines formalen Systems. Lucas hielt Gödels Satz für einen Beweis, dass der Mechanismus falsch ist.",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 112 f."
+    },
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 125 f."
+    }
+   ],
+   "abschnitte": [
+    "1.1",
+    "1.3",
+    "1.4",
+    "3.2",
+    "3.3",
+    "3.4",
+    "5.1",
+    "5.2",
+    "6.2",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Mechanistischer Determinismus",
+   "slug": "mechanistischer-determinismus",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Das Universum ist mechanistisch deterministisch, wenn eine Maschine, die nur die Naturgesetze und die gesamte Vergangenheit kennt, durch bloßes Befolgen der Regeln genau vorausberechnet, was als Nächstes geschieht.",
+   "praezise": "Begriff dieser Arbeit (Abschnitt 3.4, Definition 14). Anders als bei Laplace genügt nicht der Momentanzustand, verlangt wird die gesamte Vergangenheit. Die „Maschine“ ist kein äußerer Beobachter, sondern der Regelvollzug des Universums selbst (siehe *Dämon (Regelvollzug)*).",
+   "quellen": [
+    {
+     "id": "laplace1886versuch",
+     "stelle": "S. 4"
+    },
+    {
+     "id": "lewis1983newwork",
+     "stelle": "S. 360"
+    }
+   ],
+   "abschnitte": [
+    "3.4",
+    "4.1",
+    "4.3",
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Metamaschine",
+   "slug": "metamaschine",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Bei Lucas: eine zweite, übergeordnete Maschine, die eine Maschine bräuchte, um etwas über sich selbst zu sagen. Der Geist dagegen sei seine eigene Metamaschine.",
+   "praezise": "In Lucas' Argument (5.1) braucht eine Maschine, um Aussagen über sich selbst zu treffen, eine eigene Metamaschine, die wiederum eine eigene Metamaschine braucht; der Geist sei diese Folge in einem. Die Wendung steht der Unterscheidung von Objekt- und Metasprache nahe (siehe *Objektsprache / Metasprache*).",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 123–125"
+    }
+   ],
+   "abschnitte": [
+    "5.1"
+   ]
+  },
+  {
+   "begriff": "Mikrotubuli",
+   "slug": "mikrotubuli",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Winzige Eiweißröhrchen im Inneren von Zellen, die diese stützen und Transportwege bilden. Penrose und Hameroff vermuten, dass in ihnen Quantenprozesse das Bewusstsein tragen.",
+   "praezise": "Bestandteil des Zellskeletts (Zytoskelett) aller Zellen mit Zellkern, auch der Nervenzellen, aufgebaut aus Tubulin-Proteinen. In der Hypothese der orchestrierten objektiven Reduktion (Orch OR) von Hameroff und Penrose sind sie Träger quantenkohärenter Prozesse, die für das Bewusstsein wesentlich sein sollen. Die Hypothese ist empirisch höchst umstritten.",
+   "quellen": [
+    {
+     "id": "hameroff1996orchestrated",
+     "stelle": ""
+    },
+    {
+     "id": "penrose1994shadows",
+     "stelle": ""
+    },
+    {
+     "id": "tegmark2000importance",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "5.3"
+   ]
+  },
+  {
+   "begriff": "Mögliche Welten",
+   "slug": "moegliche-welten",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Gedachte Alternativen zur wirklichen Welt: wie die Dinge hätten sein können. Mit ihnen prüft man, ob etwas notwendig ist.",
+   "praezise": "In der Metaphysik und Modallogik ein Hilfsmittel, um Möglichkeit und Notwendigkeit zu analysieren: Notwendig ist, was in allen möglichen Welten der Fall ist. Lewis formuliert den Determinismus als Aussage über Paare möglicher Welten, die dieselben Naturgesetze erfüllen (3.2).",
+   "quellen": [
+    {
+     "id": "lewis1983newwork",
+     "stelle": "S. 360"
+    }
+   ],
+   "abschnitte": [
+    "3.2"
+   ]
+  },
+  {
+   "begriff": "Naturgesetz",
+   "slug": "naturgesetz",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Eine allgemeine Regel, nach der sich Vorgänge in der Natur ausnahmslos richten, etwa das Gesetz der Schwerkraft.",
+   "praezise": "Eine allgemeine Aussage über Zusammenhänge zwischen Zuständen. Im Determinismus legen die Naturgesetze fest, wie aus einem Zustand die folgenden hervorgehen. Was ein Naturgesetz metaphysisch ist, ist umstritten und bleibt in der Arbeit offen; im Text (4.1) heißen die Übergangsgesetze des Modells „Physik“.",
+   "quellen": [
+    {
+     "id": "hoefer2023causal",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "3.1",
+    "3.2",
+    "3.4",
+    "4.1",
+    "4.3",
+    "4.6"
+   ]
+  },
+  {
+   "begriff": "Ontologie / ontologisch",
+   "slug": "ontologie-ontologisch",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Es geht darum, wie die Welt tatsächlich beschaffen ist, unabhängig davon, was wir darüber wissen können.",
+   "praezise": "Ontologie ist die philosophische Lehre vom Seienden und seiner Grundstruktur. „Ontologisch“ bezeichnet im Text Aussagen darüber, was der Fall ist (der Determinismus als These über die Welt), im Unterschied zu epistemischen Aussagen über das, was wir wissen können.",
+   "quellen": [
+    {
+     "id": "hoefer2023causal",
+     "stelle": "Abschn. 1 und 3"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "1.3",
+    "3.1",
+    "3.2",
+    "3.4"
+   ]
+  },
+  {
+   "begriff": "Ordinalnotation (Ordinalzahl)",
+   "slug": "ordinalnotation-ordinalzahl",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Ordinalzahlen zählen über das Unendliche hinaus: $0, 1, 2, \\dots, \\omega, \\omega + 1, \\dots$. Eine Ordinalnotation ist ein endlicher Name oder Code für eine solche Zahl, mit dem ein Programm arbeiten kann.",
+   "praezise": "Eine Ordinalzahl ist der Ordnungstyp einer Wohlordnung; eine Notation ist ein Code (etwa eine natürliche Zahl), der eine Ordinalzahl systematisch darstellt. Nicht jeder Code, der wie eine Notation aussieht, bezeichnet eine Ordinalzahl; welche Codes gültige Notationen sind, ist nicht berechenbar. Nach Feferman gibt es kein im Voraus angebbares Verfahren, das für alle rekursiven Ordinalzahlen auf einmal passende Notationen liefert.",
+   "quellen": [
+    {
+     "id": "turing1939ordinals",
+     "stelle": ""
+    },
+    {
+     "id": "feferman1962transfinite",
+     "stelle": ""
+    },
+    {
+     "id": "feferman1995penrose",
+     "stelle": "Abs. 3.11"
+    }
+   ],
+   "abschnitte": [
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Quantenkohärenz",
+   "slug": "quantenkohaerenz",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Ein Zustand, in dem ein Quantensystem seine empfindliche Überlagerung („beides zugleich“) behält. Sie geht durch Störungen aus der Umgebung rasch verloren.",
+   "praezise": "Eine feste Phasenbeziehung zwischen den Anteilen einer Quantenüberlagerung; ihr Verlust durch Wechselwirkung mit der Umgebung heißt Dekohärenz. Tegmark (2000) schätzt die Dekohärenzzeiten im Gehirn auf $10^{-13}$ bis $10^{-20}$ Sekunden, weit kürzer als die relevanten Zeitskalen von 0{,}001 bis 0{,}1 Sekunden. Hameroff und Penrose nehmen sie dennoch für Mikrotubuli an.",
+   "quellen": [
+    {
+     "id": "tegmark2000importance",
+     "stelle": ""
+    },
+    {
+     "id": "hameroff1996orchestrated",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "5.3"
+   ]
+  },
+  {
+   "begriff": "Reflexionsprinzip",
+   "slug": "reflexionsprinzip",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Die Regel, einem System als zusätzliche Annahme hinzuzufügen, dass das System selbst in Ordnung ist.",
+   "praezise": "Ein Reflexionsprinzip für eine Theorie $T$ drückt die Korrektheit von $T$ aus. Die schwächste Form ist die Konsistenzaussage $\\mathrm{Con}(T)$; lokal fordert man $\\mathrm{Prov}_T(\\ulcorner\\varphi\\urcorner) \\to \\varphi$ für einzelne Sätze, uniform (global) für alle $\\varphi$ mit freien Variablen zugleich. Iteriert man das Hinzufügen solcher Prinzipien, entsteht eine Folge immer stärkerer Theorien (siehe *Transfinite Progression*).",
+   "quellen": [
+    {
+     "id": "turing1939ordinals",
+     "stelle": ""
+    },
+    {
+     "id": "feferman1962transfinite",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Regress (unendlicher)",
+   "slug": "regress-unendlicher",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Eine Kette, die nie endet: Jede Antwort wirft dieselbe Frage erneut auf, etwa wenn der Grund selbst wieder einen Grund braucht.",
+   "praezise": "Ein unendlicher Regress entsteht, wenn eine Begründung oder Konstruktion auf jeder Stufe die nächste Stufe gleicher Art voraussetzt. Im Text (5.2) ist es die Leiter immer stärkerer Systeme, bei der jede Stufe die Korrektheit der vorigen voraussetzt; in 4.7 betrifft er Sätze, die auf unendlichen Regressionen aufbauen.",
+   "quellen": [
+    {
+     "id": "cameron2022regress",
+     "stelle": ""
+    }
+   ],
+   "abschnitte": [
+    "4.7",
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Systemimmanent / Regelvollzug",
+   "slug": "systemimmanent-regelvollzug",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Systemimmanent heißt: innerhalb des Systems und nicht als Beobachter von außen. Regelvollzug heißt: die Regeln werden ausgeführt, nicht nur gewusst.",
+   "praezise": "Begriff dieser Arbeit (Abschnitt 3.4). Der Regelvollzug ist der vollständige, unmittelbare Vollzug der Systemregeln selbst, „so stark wie die Gesetze, nicht stärker und nicht schwächer“. Er unterscheidet die eigene Fassung des Determinismus von Laplaces externer Intelligenz (siehe *Dämon (Regelvollzug)*).",
+   "quellen": [
+    {
+     "id": "laplace1886versuch",
+     "stelle": "S. 4"
+    }
+   ],
+   "abschnitte": [
+    "1.4",
+    "3.4",
+    "4.1",
+    "4.2",
+    "4.5",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Transfinite Progression",
+   "slug": "transfinite-progression",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Eine Treppe aus immer stärkeren Systemen: Man hängt immer wieder eine passende Zusatzannahme an und setzt das auch „nach unendlich vielen Schritten“ fort.",
+   "praezise": "Eine Folge von Theorien $(T_\\alpha)$, indiziert durch Ordinalzahlen (über Notationen), bei der $T_{\\alpha+1}$ aus $T_\\alpha$ durch Hinzunahme eines Reflexionsprinzips entsteht und bei Limesordinalzahlen die Vereinigung der vorherigen Stufen gebildet wird. Turing (1939) zeigte Vollständigkeit für $\\Pi_1$-Sätze; Feferman (1962) erreichte Vollständigkeit für alle wahren arithmetischen Sätze mit transfiniter Iteration uniformer Reflexion entlang nicht berechenbarer Pfade. Die entstehende Axiomenmenge ist nicht rekursiv.",
+   "quellen": [
+    {
+     "id": "turing1939ordinals",
+     "stelle": ""
+    },
+    {
+     "id": "feferman1962transfinite",
+     "stelle": ""
+    },
+    {
+     "id": "feferman1995penrose",
+     "stelle": "Abs. 3.11"
+    }
+   ],
+   "abschnitte": [
+    "5.2"
+   ]
+  },
+  {
+   "begriff": "Vorhersagbarkeit",
+   "slug": "vorhersagbarkeit",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Aus dem, was man über Gegenwart und Vergangenheit weiß, auf die Zukunft schließen können.",
+   "praezise": "Im Text (1.2) festgelegt als epistemische Eigenschaft: Aus begrenztem Wissen über Gegenwart und Vergangenheit wird mittels eines Kalküls neues Wissen über die Zukunft gewonnen. Vorhersagbarkeit ist von der Determiniertheit der Welt zu unterscheiden: Auch Determiniertes kann unvorhersagbar sein, das Halteproblem zeigt es im Kleinen (5.3).",
+   "quellen": [
+    {
+     "id": "hoefer2023causal",
+     "stelle": "Abschn. 1 und 3"
+    }
+   ],
+   "abschnitte": [
+    "1.2",
+    "1.4",
+    "4.1",
+    "4.6",
+    "6.1",
+    "6.2",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Willensfreiheit / Freiheitskonflikt",
+   "slug": "willensfreiheit-freiheitskonflikt",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Die Frage, ob wir uns wirklich frei entscheiden können, wenn alles festgelegt ist. Der Freiheitskonflikt ist der scheinbare Widerspruch zwischen dem Determinismus und unserem Gefühl, frei zu entscheiden.",
+   "praezise": "Der Inkompatibilismus hält Freiheit und Determinismus für unvereinbar, der Kompatibilismus für vereinbar. Die Arbeit klammert die Frage aus: Ob der Weltverlauf determiniert ist, sei eine andere Frage als die, ob das Determinierte „frei“ heißen darf (1.3, 3.3).",
+   "quellen": [
+    {
+     "id": "kane2005contemporary",
+     "stelle": "Kap. 1–2, bes. S. 12"
+    }
+   ],
+   "abschnitte": [
+    "1.1",
+    "1.3",
+    "3.3",
+    "6.3"
+   ]
+  },
+  {
+   "begriff": "Zustandsdeterminismus / Historiendeterminismus",
+   "slug": "zustandsdeterminismus-historiendeterminismus",
+   "kategorie": "Philosophische Begriffe",
+   "einfach": "Beim Zustandsdeterminismus genügt ein einziger Zeitpunkt, um alles Weitere festzulegen. Beim Historiendeterminismus braucht es die ganze Vergangenheit.",
+   "praezise": "Die Bezeichnungen gebraucht die Arbeit in 3.1 und 3.4. Zustandsdeterminismus: Naturgesetze und der Zustand zu einem Zeitpunkt legen jeden späteren Zustand fest (Laplace); eine Fassung mit momentanem Zeitschnitt nennt auch Lewis als Variante. Historiendeterminismus: Naturgesetze und die Vergangenheit bis zu einem Zeitpunkt legen den weiteren Verlauf fest. Lewis' Hauptdefinition nennt ein Gesetzessystem deterministisch, wenn keine zwei divergenten Welten beide den Gesetzen genügen; zwei Welten divergieren, wenn sie bis zu einem Zeitpunkt Duplikate sind und danach auseinanderlaufen.",
+   "quellen": [
+    {
+     "id": "laplace1886versuch",
+     "stelle": ""
+    },
+    {
+     "id": "lewis1983newwork",
+     "stelle": "S. 360"
+    },
+    {
+     "id": "lewis1979counterfactual",
+     "stelle": "S. 460 f."
+    }
+   ],
+   "abschnitte": [
+    "3.1",
+    "3.4"
+   ]
+  }
+ ],
  "prompts": [
   {
    "id": "2026-10-12-claude-anhang-und-webseite",

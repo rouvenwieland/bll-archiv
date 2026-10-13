@@ -1,0 +1,2180 @@
+{
+ "meta": {
+  "titel": "Die Gödelschen Unvollständigkeitssätze und der epistemische Determinismus",
+  "art": "Besondere Lernleistung (BLL) im Rahmen der Abiturprüfung",
+  "fach": "Philosophie",
+  "autor": "Rouven Wieland",
+  "schule": "Andreas-Gymnasium Berlin",
+  "betreuung": "Frau Kernchen",
+  "stand": "2026-10-12",
+  "zitierweise_ki": "<URL der KI> prompted by <Vorname Nachname>, <Datum>, <Angabe des verwendeten Prompts>",
+  "hinweis": "Diese Seite ist der digitale Anhang zur Arbeit. Prämissenverzeichnis, Glossar und Literaturverzeichnis stehen identisch auch im gedruckten Anhang; die Prompts stehen nur hier."
+ },
+ "kapitel": [
+  {
+   "nr": "1",
+   "titel": "Einleitung",
+   "abschnitte": [
+    {
+     "nr": "1.1",
+     "titel": "Fragestellung und Erkenntnisinteresse"
+    },
+    {
+     "nr": "1.2",
+     "titel": "Vier Grundbegriffe: Determinismus, Vorhersagbarkeit, Berechenbarkeit, Beweisbarkeit"
+    },
+    {
+     "nr": "1.3",
+     "titel": "Abgrenzung des Gegenstands: die Willensfreiheitsfrage"
+    },
+    {
+     "nr": "1.4",
+     "titel": "Gang der Untersuchung"
+    }
+   ]
+  },
+  {
+   "nr": "2",
+   "titel": "Formale Grundlagen",
+   "abschnitte": [
+    {
+     "nr": "2.1",
+     "titel": "Formale Systeme: Sprache, Axiome, Ableitung"
+    },
+    {
+     "nr": "2.2",
+     "titel": "Rekursive Axiomatisierbarkeit und arithmetische Stärke"
+    },
+    {
+     "nr": "2.3",
+     "titel": "Wahrheit und Beweisbarkeit: Korrektheit, Vollständigkeit, Widerspruchsfreiheit"
+    },
+    {
+     "nr": "2.4",
+     "titel": "Gödelisierung und Diagonallemma"
+    },
+    {
+     "nr": "2.5",
+     "titel": "Der erste Unvollständigkeitssatz und seine Voraussetzungen"
+    },
+    {
+     "nr": "2.6",
+     "titel": "Der zweite Unvollständigkeitssatz"
+    },
+    {
+     "nr": "2.7",
+     "titel": "Wahrheit und Sprache: Tarskis Undefinierbarkeitssatz"
+    },
+    {
+     "nr": "2.8",
+     "titel": "Berechenbarkeit: die Turingmaschine und das Halteproblem"
+    }
+   ]
+  },
+  {
+   "nr": "3",
+   "titel": "Der Determinismus als philosophische These",
+   "abschnitte": [
+    {
+     "nr": "3.1",
+     "titel": "Laplace: Kausaldeterminismus in epistemischer Formulierung"
+    },
+    {
+     "nr": "3.2",
+     "titel": "David Lewis: Determinismus als These über mögliche Welten"
+    },
+    {
+     "nr": "3.3",
+     "titel": "Das Grundproblem: geschlossene Kausalität und wahrgenommene Freiheit"
+    },
+    {
+     "nr": "3.4",
+     "titel": "Eine dritte Explikation: der Dämon als systemimmanenter Regelvollzug"
+    }
+   ]
+  },
+  {
+   "nr": "4",
+   "titel": "Das Universum als formales System",
+   "abschnitte": [
+    {
+     "nr": "4.1",
+     "titel": "Das Modell: Zustände, Gesetze, Anfangsbedingungen"
+    },
+    {
+     "nr": "4.2",
+     "titel": "Zwei Ebenen: Zustandsebene und Aussagenebene"
+    },
+    {
+     "nr": "4.3",
+     "titel": "Physisches Vorkommen und semantischer Gehalt"
+    },
+    {
+     "nr": "4.4",
+     "titel": "Zusammensturz der Metaebenen"
+    },
+    {
+     "nr": "4.5",
+     "titel": "Fallunterscheidung nach Zeit- und Zustandsstruktur"
+    },
+    {
+     "nr": "4.6",
+     "titel": "Der vierte, kontinuierliche Fall"
+    },
+    {
+     "nr": "4.7",
+     "titel": "Kritik an meinen Überlegungen"
+    }
+   ]
+  },
+  {
+   "nr": "5",
+   "titel": "Geist, Maschine und Physik",
+   "abschnitte": [
+    {
+     "nr": "5.1",
+     "titel": "Lucas' Argument: Rekonstruktion"
+    },
+    {
+     "nr": "5.2",
+     "titel": "Kritische Würdigung: Putnam, Benacerraf, Feferman"
+    },
+    {
+     "nr": "5.3",
+     "titel": "Penrose und die Gödel-Disjunktion"
+    },
+    {
+     "nr": "5.4",
+     "titel": "Zwischenfazit: Was von den Gödelschen Argumenten übrig bleibt"
+    }
+   ]
+  },
+  {
+   "nr": "6",
+   "titel": "Konsequenzen für den Determinismus",
+   "abschnitte": [
+    {
+     "nr": "6.1",
+     "titel": "Die Ergebnisse geordnet"
+    },
+    {
+     "nr": "6.2",
+     "titel": "Wie weit die Argumentation trägt"
+    },
+    {
+     "nr": "6.3",
+     "titel": "Fazit"
+    }
+   ]
+  }
+ ],
+ "quellen": [
+  {
+   "id": "benacerraf1967god",
+   "typ": "article",
+   "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
+   "autor": "Benacerraf, Paul",
+   "jahr": "1967",
+   "titel": "God, the Devil, and Gödel",
+   "untertitel": "",
+   "in": "The Monist 51 (1)",
+   "seiten": "9–32",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.5840/monist196751112",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.2",
+     "stelle": "",
+     "aussage": "Benacerraf setzt an einer verwandten Stelle an, nämlich an der Prämisse, der Geist beherrsche einfache Arithmetik in genau dem Sinn, den Gödels Satz verlangt."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse P2"
+   ]
+  },
+  {
+   "id": "carnap1934logische",
+   "typ": "book",
+   "gruppe": "Primärquellen",
+   "autor": "Carnap, Rudolf",
+   "jahr": "1934",
+   "titel": "Logische Syntax der Sprache",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Springer",
+   "ort": "Wien",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.4"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.4",
+     "stelle": "§ 35",
+     "aussage": "Wenn ein formales System arithmetisch stark genug ist, um Gödelisierung zu ermöglichen, dann können wir Sätze formulieren, die Dinge sagen wie „ich habe diese oder jene Eigenschaft“."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "church1936unsolvable",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Church, Alonzo",
+   "jahr": "1936",
+   "titel": "An Unsolvable Problem of Elementary Number Theory",
+   "untertitel": "",
+   "in": "American Journal of Mathematics 58 (2)",
+   "seiten": "345–363",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.2307/2371045",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.8"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.8",
+     "stelle": "S. 356",
+     "aussage": "Diese Überzeugung nennt man die Church-Turing-These."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "copeland2023church",
+   "typ": "online",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Copeland, B. Jack",
+   "jahr": "2023",
+   "titel": "The Church–Turing Thesis",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "https://plato.stanford.edu/entries/church-turing/",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.8"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.8",
+     "stelle": "Abschn. 1",
+     "aussage": "Diese Überzeugung nennt man die Church-Turing-These."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "davis1958computability",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Davis, Martin",
+   "jahr": "1958",
+   "titel": "Computability and Unsolvability",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "McGraw-Hill",
+   "ort": "New York",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.8"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.8",
+     "stelle": "",
+     "aussage": "Turing hat gezeigt, dass es eine solche Maschine nicht geben kann."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "deutsch1985quantum",
+   "typ": "article",
+   "gruppe": "Physik und Berechnung",
+   "autor": "Deutsch, David",
+   "jahr": "1985",
+   "titel": "Quantum theory, the Church–Turing principle and the universal quantum computer",
+   "untertitel": "",
+   "in": "Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences 400 (1818)",
+   "seiten": "97–117",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1098/rspa.1985.0070",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.3",
+     "stelle": "S. 99",
+     "aussage": "Im Kern ist es die physikalische Church-Turing-These in einer besonders zugespitzten Form, also die Behauptung, dass auch die physische Substitution Turing-berechenbar ist."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse M5"
+   ]
+  },
+  {
+   "id": "duboisreymond1912reden",
+   "typ": "book",
+   "gruppe": "Determinismus und Willensfreiheit",
+   "autor": "Du Bois-Reymond, Emil",
+   "jahr": "1912",
+   "titel": "Reden",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Veit & Comp.",
+   "ort": "Leipzig",
+   "auflage": "2., vervollständigte",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "3.1"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "3.1",
+     "stelle": "S. 443",
+     "aussage": "Diese Intelligenz, genauer das Konzept, für das sie als Anschauung dient, wird seither als „Laplacescher Dämon“ bezeichnet."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "ebbinghaus2018einfuehrung",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Ebbinghaus, Heinz-Dieter; Flum, Jörg; Thomas, Wolfgang",
+   "jahr": "2018",
+   "titel": "Einführung in die mathematische Logik",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Springer Spektrum",
+   "ort": "Berlin",
+   "auflage": "6",
+   "doi": "10.1007/978-3-662-58029-5",
+   "url": "",
+   "isbn": "978-3-662-58028-8",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.6",
+     "stelle": "Kap. VI",
+     "aussage": "Mit welcher physikalischen Theorie wir auch arbeiten, es gibt immer mehrere Modelle, und darunter stets auch ein abzählbares."
+    },
+    {
+     "abschnitt": "4.6",
+     "stelle": "Kap. VI",
+     "aussage": "Jede erststufige Theorie, die überhaupt ein unendliches Modell hat, hat auch ein abzählbares, also eines mit nur so vielen Elementen, wie man durchnummerieren kann."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse K5"
+   ]
+  },
+  {
+   "id": "epikur_briefe_1980",
+   "typ": "book",
+   "gruppe": "Primärquellen",
+   "autor": "Epikur",
+   "jahr": "1980",
+   "titel": "Briefe, Sprüche, Werkfragmente",
+   "untertitel": "Griechisch/Deutsch",
+   "in": "",
+   "seiten": "",
+   "verlag": "Reclam",
+   "ort": "Stuttgart",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "978-3-15-009984-1",
+   "verwendung": "",
+   "zitiert_in": [
+    "1.1"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "1.1",
+     "stelle": "Brief an Menoikeus, §§ 133–134",
+     "aussage": "Schon Epikur"
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "feferman1962transfinite",
+   "typ": "article",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Feferman, Solomon",
+   "jahr": "1962",
+   "titel": "Transfinite recursive progressions of axiomatic theories",
+   "untertitel": "",
+   "in": "The Journal of Symbolic Logic 27 (3)",
+   "seiten": "259–316",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.2307/2964649",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.5",
+    "5.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.5",
+     "stelle": "",
+     "aussage": "Genau deshalb fordern wir die rekursive Axiomatisierbarkeit."
+    },
+    {
+     "abschnitt": "5.2",
+     "stelle": "",
+     "aussage": "Die Idee, der Geist könne sich durch immer stärkere Systeme hindurcharbeiten, lässt sich technisch präzise fassen: als eine Leiter von Theorien, bei der man auf jeder Stufe als neues Axiom hinzunimmt, dass die Stufe darunter in Ordnung ist (man spricht von Reflexionsprinzipien), und die man sogar über unendlich viele Stufen hinaus fortsetzen kann (eine sogenannte transfinite Progression)."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "feferman1995penrose",
+   "typ": "article",
+   "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
+   "autor": "Feferman, Solomon",
+   "jahr": "1995",
+   "titel": "Penrose's Gödelian Argument",
+   "untertitel": "A Review of *Shadows of the Mind* by Roger Penrose",
+   "in": "Psyche 2 (7)",
+   "seiten": "",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "http://psyche.cs.monash.edu.au/v2/psyche-2-07-feferman.html",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.2",
+    "5.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.2",
+     "stelle": "Abs. 3.11",
+     "aussage": "Denn um die Leiter über das Unendliche hinaus zu erklimmen, braucht man Namen für ihre unendlichen Stufen, sogenannte Ordinalnotationen, und welche dieser Namen gültig sind, lässt sich selbst nicht berechnen."
+    },
+    {
+     "abschnitt": "5.3",
+     "stelle": "",
+     "aussage": "Die Kritik an Penrose, vorgebracht unter anderem von Feferman und Minsky, läuft denn auch darauf hinaus, dass der Nachweis fehlt."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "graca2009computability",
+   "typ": "article",
+   "gruppe": "Physik und Berechnung",
+   "autor": "Graça, Daniel S.; Zhong, Ning; Buescu, Jorge",
+   "jahr": "2009",
+   "titel": "Computability, Noncomputability and Undecidability of Maximal Intervals of IVPs",
+   "untertitel": "",
+   "in": "Transactions of the American Mathematical Society 361 (6)",
+   "seiten": "2913–2927",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1090/S0002-9947-09-04929-0",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.6",
+     "stelle": "",
+     "aussage": "Solange man die Bedingungen, die die Physik an die Trajektorie stellt, lipschitz-stetig formulieren kann, bekommt man eine eindeutige Trajektorie, die man sogar algorithmisch beliebig genau annähern kann."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse K4"
+   ]
+  },
+  {
+   "id": "goedel1931ueber",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Gödel, Kurt",
+   "jahr": "1931",
+   "titel": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+   "untertitel": "",
+   "in": "Monatshefte für Mathematik und Physik 38 (1)",
+   "seiten": "173–198",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1007/BF01700692",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.4",
+    "2.5",
+    "2.6",
+    "5.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.4",
+     "stelle": "S. 174–176",
+     "aussage": "Kurt Gödel zeigte das, indem er einen Satz konstruierte, der über sich selbst spricht, nämlich den Satz „Dieser Satz ist nicht beweisbar“."
+    },
+    {
+     "abschnitt": "2.4",
+     "stelle": "S. 178 f.",
+     "aussage": "Gödel kodierte seine Aussagen über Zahlen selbst als Zahlen."
+    },
+    {
+     "abschnitt": "2.5",
+     "stelle": "S. 187",
+     "aussage": "Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
+    },
+    {
+     "abschnitt": "2.6",
+     "stelle": "Satz XI, S. 196",
+     "aussage": "Ein System, für das der erste Gödelsche Unvollständigkeitssatz gilt und das die Aussage „ich (das System) bin konsistent“ formalisieren kann, kann diese Aussage nicht beweisen."
+    },
+    {
+     "abschnitt": "5.2",
+     "stelle": "S. 196 f.",
+     "aussage": "Formal schreibt man $S_M \\vdash \\mathrm{Con}(S_M) \\to G_M$, in Worten: $S_M$ beweist „Wenn ich konsistent bin, dann gilt $G_M$.“"
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "goedel1934undecidable",
+   "typ": "incollection",
+   "gruppe": "Primärquellen",
+   "autor": "Gödel, Kurt",
+   "jahr": "1986",
+   "titel": "On undecidable propositions of formal mathematical systems",
+   "untertitel": "",
+   "in": "Feferman, Solomon and others (Hg.): Collected Works",
+   "seiten": "346–371",
+   "verlag": "Oxford University Press",
+   "ort": "New York and Oxford",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.1"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.1",
+     "stelle": "",
+     "aussage": "Das lässt sich beliebig oft wiederholen, ohne dass die Maschine den Geist je einholt, ein Punkt, den schon Gödel in seinen Princeton-Vorlesungen von 1934 festgehalten hat."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "goedel1995gibbs",
+   "typ": "incollection",
+   "gruppe": "Primärquellen",
+   "autor": "Gödel, Kurt",
+   "jahr": "1995",
+   "titel": "Some basic theorems on the foundations of mathematics and their implications",
+   "untertitel": "",
+   "in": "Feferman, Solomon and others (Hg.): Collected Works",
+   "seiten": "304–323",
+   "verlag": "Oxford University Press",
+   "ort": "New York and Oxford",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.3",
+     "stelle": "S. 310",
+     "aussage": "Entweder übersteigt der menschliche Geist jede endliche Maschine, oder es gibt absolut unentscheidbare zahlentheoretische Probleme, also wahre Sätze, die kein denkbares formales System beweisen kann."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "hameroff1996orchestrated",
+   "typ": "article",
+   "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
+   "autor": "Hameroff, Stuart; Penrose, Roger",
+   "jahr": "1996",
+   "titel": "Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness",
+   "untertitel": "",
+   "in": "Mathematics and Computers in Simulation 40 (3–4)",
+   "seiten": "453–480",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1016/0378-4754(96)80476-9",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.3",
+     "stelle": "",
+     "aussage": "Konkret erwägt er, gemeinsam mit Stuart Hameroff, Quantenprozesse in den Mikrotubuli, den feinen Röhrchen des Zellskeletts der Neuronen, als Träger des Bewusstseins."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "hoefer2023causal",
+   "typ": "online",
+   "gruppe": "Determinismus und Willensfreiheit",
+   "autor": "Hoefer, Carl",
+   "jahr": "2023",
+   "titel": "Causal Determinism",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "https://plato.stanford.edu/entries/determinism-causal/",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "1.1",
+    "3.1"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "1.1",
+     "stelle": "Abschn. 3",
+     "aussage": "Dennoch gilt dieses Dilemma bis heute als ungelöst, und der Determinismus gilt als weder beweis- noch widerlegbar."
+    },
+    {
+     "abschnitt": "3.1",
+     "stelle": "",
+     "aussage": "Diese Intelligenz, genauer das Konzept, für das sie als Anschauung dient, wird seither als „Laplacescher Dämon“ bezeichnet."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse G1"
+   ]
+  },
+  {
+   "id": "hoffmann2013goedel",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Hoffmann, Dirk W.",
+   "jahr": "2013",
+   "titel": "Die Gödel'schen Unvollständigkeitssätze",
+   "untertitel": "Eine geführte Reise durch Kurt Gödels historischen Beweis",
+   "in": "",
+   "seiten": "",
+   "verlag": "Springer Spektrum",
+   "ort": "Berlin and Heidelberg",
+   "auflage": "1",
+   "doi": "10.1007/978-3-8274-3000-7",
+   "url": "",
+   "isbn": "978-3-8274-2999-5",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.1"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.1",
+     "stelle": "Abschn. 1.2",
+     "aussage": "Sie legen fest, wie man aus einem oder mehreren Sätzen einen neuen Satz schließt."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "kane2005contemporary",
+   "typ": "book",
+   "gruppe": "Determinismus und Willensfreiheit",
+   "autor": "Kane, Robert",
+   "jahr": "2005",
+   "titel": "A Contemporary Introduction to Free Will",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Oxford University Press",
+   "ort": "New York and Oxford",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "978-0-19-514970-8",
+   "verwendung": "",
+   "zitiert_in": [
+    "3.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "3.3",
+     "stelle": "Kap. 1–2, bes. S. 12",
+     "aussage": "Die Ergebnisse dieser Arbeit betreffen allein die erste Frage und lassen die zweite ausdrücklich offen."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "laplace1886versuch",
+   "typ": "book",
+   "gruppe": "Primärquellen",
+   "autor": "Laplace, Pierre Simon de",
+   "jahr": "1886",
+   "titel": "Philosophischer Versuch über die Wahrscheinlichkeiten",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Duncker & Humblot",
+   "ort": "Leipzig",
+   "auflage": "",
+   "doi": "",
+   "url": "https://gdz.sub.uni-goettingen.de/id/PPN591927160",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "3.1"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "3.1",
+     "stelle": "S. 4",
+     "aussage": "Eine Intelligenz, welche für einen gegebenen Augenblick alle Kräfte, von denen die Natur belebt ist, sowie die gegenseitige Lage der Wesen, die sie zusammen setzen, kennen würde, und überdies umfassend genug wäre, um diese gegebenen Grössen einer Analyse zu unterwerfen, würde in derselben Formel die Bewegungen der grössten Weltkörper wie die des leichtesten Atoms ausdrücken: nichts würde für sie ungewiss sein und Zukunft wie Vergangenheit ihr offen vor Augen liegen.“"
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "lewis1979counterfactual",
+   "typ": "article",
+   "gruppe": "Determinismus und Willensfreiheit",
+   "autor": "Lewis, David",
+   "jahr": "1979",
+   "titel": "Counterfactual Dependence and Time's Arrow",
+   "untertitel": "",
+   "in": "Noûs 13 (4)",
+   "seiten": "455–476",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.2307/2215339",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "3.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "3.2",
+     "stelle": "S. 460 f.",
+     "aussage": "Wenn \\(w^*\\) dieselben Naturgesetze hat wie \\(w\\) und mit \\(w\\) zu einem bestimmten Zeitpunkt \\(t\\) im exakt gleichen Zustand übereinstimmt, dann stimmt \\(w^*\\) mit \\(w\\) zu allen Zeitpunkten – in der Vergangenheit wie in der Zukunft – überein."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "lewis1983newwork",
+   "typ": "article",
+   "gruppe": "Determinismus und Willensfreiheit",
+   "autor": "Lewis, David",
+   "jahr": "1983",
+   "titel": "New Work for a Theory of Universals",
+   "untertitel": "",
+   "in": "Australasian Journal of Philosophy 61 (4)",
+   "seiten": "343–377",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1080/00048408312341131",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "3.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "3.2",
+     "stelle": "S. 360",
+     "aussage": "Wenn \\(w^*\\) dieselben Naturgesetze hat wie \\(w\\) und mit \\(w\\) zu einem bestimmten Zeitpunkt \\(t\\) im exakt gleichen Zustand übereinstimmt, dann stimmt \\(w^*\\) mit \\(w\\) zu allen Zeitpunkten – in der Vergangenheit wie in der Zukunft – überein."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "lucas1961minds",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Lucas, John Randolph",
+   "jahr": "1961",
+   "titel": "Minds, Machines and Gödel",
+   "untertitel": "",
+   "in": "Philosophy 36 (137)",
+   "seiten": "112–127",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1017/S0031819100057983",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.1",
+    "5.2",
+    "6.2",
+    "6.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 112 f.",
+     "aussage": "John Randolph Lucas hat 1961 in seinem Aufsatz „Minds, Machines and Gödel“ behauptet, aus Gödels erstem Unvollständigkeitssatz folge unmittelbar, dass der Geist keine Maschine sein könne."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 113–115",
+     "aussage": "Das Verhalten der Maschine ist in diesem Bild vollständig determiniert, und hier wird später die Brücke zum Determinismus geschlagen."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 113 f.",
+     "aussage": "Auch eine solche Maschine, die nicht mehr vollständig deterministisch, aber immer noch durch und durch mechanisch ist, fällt nach Lucas unter sein Argument."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 115 f.",
+     "aussage": "Der Geist dagegen kann es."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 116",
+     "aussage": "Zitat: „The mind, being in fact alive, can always go one better than any formal, ossified, dead system.“"
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 117 f.",
+     "aussage": "Eine einzige Sache, die die Maschine nicht kann und der Geist schon, genügt, um die Identität zu widerlegen."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 116 f.",
+     "aussage": "Das lässt sich beliebig oft wiederholen, ohne dass die Maschine den Geist je einholt, ein Punkt, den schon Gödel in seinen Princeton-Vorlesungen von 1934 festgehalten hat."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 118–120",
+     "aussage": "Wie eine Maschine auch gebaut sein mag, entweder verfährt sie nach bestimmten Regeln, dann greift die Gödelmethode, oder sie verfährt zufällig, dann ist sie keine überzeugende Nachbildung intelligenten Verhaltens."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 118, 120",
+     "aussage": "Eine inkonsistente Maschine kann jede beliebige Formel produzieren; auf sie ist der Unvollständigkeitssatz nicht anwendbar, und deshalb lässt sie sich auch nicht als unterlegen erweisen."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 121–123",
+     "aussage": "Gründe müssen aber allgemein gelten."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 123–125",
+     "aussage": "Die Maschine müsse alle Gödelsätze nacheinander abarbeiten und werde damit nie fertig, während der Geist sie alle auf einmal, auf allen Ebenen, erkenne."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 125 f.",
+     "aussage": "Ein System, das der Gödel-Frage nicht unterläge, wäre eben dadurch keine Turingmaschine, und damit hätte man, wie Lucas anmerkt, keinen Gegenstand geschaffen, sondern einen Geist."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 126 f.",
+     "aussage": "Lucas schließt mit dem Satz, dass keine wissenschaftliche Forschung die unendliche Vielfalt des menschlichen Geistes je ausschöpfen könne."
+    },
+    {
+     "abschnitt": "5.2",
+     "stelle": "S. 124 f.",
+     "aussage": "Der Geist sei keine Maschine, die für ihre Selbstbetrachtung einen neuen Teil hinzufügen müsse, sondern ein vollständiges Ganzes, das sich selbst betrachten könne, ohne ein anderes zu werden."
+    },
+    {
+     "abschnitt": "5.2",
+     "stelle": "S. 117",
+     "aussage": "Lucas ahnte das, als er einräumte, dass auch die unendlich erweiterte Maschine unvollständig bleibt und der Geist die endliche Beschreibung der Erweiterung „berücksichtigen“ könne."
+    },
+    {
+     "abschnitt": "6.2",
+     "stelle": "S. 126 f.",
+     "aussage": "Mit Sicherheit zeigen lässt sich das wohl nicht."
+    },
+    {
+     "abschnitt": "6.3",
+     "stelle": "S. 127",
+     "aussage": "Es genügt zu zeigen, dass, wie Lucas sagt, immer noch Raum bleibt für Forschung und Kreativität,"
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse P1",
+    "Prämisse P2",
+    "Prämisse P3",
+    "Prämisse P4",
+    "Prämisse P5",
+    "Prämisse P6"
+   ]
+  },
+  {
+   "id": "lowenheim1915moeglichkeiten",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Löwenheim, Leopold",
+   "jahr": "1915",
+   "titel": "Über Möglichkeiten im Relativkalkül",
+   "untertitel": "",
+   "in": "Mathematische Annalen 76 (4)",
+   "seiten": "447–470",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1007/BF01458217",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.6",
+     "stelle": "",
+     "aussage": "Mit welcher physikalischen Theorie wir auch arbeiten, es gibt immer mehrere Modelle, und darunter stets auch ein abzählbares."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "minsky1991conscious",
+   "typ": "inproceedings",
+   "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
+   "autor": "Minsky, Marvin",
+   "jahr": "1991",
+   "titel": "Conscious Machines",
+   "untertitel": "",
+   "in": "Machinery of Consciousness",
+   "seiten": "",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "http://www.aurellem.org/6.868/resources/conscious-machines.html",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.3",
+     "stelle": "",
+     "aussage": "Die Kritik an Penrose, vorgebracht unter anderem von Feferman und Minsky, läuft denn auch darauf hinaus, dass der Nachweis fehlt."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "peano1889arithmetices",
+   "typ": "book",
+   "gruppe": "Primärquellen",
+   "autor": "Peano, Giuseppe",
+   "jahr": "1889",
+   "titel": "Arithmetices principia, nova methodo exposita",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Fratelli Bocca",
+   "ort": "Turin",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "1.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "1.2",
+     "stelle": "§ 1, Axiom 6",
+     "aussage": "Wir nennen eine Aussage beweisbar, wenn sie sich mithilfe festgelegter Schlussregeln auf besonders grundlegende Prämissen zurückführen lässt, die man Axiome nennt, etwa „jede natürliche Zahl hat einen Nachfolger“."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "penrose1989emperor",
+   "typ": "book",
+   "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
+   "autor": "Penrose, Roger",
+   "jahr": "1989",
+   "titel": "The Emperor's New Mind",
+   "untertitel": "Concerning Computers, Minds, and the Laws of Physics",
+   "in": "",
+   "seiten": "",
+   "verlag": "Oxford University Press",
+   "ort": "Oxford",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "978-0-19-851973-7",
+   "verwendung": "",
+   "zitiert_in": [
+    "1.1",
+    "5.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "1.1",
+     "stelle": "Kap. 4 und 10",
+     "aussage": "Ein prominenter Vertreter dieser These ist Roger Penrose."
+    },
+    {
+     "abschnitt": "5.3",
+     "stelle": "Kap. 4",
+     "aussage": "Diese Einsicht, so Penrose, sei keine algorithmische Leistung; sie gehe über jede Symbolmanipulation hinaus."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "penrose1994shadows",
+   "typ": "book",
+   "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
+   "autor": "Penrose, Roger",
+   "jahr": "1994",
+   "titel": "Shadows of the Mind",
+   "untertitel": "A Search for the Missing Science of Consciousness",
+   "in": "",
+   "seiten": "",
+   "verlag": "Oxford University Press",
+   "ort": "Oxford",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "0-19-853978-9",
+   "verwendung": "",
+   "zitiert_in": [
+    "1.1",
+    "5.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "1.1",
+     "stelle": "",
+     "aussage": "Ein prominenter Vertreter dieser These ist Roger Penrose."
+    },
+    {
+     "abschnitt": "5.3",
+     "stelle": "",
+     "aussage": "Konkret erwägt er, gemeinsam mit Stuart Hameroff, Quantenprozesse in den Mikrotubuli, den feinen Röhrchen des Zellskeletts der Neuronen, als Träger des Bewusstseins."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse M5"
+   ]
+  },
+  {
+   "id": "piccinini2025computation",
+   "typ": "online",
+   "gruppe": "Physik und Berechnung",
+   "autor": "Piccinini, Gualtiero",
+   "jahr": "2025",
+   "titel": "Computation in Physical Systems",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "https://plato.stanford.edu/entries/computation-physicalsystems/",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.3",
+     "stelle": "Abschn. 4.1",
+     "aussage": "Im Kern ist es die physikalische Church-Turing-These in einer besonders zugespitzten Form, also die Behauptung, dass auch die physische Substitution Turing-berechenbar ist."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse M5"
+   ]
+  },
+  {
+   "id": "priest2026paraconsistent",
+   "typ": "online",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Priest, Graham; Tanaka, Koji; Weber, Zach",
+   "jahr": "2026",
+   "titel": "Paraconsistent Logic",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "https://plato.stanford.edu/entries/logic-paraconsistent/",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.5"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.5",
+     "stelle": "Abschn. 1.2",
+     "aussage": "Denn nach Russell gilt in der Logik, dass ein einziger Widerspruch, also die Beweisbarkeit einer Aussage und ihrer Negation, ausreicht, damit jede beliebige Aussage beweisbar wird."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "putnam1960minds",
+   "typ": "incollection",
+   "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
+   "autor": "Putnam, Hilary",
+   "jahr": "1960",
+   "titel": "Minds and Machines",
+   "untertitel": "",
+   "in": "Hook, Sidney (Hg.): Dimensions of Mind",
+   "seiten": "148–179",
+   "verlag": "New York University Press",
+   "ort": "New York",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.2",
+     "stelle": "S. 152 f.",
+     "aussage": "Putnam hat schon 1960, also vor Lucas, darauf hingewiesen, dass ein Mensch bestenfalls zeigen kann, dass die Gödelformel wahr ist, *falls* das System konsistent ist, nicht aber, dass es konsistent ist."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse P3",
+    "Prämisse P5"
+   ]
+  },
+  {
+   "id": "rosser1936extensions",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Rosser, Barkley",
+   "jahr": "1936",
+   "titel": "Extensions of Some Theorems of Gödel and Church",
+   "untertitel": "",
+   "in": "The Journal of Symbolic Logic 1 (3)",
+   "seiten": "87–91",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.2307/2269028",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.5"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.5",
+     "stelle": "",
+     "aussage": "Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "skolem1920logisch",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Skolem, Thoralf",
+   "jahr": "1920",
+   "titel": "Logisch-kombinatorische Untersuchungen über die Erfüllbarkeit oder Beweisbarkeit mathematischer Sätze nebst einem Theoreme über dichte Mengen",
+   "untertitel": "",
+   "in": "Skrifter utgit av Videnskapsselskapet i Kristiania, I. Matematisk-naturvidenskabelig Klasse (4)",
+   "seiten": "1–36",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.6",
+     "stelle": "",
+     "aussage": "Mit welcher physikalischen Theorie wir auch arbeiten, es gibt immer mehrere Modelle, und darunter stets auch ein abzählbares."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "smith2013",
+   "typ": "book",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Smith, Peter",
+   "jahr": "2013",
+   "titel": "An Introduction to Gödel's Theorems",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Cambridge University Press",
+   "ort": "Cambridge",
+   "auflage": "2",
+   "doi": "",
+   "url": "",
+   "isbn": "978-1-107-60675-3",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.7",
+    "2.8",
+    "5.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.1",
+     "stelle": "§ 4.3",
+     "aussage": "Sie legen fest, wie man aus einem oder mehreren Sätzen einen neuen Satz schließt."
+    },
+    {
+     "abschnitt": "2.2",
+     "stelle": "§ 4.3, S. 31",
+     "aussage": "Wir nennen ein formales System $\\mathcal{S}$ rekursiv axiomatisierbar, wenn seine Axiomenmenge $A$ aus endlich vielen Axiomen besteht und aus solchen, die von endlich vielen Algorithmen erzeugt werden."
+    },
+    {
+     "abschnitt": "2.2",
+     "stelle": "Kap. 7 und § 10.3",
+     "aussage": "Konkret sagt die arithmetische Stärke, ob es in dem jeweiligen System alle Zahlen gibt, ob man sie der Größe nach vergleichen kann und ob man sie addieren oder multiplizieren kann."
+    },
+    {
+     "abschnitt": "2.3",
+     "stelle": "§ 4.4, S. 32",
+     "aussage": "Da wir uns Wahrheit aber über Beweise erschließen wollen, sind die folgenden drei Begriffe wichtig; sie beschreiben, wie Wahrheit und Beweisbarkeit zueinander stehen können."
+    },
+    {
+     "abschnitt": "2.4",
+     "stelle": "§ 24.4, S. 180 f.",
+     "aussage": "Wenn ein formales System arithmetisch stark genug ist, um Gödelisierung zu ermöglichen, dann können wir Sätze formulieren, die Dinge sagen wie „ich habe diese oder jene Eigenschaft“."
+    },
+    {
+     "abschnitt": "2.5",
+     "stelle": "Thm. 25.5, S. 189",
+     "aussage": "Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
+    },
+    {
+     "abschnitt": "2.5",
+     "stelle": "§ 22.2, S. 163 f.",
+     "aussage": "Genau deshalb fordern wir die rekursive Axiomatisierbarkeit."
+    },
+    {
+     "abschnitt": "2.7",
+     "stelle": "Thm. 27.2, S. 199",
+     "aussage": "Keine Sprache, die stark genug ist, um einfache Arithmetik auszudrücken, kann ein Wahrheitsprädikat für ihre eigenen Sätze definieren, ohne in einen Widerspruch zu geraten."
+    },
+    {
+     "abschnitt": "2.8",
+     "stelle": "§ 41.1, S. 310",
+     "aussage": "Eine Turingmaschine besteht aus einem beidseitig unendlichen Band aus Zeichenfeldern, einem beweglichen Schreib- und Lesekopf, einer endlichen Menge innerer Zustände und einer endlichen Übergangstabelle, die zu jedem Paar aus gelesenem Zeichen und Zustand festlegt, welches Zeichen geschrieben, wohin der Kopf bewegt und in welchen Zustand gewechselt wird."
+    },
+    {
+     "abschnitt": "2.8",
+     "stelle": "Thm. 43.3, S. 329 f.",
+     "aussage": "Turing hat gezeigt, dass es eine solche Maschine nicht geben kann."
+    },
+    {
+     "abschnitt": "5.2",
+     "stelle": "§ 31.2, S. 234 f.",
+     "aussage": "Formal schreibt man $S_M \\vdash \\mathrm{Con}(S_M) \\to G_M$, in Worten: $S_M$ beweist „Wenn ich konsistent bin, dann gilt $G_M$.“"
+    },
+    {
+     "abschnitt": "5.2",
+     "stelle": "§ 31.3, S. 235 f.",
+     "aussage": "Drittens: $G_M$ selbst wird erst in der stärkeren Theorie $S_M + \\mathrm{Con}(S_M)$ beweisbar, in dem System, dem man seine eigene Konsistenz als zusätzliches Axiom mitgibt."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse P5"
+   ]
+  },
+  {
+   "id": "suppes1993transcendental",
+   "typ": "article",
+   "gruppe": "Determinismus und Willensfreiheit",
+   "autor": "Suppes, Patrick",
+   "jahr": "1993",
+   "titel": "The Transcendental Character of Determinism",
+   "untertitel": "",
+   "in": "Midwest Studies in Philosophy 18",
+   "seiten": "242–257",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1111/j.1475-4975.1993.tb00266.x",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "1.1"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "1.1",
+     "stelle": "S. 254",
+     "aussage": "Dennoch gilt dieses Dilemma bis heute als ungelöst, und der Determinismus gilt als weder beweis- noch widerlegbar."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "tarski1935wahrheitsbegriff",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Tarski, Alfred",
+   "jahr": "1935",
+   "titel": "Der Wahrheitsbegriff in den formalisierten Sprachen",
+   "untertitel": "",
+   "in": "Studia Philosophica 1",
+   "seiten": "261–405",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.7"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.7",
+     "stelle": "",
+     "aussage": "Das ist die alte Lügner-Paradoxie, und Tarskis Einsicht besteht darin, dass sie kein zufälliger Unfall ist, sondern eine prinzipielle Grenze markiert."
+    },
+    {
+     "abschnitt": "2.7",
+     "stelle": "",
+     "aussage": "Keine Sprache, die stark genug ist, um einfache Arithmetik auszudrücken, kann ein Wahrheitsprädikat für ihre eigenen Sätze definieren, ohne in einen Widerspruch zu geraten."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "tarski1951decision",
+   "typ": "book",
+   "gruppe": "Primärquellen",
+   "autor": "Tarski, Alfred",
+   "jahr": "1951",
+   "titel": "A Decision Method for Elementary Algebra and Geometry",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "University of California Press",
+   "ort": "Berkeley and Los Angeles",
+   "auflage": "2",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.6",
+     "stelle": "",
+     "aussage": "Jede Aussage, die sich in ihr formulieren lässt, ist entweder beweisbar oder widerlegbar."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse K1"
+   ]
+  },
+  {
+   "id": "tarski1957arithmetical",
+   "typ": "article",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Tarski, Alfred; Vaught, Robert L.",
+   "jahr": "1957",
+   "titel": "Arithmetical Extensions of Relational Systems",
+   "untertitel": "",
+   "in": "Compositio Mathematica 13 (2)",
+   "seiten": "81–102",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.6",
+     "stelle": "",
+     "aussage": "Zweitens legt selbst eine vollständige Theorie, die jede Frage ihrer Sprache entscheidet, die Trajektorie nicht bis auf Isomorphie fest."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "tegmark2000importance",
+   "typ": "article",
+   "gruppe": "Gödel-Rezeption (Philosophie des Geistes)",
+   "autor": "Tegmark, Max",
+   "jahr": "2000",
+   "titel": "Importance of quantum decoherence in brain processes",
+   "untertitel": "",
+   "in": "Physical Review E 61 (4)",
+   "seiten": "4194–4206",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1103/PhysRevE.61.4194",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.3"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.3",
+     "stelle": "",
+     "aussage": "Es ist nicht gezeigt, dass menschliche Einsicht echte, im Sinne Turings nicht berechenbare Funktionen verwendet, und erst recht nicht, dass die vermuteten Quantenprozesse im warmen Gehirn die dafür nötige Kohärenz, also die Stabilität ihrer empfindlichen Quantenzustände, überhaupt erreichen."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "teschl2012ordinary",
+   "typ": "book",
+   "gruppe": "Physik und Berechnung",
+   "autor": "Teschl, Gerald",
+   "jahr": "2012",
+   "titel": "Ordinary Differential Equations and Dynamical Systems",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "American Mathematical Society",
+   "ort": "Providence, RI",
+   "auflage": "",
+   "doi": "10.1090/gsm/140",
+   "url": "",
+   "isbn": "978-0-8218-8328-0",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.6",
+     "stelle": "S. 37",
+     "aussage": "Nichts kann beliebig steil werden."
+    },
+    {
+     "abschnitt": "4.6",
+     "stelle": "Thm. 2.2, S. 38",
+     "aussage": "Er handelt von Differentialgleichungen, also von Gesetzen, die angeben, wie sich ein Zustand von Augenblick zu Augenblick ändert, so wie man sie aus der Physik kennt."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse K4"
+   ]
+  },
+  {
+   "id": "turing1936computable",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Turing, Alan M.",
+   "jahr": "1936",
+   "titel": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+   "untertitel": "",
+   "in": "Proceedings of the London Mathematical Society 42 (1)",
+   "seiten": "230–265",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1112/plms/s2-42.1.230",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.8",
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.8",
+     "stelle": "S. 231 f.",
+     "aussage": "Um diese Frage präzise zu stellen, hat Alan Turing 1936 ein Gedankenmodell ersonnen, das seither seinen Namen trägt."
+    },
+    {
+     "abschnitt": "2.8",
+     "stelle": "§ 8, S. 246–248",
+     "aussage": "Turing hat gezeigt, dass es eine solche Maschine nicht geben kann."
+    },
+    {
+     "abschnitt": "4.6",
+     "stelle": "§ 6, S. 241",
+     "aussage": "Jeder gewöhnliche PC ist im Kern eine Turingmaschine,"
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse K2"
+   ]
+  },
+  {
+   "id": "turing1939ordinals",
+   "typ": "article",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Turing, Alan M.",
+   "jahr": "1939",
+   "titel": "Systems of Logic Based on Ordinals",
+   "untertitel": "",
+   "in": "Proceedings of the London Mathematical Society 45 (1)",
+   "seiten": "161–228",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1112/plms/s2-45.1.161",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.2"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.2",
+     "stelle": "",
+     "aussage": "Die Idee, der Geist könne sich durch immer stärkere Systeme hindurcharbeiten, lässt sich technisch präzise fassen: als eine Leiter von Theorien, bei der man auf jeder Stufe als neues Axiom hinzunimmt, dass die Stufe darunter in Ordnung ist (man spricht von Reflexionsprinzipien), und die man sogar über unendlich viele Stufen hinaus fortsetzen kann (eine sogenannte transfinite Progression)."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "turing1950computing",
+   "typ": "article",
+   "gruppe": "Primärquellen",
+   "autor": "Turing, Alan M.",
+   "jahr": "1950",
+   "titel": "Computing Machinery and Intelligence",
+   "untertitel": "",
+   "in": "Mind 59 (236)",
+   "seiten": "433–460",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.1093/mind/LIX.236.433",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "5.1"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 444 f.",
+     "aussage": "Eine einzige Sache, die die Maschine nicht kann und der Geist schon, genügt, um die Identität zu widerlegen."
+    },
+    {
+     "abschnitt": "5.1",
+     "stelle": "S. 454",
+     "aussage": "Ein System, das der Gödel-Frage nicht unterläge, wäre eben dadurch keine Turingmaschine, und damit hätte man, wie Lucas anmerkt, keinen Gegenstand geschaffen, sondern einen Geist."
+    }
+   ],
+   "verweise_anhang": []
+  },
+  {
+   "id": "weihrauch2000computable",
+   "typ": "book",
+   "gruppe": "Physik und Berechnung",
+   "autor": "Weihrauch, Klaus",
+   "jahr": "2000",
+   "titel": "Computable Analysis",
+   "untertitel": "An Introduction",
+   "in": "",
+   "seiten": "",
+   "verlag": "Springer",
+   "ort": "Berlin and Heidelberg",
+   "auflage": "",
+   "doi": "10.1007/978-3-642-56999-9",
+   "url": "",
+   "isbn": "978-3-540-66817-6",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.6"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.6",
+     "stelle": "Kap. 3–4",
+     "aussage": "Zu jedem Zustand nehmen wir nicht seine exakte, unendlich lange Kodierung, sondern einen „Namen“: eine Folge von immer genaueren, aber jeweils endlichen Näherungen, die mit einer festgelegten Geschwindigkeit gegen den Zustand streben."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse K3"
+   ]
+  },
+  {
+   "id": "whitehead1910principia",
+   "typ": "book",
+   "gruppe": "Primärquellen",
+   "autor": "Whitehead, Alfred North; Russell, Bertrand",
+   "jahr": "1910",
+   "titel": "Principia Mathematica",
+   "untertitel": "",
+   "in": "",
+   "seiten": "",
+   "verlag": "Cambridge University Press",
+   "ort": "Cambridge",
+   "auflage": "",
+   "doi": "",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "2.5"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "2.5",
+     "stelle": "Bd. 1, S. 104, *2·21",
+     "aussage": "Denn nach Russell gilt in der Logik, dass ein einziger Widerspruch, also die Beweisbarkeit einer Aussage und ihrer Negation, ausreicht, damit jede beliebige Aussage beweisbar wird."
+    }
+   ],
+   "verweise_anhang": []
+  }
+ ],
+ "praemissen": [
+  {
+   "id": "P1",
+   "gruppe": "Die Prämissen des Lucas-Arguments",
+   "name": "Maschine als formales System",
+   "gehalt": "Jede Maschine $M$ entspricht einem formalen System $S_M$, dessen beweisbare Aussagen (und nur diese) sie als wahr produzieren kann.",
+   "fundstellen": [
+    "5.1"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 113–115"
+    }
+   ]
+  },
+  {
+   "id": "P2",
+   "gruppe": "Die Prämissen des Lucas-Arguments",
+   "name": "Arithmetik",
+   "gehalt": "Der Geist beherrscht einfache Arithmetik.",
+   "fundstellen": [
+    "5.1",
+    "5.2",
+    "5.4"
+   ],
+   "einwand": "Es ist unklar, welcher Grad von Beherrschung (implizit oder explizit, fehlerfrei oder fehlbar) ausreichen soll; an dieser Stelle setzt Benacerraf an.",
+   "folge": "Ohne P2 folgt nicht, dass $S_M$ stark genug für Gödels ersten Satz ist (Zwischenkonklusion Z1).",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 113"
+    },
+    {
+     "id": "benacerraf1967god",
+     "stelle": ""
+    }
+   ]
+  },
+  {
+   "id": "P3",
+   "gruppe": "Die Prämissen des Lucas-Arguments",
+   "name": "Konsistenz",
+   "gehalt": "$S_M$ ist konsistent.",
+   "fundstellen": [
+    "5.1",
+    "5.2"
+   ],
+   "einwand": "Nach Gödels zweitem Satz kann das System seine eigene Konsistenz nicht beweisen; Putnam schlägt vor, der Mensch sei eine inkonsistente Maschine.",
+   "folge": "Ohne P3 greift der erste Unvollständigkeitssatz nicht, und die Einsicht in $G_M$ bleibt eine bloße Wenn-dann-Aussage.",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 120–124"
+    },
+    {
+     "id": "putnam1960minds",
+     "stelle": "S. 152 f."
+    }
+   ]
+  },
+  {
+   "id": "P4",
+   "gruppe": "Die Prämissen des Lucas-Arguments",
+   "name": "Rekursive Axiomatisierbarkeit",
+   "gehalt": "$S_M$ ist rekursiv axiomatisierbar.",
+   "fundstellen": [
+    "5.1"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 114"
+    }
+   ]
+  },
+  {
+   "id": "P5",
+   "gruppe": "Die Prämissen des Lucas-Arguments",
+   "name": "Einsicht in die Gödelformel",
+   "gehalt": "Der Geist kann, „außerhalb des Systems stehend“, einsehen, dass $G_M$ wahr ist.",
+   "fundstellen": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4"
+   ],
+   "einwand": "Die Einsicht ist nur bedingt: Gesehen wird, dass $G_M$ wahr ist, *falls* $S_M$ konsistent ist; das beweist $S_M$ selbst (Putnam, Benacerraf, Feferman).",
+   "folge": "Ohne P5 entfällt die Zwischenkonklusion Z3, dass $M$ etwas nicht leistet, was der Geist leistet.",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 113, 115"
+    },
+    {
+     "id": "putnam1960minds",
+     "stelle": "S. 152 f."
+    },
+    {
+     "id": "smith2013",
+     "stelle": "§ 31.2"
+    }
+   ]
+  },
+  {
+   "id": "P6",
+   "gruppe": "Die Prämissen des Lucas-Arguments",
+   "name": "Verschiedenheit",
+   "gehalt": "Wenn Geist und Maschine über grundsätzlich verschiedene Fähigkeiten verfügen, können sie nicht identisch sein.",
+   "fundstellen": [
+    "5.1"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": [
+    {
+     "id": "lucas1961minds",
+     "stelle": "S. 117–118"
+    }
+   ]
+  },
+  {
+   "id": "G1",
+   "gruppe": "Grundannahmen über Welt und Determinismus",
+   "name": "Determinismus als Arbeitsannahme",
+   "gehalt": "Was geschieht, musste genau so geschehen; es gab keine andere Möglichkeit. Der Determinismus wird in der Arbeit nicht verteidigt, sondern vorausgesetzt; im Modell des vierten Kapitels ist er durch die festen Übergangsregeln bereits entschieden. Die Arbeit fragt, was unter dieser Annahme gewusst werden kann; ob die Welt determiniert ist, lässt sie ausdrücklich offen (Abschnitt 6.3), zumal der Determinismus als weder beweis- noch widerlegbar gilt (Abschnitt 1.1).",
+   "fundstellen": [
+    "1.1",
+    "1.2",
+    "4.1",
+    "6.3"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": [
+    {
+     "id": "hoefer2023causal",
+     "stelle": "Abschn. 3"
+    }
+   ]
+  },
+  {
+   "id": "G2",
+   "gruppe": "Grundannahmen über Welt und Determinismus",
+   "name": "Wahre Beschreibungsebene",
+   "gehalt": "Es gibt eine wahre Beschreibungsebene, auf der Beschreibung und Geschehen zusammenfallen. Die Arbeit legt sich auf keine bestimmte physikalische Theorie fest.",
+   "fundstellen": [
+    "3.1",
+    "4.1"
+   ],
+   "einwand": "Ob physikalische Theorien jemals im strengen Sinn wahr sein können, ist eine eigene, offene Frage (Abschnitt 3.1).",
+   "folge": "",
+   "quellen": []
+  },
+  {
+   "id": "G3",
+   "gruppe": "Grundannahmen über Welt und Determinismus",
+   "name": "Der Dämon als systemimmanenter Regelvollzug",
+   "gehalt": "Der Dämon ist kein Beobachter, der dem Universum gegenübersteht, sondern der vollständige, unmittelbare Vollzug der Systemregeln selbst. Dies ist eine offen gesetzte Begriffsbestimmung (Definition des mechanistischen Determinismus in Abschnitt 3.4), keine Behauptung über die Welt.",
+   "fundstellen": [
+    "3.4",
+    "4.1",
+    "6.3"
+   ],
+   "einwand": "Die Definition baue unzulässig Erkenntnistheoretisches in ein ontologisches Konzept ein, weil von einer Maschine die Rede ist, die etwas „vorausberechnet“ (Abschnitt 3.4).",
+   "folge": "Ob die Gleichsetzung von Weltlauf und Regelvollzug trägt, hängt an den Modellprämissen M1 bis M8.",
+   "quellen": []
+  },
+  {
+   "id": "M1",
+   "gruppe": "Modellprämissen",
+   "name": "Beschreibbarkeit",
+   "gehalt": "Der Zustand des Universums lässt sich zu jedem Zeitpunkt exakt kodieren, zum Beispiel als Kette von Zeichen und damit als Kette aus Einsen und Nullen.",
+   "fundstellen": [
+    "4.1",
+    "4.7"
+   ],
+   "einwand": "Wer so viel voraussetzt, bekommt am Ende nur heraus, was er vorher hineingelegt hat (Abschnitt 4.7).",
+   "folge": "",
+   "quellen": []
+  },
+  {
+   "id": "M2",
+   "gruppe": "Modellprämissen",
+   "name": "Regelhaftigkeit",
+   "gehalt": "Die Zeichenkette verändert sich nach festen Regeln. Diese Gesetze bilden die „Physik“ des Systems; sie darf beliebig komplex und undurchsichtig sein.",
+   "fundstellen": [
+    "4.1",
+    "4.7"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": []
+  },
+  {
+   "id": "M3",
+   "gruppe": "Modellprämissen",
+   "name": "Selbstbeschreibende Komplexität",
+   "gehalt": "Das Universum ist so komplex, dass in ihm Teilsysteme vorkommen, nämlich Menschen und Computer, die über das Universum nachdenken und Sätze über es physisch aufschreiben.",
+   "fundstellen": [
+    "1.4",
+    "4.2",
+    "4.3",
+    "6.3"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": []
+  },
+  {
+   "id": "M4",
+   "gruppe": "Modellprämissen",
+   "name": "Eindeutige Schrift",
+   "gehalt": "Die physische Schrift ist eindeutig: Ein geschriebener Satz gehört zu genau einem Satz der Aussagenebene; die Einbettung der Aussagenebene in die Zustandsebene ist injektiv.",
+   "fundstellen": [
+    "4.3",
+    "4.7"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": []
+  },
+  {
+   "id": "M5",
+   "gruppe": "Modellprämissen",
+   "name": "Physikalische Church-Turing-These",
+   "gehalt": "Auch die physische Substitution, also das Schneiden und Zusammenfügen von Sätzen, ist Turing-berechenbar; in der Form des Fazits: Der Regelvollzug des Dämons lässt sich von einer Turingmaschine nachvollziehen. Diese Prämisse folgt nicht schon aus der Beschreibbarkeit M1.",
+   "fundstellen": [
+    "4.3",
+    "4.7",
+    "5.3",
+    "5.4",
+    "6.2",
+    "6.3"
+   ],
+   "einwand": "Penrose bestreitet genau diese Prämisse: Die Natur könnte nicht berechenbare Prozesse vollziehen (Abschnitt 5.3).",
+   "folge": "Die Welt kann dann vollkommen determiniert und trotzdem nicht berechenbar sein (Abschnitt 5.3).",
+   "quellen": [
+    {
+     "id": "deutsch1985quantum",
+     "stelle": "S. 99"
+    },
+    {
+     "id": "piccinini2025computation",
+     "stelle": "Abschn. 4.1"
+    },
+    {
+     "id": "penrose1994shadows",
+     "stelle": ""
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "gruppe": "Modellprämissen",
+   "name": "Ausdrückbarkeit der Beweisbarkeit",
+   "gehalt": "Auf der Aussagenebene steht ein Beweisbarkeitsprädikat zur Verfügung. Erst mit ihm wird aus dem physisch nachgebauten Diagonallemma ein Gödelsatz.",
+   "fundstellen": [
+    "4.3"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": []
+  },
+  {
+   "id": "M7",
+   "gruppe": "Modellprämissen",
+   "name": "Tokenisierbarkeit aller Metaebenen",
+   "gehalt": "Nicht nur die Aussagenebene, sondern auch alle ihre Metaebenen lassen sich zugleich physisch aufschreiben, samt einem Wahrheitsprädikat; was präzise genug formuliert ist, hat einen eindeutigen, formalen Gehalt.",
+   "fundstellen": [
+    "4.4"
+   ],
+   "einwand": "",
+   "folge": "Dann bleibt die Stufe darüber erhalten, auf die man sich nach Tarski rettet, und die Metaebenen stürzen nicht zusammen (Abschnitt 4.4).",
+   "quellen": []
+  },
+  {
+   "id": "M8",
+   "gruppe": "Modellprämissen",
+   "name": "Physische Realisierbarkeit des Gedankenexperiments",
+   "gehalt": "Das Gedankenexperiment mit Band und Schere, mit seinem unendlichen Band und unendlich vielen Zeitschritten, liegt noch im Rahmen der Physik und ist in endlich vielen Worten beschreibbar.",
+   "fundstellen": [
+    "4.7"
+   ],
+   "einwand": "Es könnte eine fundamentale Grenze der Informationsdichte geben, die gerade solche Sätze verhindert, die auf unendlichen Regressionen aufbauen (Abschnitt 4.7).",
+   "folge": "Der Gödelsatz auf dem Band ließe sich dann nicht bauen.",
+   "quellen": []
+  },
+  {
+   "id": "K1",
+   "gruppe": "Prämissen des kontinuierlichen Falls",
+   "name": "Kontinuum",
+   "gehalt": "Die Zeit ist kontinuierlich, zwischen zwei Zeitpunkten liegen immer unendlich viele weitere, und der Zustandsraum ist unendlich; die Zustände werden durch die reellen Zahlen beschrieben.",
+   "fundstellen": [
+    "4.5",
+    "4.6"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": [
+    {
+     "id": "tarski1951decision",
+     "stelle": ""
+    }
+   ]
+  },
+  {
+   "id": "K2",
+   "gruppe": "Prämissen des kontinuierlichen Falls",
+   "name": "Computer in der Welt",
+   "gehalt": "Die Physik des Universums kann das Verhalten einer Turingmaschine beschreiben, weil es Computer gibt, und holt damit auch deren Unvollständigkeiten in die Welt.",
+   "fundstellen": [
+    "4.6"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": [
+    {
+     "id": "turing1936computable",
+     "stelle": "§ 6"
+    }
+   ]
+  },
+  {
+   "id": "K3",
+   "gruppe": "Prämissen des kontinuierlichen Falls",
+   "name": "Metrik und Namen",
+   "gehalt": "Auf der Menge der Zustände ist eine Metrik festgelegt, und jeder Zustand wird durch einen „Namen“ angesprochen: eine Folge immer genauerer, jeweils endlicher Näherungen, die mit festgelegter Geschwindigkeit gegen ihn streben.",
+   "fundstellen": [
+    "4.6"
+   ],
+   "einwand": "",
+   "folge": "",
+   "quellen": [
+    {
+     "id": "weihrauch2000computable",
+     "stelle": "Kap. 3–4"
+    }
+   ]
+  },
+  {
+   "id": "K4",
+   "gruppe": "Prämissen des kontinuierlichen Falls",
+   "name": "Lipschitz-Bedingung",
+   "gehalt": "Die Physik stellt nur lipschitz-stetige Bedingungen an die Trajektorie. Der Text nennt diese Prämisse ausdrücklich bestreitbar.",
+   "fundstellen": [
+    "4.6",
+    "6.1"
+   ],
+   "einwand": "",
+   "folge": "Ohne sie liefert der Satz von Picard-Lindelöf weder die Eindeutigkeit der Trajektorie noch ihre algorithmische Annäherung.",
+   "quellen": [
+    {
+     "id": "teschl2012ordinary",
+     "stelle": "Thm. 2.2"
+    },
+    {
+     "id": "graca2009computability",
+     "stelle": ""
+    }
+   ]
+  },
+  {
+   "id": "K5",
+   "gruppe": "Prämissen des kontinuierlichen Falls",
+   "name": "Erststufigkeit",
+   "gehalt": "Die Theorie der Trajektorie ist eine erststufige Theorie mit einem unendlichen Modell; für die Aussage über die Anzahl der Zustände zusätzlich rekursiv axiomatisiert.",
+   "fundstellen": [
+    "4.6"
+   ],
+   "einwand": "",
+   "folge": "Für Theorien höherer Stufe gilt der Satz von Löwenheim-Skolem in dieser Form nicht.",
+   "quellen": [
+    {
+     "id": "ebbinghaus2018einfuehrung",
+     "stelle": "Kap. VI"
+    }
+   ]
+  }
+ ],
+ "glossar": [],
+ "prompts": [
+  {
+   "id": "2026-10-12-claude-anhang-und-webseite",
+   "titel": "Anhang, Quellen, Glossar und diese Webseite",
+   "datum": "2026-10-12",
+   "werkzeug": "Claude Code, Desktop-App (Claude Opus 5.5)",
+   "url": "https://claude.ai",
+   "verfasser": "Rouven Wieland",
+   "zweck": "Formale Überarbeitung des Anhangs (Theorem-Umgebungen, Prämissenverzeichnis, Glossar, Literaturverzeichnis und Fußnotenbelege) sowie Bau dieser Webseite. Ausdrücklich ohne Änderung am Wortlaut des Haupttexts.",
+   "ergebnis": "Theorem-Umgebungen „Satz“ und „Problem“, neu erstelltes Prämissenverzeichnis und Glossar, geprüfte Quellenbelege, QR-Code im Anhang und diese Webseite. Der Haupttext wurde nicht umformuliert; Rückmeldungen zur Schlüssigkeit kamen nur als Feedback.",
+   "reihenfolge": 1,
+   "zitierweise": "https://claude.ai prompted by Rouven Wieland, 12.10.2026, siehe Prompt 1",
+   "teile": [
+    {
+     "titel": "Prompt 1",
+     "markdown": "Also, ich habe jetzt eine Vielzahl von Aufgaben für dich. Es wird ein recht langer Prompt. Ich möchte, dass du einfachere Aufgaben, dass du erstmal das planst, unterteilst, äh, orchestrierst und dann einfachere Aufgaben an einfach, äh, Sub-Agents in einem einfacheren äh, kleineren Modell weitergibst, ähm, um Tokens zu sparen. Aber nur in dem Rahmen, dass du sicher bist, dass du die Aufgaben auch optimal perfekt ausführen weil wir hier keine Fehlertoleranz haben. Okay? Ähm, jetzt kommen die äh, Abteile. Also, als erstes kannst du dir das mal bitte angucken. Äh, ich habe diesen Ordner hier und bei GitHub habe ich noch ein Repo, das ist gleich nah. Kannst du dir alles angucken. Dann kannst du ins Vault gehen. Ins äh, Obsidian Vault und dir das angucken. Wichtig, der Haupttext Das heißt, Seiten zwischen, zwischen Inhaltsverzeichnis und Prämissenverzeichnis. Der Haupttext, der steht felsenfest, okay? Daran wird nichts geändert. Ist das klar? Also, ähm, als erstes, gehst du einmal drüber und guckst dir an, ob rein formal ähm, weiß ich, dass bei ein, zwei Sätzen oben Definitionen steht. Da soll aber nicht Definition stehen, sondern halt Satz. Also von der Umgebung her. Das heißt, du guckst dir das an und ähm, baust dann quasi einen Satz Theorem in LaTeX, in Präambeln oder wie auch immer du, ich glaube, du checkst die äh, die Struktur des Projekts und da setzt das dann quasi die Definition um, also die Umgebung Definition des Theorem Definition durch ähm, also Theorem Umgebung LaTeX durch einen Satz das ist ja Sätze sind. Okay. Als nächstes baust du den kompletten Glossar und verbesserst das Prämissenverzeichnis. Was Prämissenverzeichnis wird, glaube ich, relativ klar. Beschränke dich dabei also liest den Text genau und nimm nur die Prämissen die auch wirklich im Inhalt des Textes vorkommen nochmal den Text nicht verändern sondern das Prämissenverzeichnis einfach angeglichen an den Text erstellen und optimieren Der Glossar soll wirklich jedes Wort, was nicht trivial ist, besonders die mathematischen Fachwörter, enthalten, mit einer ausführlichen und korrekten Erklärung sowie einer dazugehörigen Quelle. Okay. Das ist das eine. Dann sollst du alle Quellen Also das Quellenverzeichnis vollständig machen. Was meine ich damit? Du sollst dir den Text durchlesen und alles, was zu belegen ist daran, ähm, wir nehmen ähm, die, die, die beste Quelle im Internet raussuchen, am besten irgendeinen Text, ein Buch, den du ins Literaturverzeichnis packen kannst, den dann mit äh, Centauro Zotero, ich habe ich hab da so einen so einen Programm für, ähm, sollst du sollst du das da in meiner BLL Bibliothek BLL-Bibliothek speichern und ins Literaturverzeichnis packen. Und dann halt die, die Quellenbezüge perfekt überarbeiten. Auch Quellenbezüge im Glossar, ne? Also der Glossar soll auch ähm, mit Quellen gedeckt sein. Und alles, was mit Quellen gedeckt sein muss, in der Arbeit, ähm, sollst du dann ebenso umsetzen, dass es halt mit Quellen also dass es dass da dann eine kleine Eins ist mit der Quelle wo das herkommt und das prüfst du bitte also da prüfst du bitte dass das wirklich korrekt ist und da keine keine Fehler unterlaufen also da da wirklich keine Fehler ähm, und äh, Diese drei Dinger, Prämissenverzeichnis, Glossar und Literaturverzeichnis bzw. Quellen, sollen tatsächlich im, ähm, im, äh, im Dokument selber liegen, im Anhang. Mhm. Ähm, wie du sicherlich weißt, soll ich aber ein, auch ein Prompt-Verzeichnis ähm, mitgeben. Deswegen habe ich eine Webseite erstellt dafür. Ähm, die Webseite, da schicke ich dir mal den Link. und den Prompt, den ich wiederum DeepSeek gegeben habe, um das zu erstellen. Du sollst diese Webseite jetzt nehmen, ähm, mit den Sachen, die du dann schon hast, das heißt Quellen, Prämissen, Erklärung, ausfüllen und gegebenenfalls dich darauf vorbereiten, dass ich dir in, in Markdown-Dateien die Prompts aller vergangener Chats gebe. Du kannst auch schon mal die Prompts, die du schon hast, das heißt aus diesem Chat und aus dem anderen Chat, von dem ich dir den Prompt ja schicke, mit einpflegen. Diese Webseite, die ist ja von Mainz Hub Cowork. Die wirst du sicherlich nicht bearbeiten können, weil dir da die Berechtigung fehlen. Das heißt, du launchst eine neue Seite. Das gerne auch im GitHub festhalten, den Code dahingehend. Du launchst eine neue Seite. Wie du das machst, ist egal, aber sie soll kostenlos sein und äh, öffentlich erreichbar. Und ich habe dir gestern einige neue Fähigkeiten durch Skills und Plugins etc. gegeben, mit denen du Webdesign machen kannst. Diese Webseite soll der absolute Kracher sein, okay? Also es soll wirklich eine richtig geile Webseite sein. Ähm, am besten hier mit diesen Cinematic-Übergängen, dass da viele Animationen, Bewegungen drin sind. Es soll natürlich nicht Overkill sein, aber es soll schon beeindruckend sein, wie diese krassen Webseiten, die man auf Instagram manchmal sieht. Also es soll wirklich Eindruck schinden. Es soll natürlich alles irgendwie thematisch passen, aber Sei kreativ, bau da wirklich was, was einen umhaut. Einfach nur für die Coolness. Und was du dann machst, ist, dass du ähm, diese diese Dinger, äh, diesen, diese Webseite als QR-Code ganz unten vor der Selbstständigkeitserklärung im Anhang printest per Ticks oder so, dass du, also dass, dass man einen QR-Code einfach unten auf Papier scannen kann und dann auf diese Seite kommt. Natürlich, als allerletztes. Du änderst nichts am Text, aber bitte geh einmal drüber, prüf das Ganze auf Kohärenz, Logik und Schlüssigkeit. Sei dabei nicht zu sehr biased von dem, was quasi als Grundlagenwissen im Vault steht. Da gibt es einiges, mit dem ich äh, im Vault steht. Da gibt es einiges, mit dem ich nicht ganz zufrieden bin. Okay? Sondern prüf das einfach mal auf innige Schlüssigkeit, ob das, ob das wirklich Sinn macht und gib mir dazu Feedback. Aber wie gesagt, nichts ändern. Auf gar keinen Fall irgendwas eigenständig ändern am Haupttext. So, jetzt schicke ich dir einmal den Prompt und die URL der Webseite, sodass du dir schon mal angucken kannst, wie das da gebaut wurde.\n\nhttps://view.mindshub.ai/view/1548b9dd3/284b2506\n\n*[Hier folgte der vollständige Verlauf des MindsHub-Chats; dessen Prompts sind als eigener Eintrag dokumentiert.]*\n\nAlso das war jetzt der gesamte Chatverlauf im Chat bei DeepSeed, der dieses, ähm, der diese Webseite erstellt hat. Nur damit du das weißt. Bitte sei bei denen sehr, alle denen sehr gewissenhaft. Ähm, und wenn mir diese Arbeit wirklich wichtig ist und ja, am Ende sortiere bitte, räume alles auf und mal im, im Repo und im Ordner, damit es wirklich gut übergabefähig ist, damit wir nur noch einen Feinschliff machen müssen, wenn es dann fertig ist. Alles verstanden. Im Zweifel stell mir lieber Rückfragen, bevor du irgendetwas eigenmächtig entscheidest, weil es echt wichtig ist, dass wir hier keine Fehler machen. Stell mir im Zweifel Fragen, bevor du irgendwas eigenmächtig entscheidest."
+    },
+    {
+     "titel": "Antworten auf Rückfragen",
+     "markdown": "- Welche Umgebungen werden „Satz“? → Diagonallemma, erster und zweiter Unvollständigkeitssatz, Tarskis Undefinierbarkeitssatz als „Satz“; Halteproblem als „Problem“; gemeinsame Nummerierung.\n- Dürfen Fußnotenbelege im Haupttext ergänzt und schwache Belege ausgetauscht werden? → Ja, ergänzen und austauschen, ohne ein Wort des Texts zu ändern.\n- Zotero-Sammlung → „BLL Gödel & Determinismus“.\n- Hosting der Webseite → GitHub Pages in einem neuen öffentlichen Repository."
+    }
+   ]
+  },
+  {
+   "id": "offen-mindshub-webseite",
+   "titel": "Erste Fassung der Prompt- und Quellenwebseite",
+   "datum": "offen",
+   "werkzeug": "MindsHub Cowork",
+   "url": "https://mindshub.ai",
+   "verfasser": "Rouven Wieland",
+   "zweck": "Entwurf einer Webseite, auf der Prompts, Quellen, Prämissen und Erklärungen zur BLL gesammelt werden.",
+   "ergebnis": "Eine erste Webseite (view.mindshub.ai) mit Beispielinhalten. Sie diente nur als Entwurf; die endgültige Seite wurde später neu gebaut. In den Text der Arbeit ist nichts aus diesem Chat eingegangen.",
+   "reihenfolge": 1,
+   "zitierweise": "https://mindshub.ai prompted by Rouven Wieland, Datum folgt, siehe Prompt 1–3",
+   "teile": [
+    {
+     "titel": "Prompt 1",
+     "markdown": "Ja ich muss für meine BLL ja alle meine Prompts, die ich benutzt habe, by the way, und meine Literaturquellen etc. in ein gesamtes Verzeichnis darlegen. Mein Plan war jetzt einfach, die Prompts nicht einfach alle in das Dokument zu klatschen, sondern eine Webseite zu launchen, auf der man alle Quellen, alle Prämissen, alle Erklärungen und die Prompts einfach sauber strukturiert einsehen kann und das auch schön aussieht. So ein bisschen playful, dass man sich das angucken kann und alles sauber gelistet ist, vielleicht mit den Textausschnitten. Alles sehr hübsch und ansehnlich, sodass man dann einen QR-Code für die Webseite im Dokument scannen kann und dann zu dieser Webseite kommt.\n\nIch möchte jetzt, dass du diese Webseite erstellst. Der Plan ist, dass die Quellen und Prämissen dann nach und nach hochgeladen werden. Vielleicht werden teilweise Bilder verwendet, vielleicht werden ja Bilder mit rein, aber hauptsächlich als Markdown-Dateien auch für die Prompts. Du verarbeitest die dann immer weiter rein. Ich möchte, dass du jetzt erst mal die Seite launchst, damit sie schon mal fertig ist und damit weitergearbeitet werden kann. Dazu noch zu sagen: Natürlich soll die Webseite erstens schön sein, aber auch zweitens kostenlos. Ich möchte mit irgendeinem Gratisanbieter diese Seite launchen."
+    },
+    {
+     "titel": "Antworten auf Rückfragen",
+     "markdown": "- Wie sollen später neue Inhalte auf die Seite kommen? → „Ohne eigene Upload-Funktion – Inhalte liegen als Dateien im Projekt und werden mir/ihm übergeben“\n- Vorschlag zum Aufbau der Seite → „Accept“"
+    },
+    {
+     "titel": "Prompt 2",
+     "markdown": "Okay ich habe noch relativ große Kritikpunkte seite: Ganz im Stil, da sollst du dich bitte an der Dokumentationsseite von MindsHub orientieren. Ich stelle die URL gleich rein. Die Farben, diese abgerundeten Ecken, das Design einfach so ein bisschen übernehmen. Vielleicht noch ein bisschen mehr Grün, auch ein bisschen Rot und Farbunterscheidung, alles aber in ein bisschen gedämpften Tonen, so halt wie bei MindsHub.\n\nIch möchte, dass die verschiedenen Abteile unterschiedliche Tabs sind und dass es ein sehr flüssiges Ding ist, mit Sachen, die reinsliden und rausleiten. Wenn man mit dem Cursor auf einem z.B. Prompt oder einer Quelle ist, sollen die sich ein bisschen hervorheben. Also ein bisschen dynamischer, ein bisschen futuristischer und schöner. Alles sehr flüssig und, wie gesagt, interaktiv, sodass das alleine das Scrollen schon das Bild verändert und wo man gerade drübergeht, das dann hervorgehoben wird. https://docs.mindshub.ai/ zur orientiereung beim design"
+    },
+    {
+     "titel": "Prompt 3",
+     "markdown": "Diese Seiten, die du programmiert hast, finde ich super gut. Ich würde sie jetzt gerne online stellen und, wenn das irgendwie geht, als MCP-Server einrichten, sodass du auf die bereits online stehende Seite immer noch Sachen hinzufügen kannst. Falls ich dann in dem Prozess immer noch neue Prompts hinzufügen kann, sodass es aber schon mal online steht, was gibt es da so für Optionen?\n\nIm Zweifel, wenn es irgendwie mit dem MCP-Server nicht geht, könnten wir das gerne, wenn es den Workflow erleichtert, über GitHub online stellen. Ich möchte einfach nur, dass es eine native Webseite gibt, die man mit einem QR-Code erreichen kann, und ich kann dann den QR-Code in mein Dokument machen."
+    }
+   ]
+  }
+ ]
+}

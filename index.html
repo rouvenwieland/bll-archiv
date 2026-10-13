@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080D18">
+  <meta name="color-scheme" content="dark">
+  <title>Gödel &amp; Determinismus · Digitaler Anhang</title>
+  <meta name="description" content="Digitaler Anhang zur Besonderen Lernleistung „Die Gödelschen Unvollständigkeitssätze und der epistemische Determinismus“ von Rouven Wieland: Quellen, Prämissen, Glossar und KI-Prompts.">
+  <meta property="og:title" content="Gödel &amp; Determinismus · Digitaler Anhang">
+  <meta property="og:description" content="Quellen, Prämissen, Glossar und KI-Prompts zur Besonderen Lernleistung von Rouven Wieland.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!reduce) d.classList.add('cine', 'motion');
+      if (/^#\/[a-z]/.test(location.hash)) d.classList.add('deeplink');
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" integrity="sha384-B2WBjDzEjJpYvhmi2UyEn7rektqkf5suS6sNoyyrf0EBAwBHdkiXxIlU0V5Ru2ed" crossorigin="anonymous"></script>
+  <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#archiv">Direkt zum Archiv</a>
+
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <div class="preloader__cells"><span>0</span><span>1</span><span>0</span><span>0</span><span>1</span><span>1</span><span>0</span><span>1</span></div>
+      <div class="preloader__bar"><i></i></div>
+      <span class="mono-label">anhang wird geladen</span>
+    </div>
+  </div>
+
+  <canvas class="stars" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#start" data-scrolltop aria-label="Zum Anfang">
+      <span class="brand__cell" aria-hidden="true">g</span>
+      <span class="brand__txt">bll <span>· digitaler anhang</span></span>
+    </a>
+    <div class="topbar__actions">
+      <button class="btn btn--icon btn--ghost" type="button" data-action="search" aria-label="Archiv durchsuchen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+      </button>
+      <a class="btn btn--accent" href="#/ueberblick">Archiv</a>
+    </div>
+    <div class="progress" aria-hidden="true"><i></i></div>
+  </header>
+
+  <main id="start">
+    <!-- 1 · Hero + Kosmos ------------------------------------------------ -->
+    <section class="stage" aria-labelledby="hero-title">
+      <div class="stage__pin">
+        <div class="hero">
+          <div class="hero__inner">
+            <p class="hero__kicker mono-label" data-hero-kicker>
+              <span data-meta="art">Besondere Lernleistung</span>
+              <span data-meta="fach">Philosophie</span>
+            </p>
+            <h1 class="hero__title" id="hero-title" data-meta="titel">Die Gödelschen Unvollständigkeitssätze und der epistemische Determinismus</h1>
+            <div class="hero__sub" data-hero-sub>
+              <span class="hero__sub-lead">Digitaler Anhang</span>
+              <a class="abteil-link abteil-link--quellen" href="#/quellen">Quellen</a>
+              <a class="abteil-link abteil-link--praemissen" href="#/praemissen">Prämissen</a>
+              <a class="abteil-link abteil-link--glossar" href="#/glossar">Glossar</a>
+              <a class="abteil-link abteil-link--prompts" href="#/prompts">Prompts</a>
+            </div>
+            <p class="hero__meta" data-hero-meta>
+              <span><strong data-meta="autor">Rouven Wieland</strong></span>
+              <span data-meta="schule">Andreas-Gymnasium Berlin</span>
+              <span>Stand <time data-meta="stand"></time></span>
+            </p>
+          </div>
+
+          <div class="tape" aria-hidden="true">
+            <div class="tape__viewport"><div class="tape__track"></div></div>
+            <div class="tape__focus"></div>
+            <div class="tape__head">
+              <div class="tape__state">q<sub>3</sub></div>
+              <div class="tape__stem"></div>
+              <div class="tape__tip"></div>
+            </div>
+          </div>
+
+          <div class="hero__foot" data-hero-foot>
+            <span class="cue mono-label" aria-hidden="true"><span class="cue__line"></span>scrollen</span>
+            <a class="btn btn--sm" href="#/ueberblick">Direkt zum Archiv
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <figure class="cosmos plate">
+          <div class="cosmos__frame">
+            <img src="assets/img/01-turingmaschine-universum-1600.webp"
+                 srcset="assets/img/01-turingmaschine-universum-960.webp 960w, assets/img/01-turingmaschine-universum-1600.webp 1600w, assets/img/01-turingmaschine-universum-2400.webp 2400w"
+                 sizes="(max-width: 767px) 215vw, 94vw"
+                 width="2932" height="1644" decoding="async"
+                 alt="Zeichnung im Kupferstich-Stil: Eine Turingmaschine mit Lese- und Schreibkopf im Zustand q3; ihr Band aus Nullen und Einsen windet sich hinaus ins All und löst sich zwischen Spiralgalaxien in einzelne Zellen auf.">
+          </div>
+          <p class="cosmos__readout mono-label" aria-hidden="true">band · zelle <span data-readout>000 000</span> · zustand q₃</p>
+          <figcaption class="plate__cap">
+            <span class="mono-label">turingmaschine · band ins all</span>
+            <span class="mono-label">zeichnung: <span data-meta="autor">Rouven Wieland</span></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 2 · Selbstbezug -------------------------------------------------- -->
+    <section class="scene selfref" id="selbstbezug" aria-labelledby="selfref-title">
+      <div class="scene__inner">
+        <p class="scene__label mono-label">selbstbezug · illustration</p>
+        <h2 class="sr-only" id="selfref-title">Dieser Satz ist nicht beweisbar.</h2>
+        <p class="selfref__sentence" aria-hidden="true"><span class="selfref__quote">„</span><span data-typed>Dieser Satz ist nicht beweisbar.</span><span class="selfref__caret"></span><span class="selfref__quote">“</span></p>
+        <div class="code-cells" data-cells aria-hidden="true"></div>
+        <div class="goedel" aria-hidden="true">
+          <div class="goedel__chain" data-chain></div>
+          <div class="goedel__num" data-num></div>
+        </div>
+        <p class="disclaimer"><strong>Illustration, keine echte Gödelnummer.</strong> Kodiert wird hier nur spielerisch: Jedes Zeichen wird durch seinen Unicode-Codepunkt c<sub>i</sub> ersetzt und die Folge als Produkt von Primzahlpotenzen 2<sup>c₁</sup>·3<sup>c₂</sup>·5<sup>c₃</sup>·… geschrieben.</p>
+      </div>
+    </section>
+
+    <!-- Zwischenspiel · Schere ------------------------------------------- -->
+    <section class="interlude splice" aria-label="Zeichnung: Band und Scheren">
+      <div class="scene__inner">
+        <figure class="plate">
+          <div class="plate__media splice__stack">
+            <img class="splice__a" src="assets/img/02-band-schere-schnipsel-1600.webp"
+                 srcset="assets/img/02-band-schere-schnipsel-960.webp 960w, assets/img/02-band-schere-schnipsel-1600.webp 1600w, assets/img/02-band-schere-schnipsel-2400.webp 2400w"
+                 sizes="(max-width: 767px) 132vw, 1180px" width="2434" height="1550" loading="lazy" decoding="async"
+                 alt="Zeichnung im Kupferstich-Stil: Ein beschriftetes Band wird von zwei Scheren zerschnitten; ein ausgeschnittener Schnipsel wird an anderer Stelle wieder eingesetzt.">
+            <img class="splice__b" src="assets/img/02-band-schere-schnipsel-1600.webp"
+                 srcset="assets/img/02-band-schere-schnipsel-960.webp 960w, assets/img/02-band-schere-schnipsel-1600.webp 1600w, assets/img/02-band-schere-schnipsel-2400.webp 2400w"
+                 sizes="(max-width: 767px) 132vw, 1180px" width="2434" height="1550" loading="lazy" decoding="async" alt="" aria-hidden="true">
+            <svg class="splice__seam" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="60.25" y1="0" x2="47.25" y2="100"/></svg>
+          </div>
+          <figcaption class="plate__cap">
+            <span class="mono-label">band · schere · schnipsel</span>
+            <span class="mono-label">zeichnung: <span data-meta="autor">Rouven Wieland</span></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3 · Gliederung --------------------------------------------------- -->
+    <section class="scene chapters" id="gliederung" aria-labelledby="chapters-title" hidden>
+      <div class="chapters__pin">
+        <div class="scene__inner chapters__head">
+          <p class="scene__label mono-label">gliederung · kapitel und abschnitte</p>
+          <h2 class="scene__title" id="chapters-title">Der Gang <em>der Arbeit</em></h2>
+          <p class="chapters__lead">Abschnitte mit Einträgen im Archiv sind verlinkt.</p>
+        </div>
+        <div class="chapters__track" data-chapters></div>
+        <div class="chapters__meter" data-meter aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- Zwischenspiel · Dämon -------------------------------------------- -->
+    <section class="interlude demon" aria-label="Zeichnung: Laplacescher Dämon">
+      <div class="scene__inner">
+        <figure class="plate">
+          <div class="plate__media demon__media">
+            <img src="assets/img/03-daemon-flaches-universum-1600.webp"
+                 srcset="assets/img/03-daemon-flaches-universum-960.webp 960w, assets/img/03-daemon-flaches-universum-1600.webp 1600w, assets/img/03-daemon-flaches-universum-2400.webp 2400w"
+                 sizes="(max-width: 767px) 128vw, 1180px" width="2457" height="1441" loading="lazy" decoding="async"
+                 alt="Zeichnung im Kupferstich-Stil: Ein kleiner gehörnter Dämon mit Fledermausflügeln und Dreizack zeigt grinsend auf ein flaches, scheibenförmiges Universum voller Spiralgalaxien.">
+          </div>
+          <figcaption class="plate__cap">
+            <span class="mono-label">laplacescher dämon · flaches universum</span>
+            <span class="mono-label">zeichnung: <span data-meta="autor">Rouven Wieland</span></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 4 · Archiv ------------------------------------------------------- -->
+    <section class="archive" id="archiv" aria-labelledby="archive-title">
+      <div class="scene__inner archive__head">
+        <p class="scene__label mono-label">archiv · quellen · prämissen · glossar · prompts</p>
+        <h2 class="scene__title" id="archive-title">Das <em>Archiv</em></h2>
+        <p class="archive__lead" data-meta="hinweis"></p>
+      </div>
+
+      <div class="archive__sentinel" aria-hidden="true"></div>
+      <div class="archive__bar">
+        <div class="archive__bar-inner">
+          <form class="search" role="search" data-search onsubmit="return false">
+            <label class="sr-only" for="q">Alle Abteile durchsuchen</label>
+            <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+            <input id="q" type="search" placeholder="Suchen: Autor, Begriff, Prämisse …" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="search" aria-describedby="q-hint">
+            <span class="search__kbd" aria-hidden="true">/</span>
+            <button class="search__clear" type="button" data-clear hidden aria-label="Suche leeren">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+            </button>
+            <span class="sr-only" id="q-hint">Die Suche filtert alle Abteile gleichzeitig. Taste Schrägstrich fokussiert die Suche, Escape leert sie.</span>
+          </form>
+          <div class="tabs-wrap">
+            <div class="tabs" role="tablist" aria-label="Abteile des Archivs" data-tabs>
+              <span class="tabs__ind" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panels" data-panels>
+        <div class="skeleton" data-skeleton aria-hidden="true"><i></i><i></i><i></i></div>
+        <noscript><p class="noscript">Das Archiv benötigt JavaScript. Die Rohdaten liegen unter <a href="data/site.json">data/site.json</a>.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__tape" aria-hidden="true"><span>…</span><span>0</span><span>1</span><span>1</span><span>0</span><span>1</span><span>0</span><span>0</span><span>1</span><span>…</span></div>
+      <p class="footer__title" data-meta="titel">Die Gödelschen Unvollständigkeitssätze und der epistemische Determinismus</p>
+      <p class="footer__note" data-meta="hinweis"></p>
+      <div class="footer__row">
+        <a class="btn btn--sm" href="https://github.com/rouvenwieland/bll-archiv" rel="noopener" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          Quelltext auf GitHub
+        </a>
+        <a class="btn btn--sm btn--ghost" href="#start" data-scrolltop>Nach oben
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+        </a>
+      </div>
+      <p class="footer__small">
+        <span>Stand <time data-meta="stand"></time></span>
+        <span><span data-meta="autor">Rouven Wieland</span> · <span data-meta="schule">Andreas-Gymnasium Berlin</span></span>
+        <span>Zeichnungen: <span data-meta="autor">Rouven Wieland</span></span>
+      </p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+</body>
+</html>

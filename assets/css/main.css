@@ -812,6 +812,39 @@ html.cine .selfref { padding: calc(var(--topbar-h) + var(--safe-t) + 12px) 0 24p
   .interlude.demon .plate__media { width: 110vw; margin-left: calc(50% - 57vw); }
 }
 
+/* --- Standbilder: Wendeltreppe, Zusammensturz, Filmrolle --------------- */
+.still .scene__label { justify-content: center; text-align: center; margin-bottom: 18px; }
+.still__media { position: relative; }
+.still__quote {
+  margin: 18px auto 0;
+  max-width: 62ch;
+  text-align: center;
+  font-family: var(--f-serif);
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.7vw, 1.3rem);
+  line-height: 1.45;
+  color: var(--t2);
+  text-wrap: balance;
+}
+.still__quote .ref { font-style: normal; white-space: nowrap; }
+.still__note { margin: 8px auto 0; max-width: 60ch; text-align: center; font-size: 0.8125rem; line-height: 1.5; color: var(--t3); }
+.still .plate__cap { justify-content: center; }
+.still__readout { display: none; }
+.still__band { position: absolute; inset: 0; will-change: transform; }
+.still__band img { width: 100%; height: auto; }
+html.cine .still__readout {
+  display: block;
+  position: absolute;
+  right: 3%;
+  bottom: 4%;
+  color: var(--t3);
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 767px) {
+  .interlude.still .plate__media { width: 112vw; margin-left: calc(50% - 56vw); }
+  html.cine .still__readout { right: calc(6vw + 16px); bottom: 1%; }
+}
+
 /* --- 2b · Schere und Band ----------------------------------------------- */
 .cut { padding: 12vh 0; }
 .cut__head { margin-bottom: 22px; }

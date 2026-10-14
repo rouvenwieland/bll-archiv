@@ -29,6 +29,7 @@ export function initMotion({ stars, tape, selfref, traj }) {
       cutScene(gsap, ScrollTrigger, mobile),
       chaptersScene(gsap, mobile),
       demonScene(gsap, ScrollTrigger, mobile, traj),
+      stillScenes(gsap),
     ];
     return () => cleanups.forEach((f) => typeof f === 'function' && f());
   });
@@ -355,6 +356,68 @@ function demonScene(gsap, ScrollTrigger, mobile, traj) {
     .fromTo(cap, { autoAlpha: 0, y: 12 }, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.86)
     .to({}, { duration: 0.06 }, 0.94);
   return () => { sec.classList.remove('is-live'); traj?.complete(); gsap.set([media, cap], { clearProps: 'all' }); };
+}
+
+/* ---------- Standbilder: Treppe, Zusammensturz, Filmrolle ------------- */
+// Treppe: wird von unten nach oben aufgedeckt. Zusammensturz: die Zeichnung
+// in waagerechte Bänder zerlegt, die von oben in ihre Lage fallen.
+// Filmrolle: der Streifen läuft seitlich, ein Zähler nummeriert die Bilder.
+const FALL_BANDS = [0, 30, 50, 68, 100]; // Bandgrenzen in % der Bildhöhe
+
+function stillScenes(gsap) {
+  const tweens = [];
+  const undo = [];
+  const st = (trigger, extra = {}) => ({ trigger, start: 'top 85%', end: 'bottom 40%', scrub: 0.6, invalidateOnRefresh: true, ...extra });
+
+  const climb = $('[data-still="climb"]');
+  if (climb) {
+    tweens.push(gsap.fromTo(climb, { clipPath: 'inset(100% 0% 0% 0%)' },
+      { clipPath: 'inset(0% 0% 0% 0%)', ease: 'none', scrollTrigger: st(climb, { end: 'bottom 55%' }) }));
+    undo.push(() => gsap.set(climb, { clearProps: 'clipPath' }));
+  }
+
+  const fall = $('[data-still="fall"]');
+  const base = fall && $('img', fall);
+  if (fall && base) {
+    const n = FALL_BANDS.length - 1;
+    const bands = [];
+    for (let i = 0; i < n; i++) {
+      const top = Math.max(0, FALL_BANDS[i] - 0.3);
+      const bottom = 100 - FALL_BANDS[i + 1];
+      const band = document.createElement('div');
+      band.className = 'still__band';
+      band.setAttribute('aria-hidden', 'true');
+      band.style.clipPath = `inset(${top}% 0% ${bottom}% 0%)`;
+      const img = base.cloneNode(true);
+      img.alt = '';
+      band.appendChild(img);
+      fall.appendChild(band);
+      bands.push(band);
+    }
+    base.style.visibility = 'hidden';
+    const tl = gsap.timeline({ scrollTrigger: st(fall, { start: 'top 80%', end: 'center 45%' }) });
+    bands.forEach((b, i) => {
+      const lift = (n - i) * 5.5;
+      tl.fromTo(b, { yPercent: -lift, rotation: (i % 2 ? 1 : -1) * 1.6, autoAlpha: 0.35 },
+        { yPercent: 0, rotation: 0, autoAlpha: 1, ease: 'power2.in', duration: 1 }, (n - 1 - i) * 0.18);
+    });
+    tweens.push(tl);
+    undo.push(() => { bands.forEach((b) => b.remove()); base.style.visibility = ''; });
+  }
+
+  const reel = $('[data-still="reel"]');
+  const strip = reel && $('img', reel);
+  const frame = reel && $('[data-frame]', reel);
+  if (reel && strip) {
+    tweens.push(gsap.fromTo(strip, { xPercent: 4 }, {
+      xPercent: -4, ease: 'none',
+      scrollTrigger: st(reel, { start: 'top bottom', end: 'bottom top',
+        onUpdate(self) { if (frame) frame.textContent = String(1 + Math.round(self.progress * 2399)).padStart(4, '0'); } }),
+    }));
+    undo.push(() => { gsap.set(strip, { clearProps: 'transform' }); if (frame) frame.textContent = '0001'; });
+  }
+
+  return () => { tweens.forEach((t) => { t.scrollTrigger?.kill(); t.kill(); }); undo.forEach((f) => f()); };
 }
 
 /* ---------- Preloader + Hero-Auftritt --------------------------------- */

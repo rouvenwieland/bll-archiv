@@ -5,7 +5,7 @@ import { $, $$, wait } from './util.js';
 const HEAD = { x: 0.302, y: 0.70 }; // Spitze des Lesekopfs in Abbildung 1
 const CELL_REL = 0.0273;            // Zellenbreite des gezeichneten Bandes relativ zur Bildbreite
 
-export function initMotion({ stars, tape, selfref }) {
+export function initMotion({ stars, tape, selfref, traj }) {
   const { gsap, ScrollTrigger } = window;
   if (!gsap || !ScrollTrigger) throw new Error('GSAP nicht verfügbar');
   gsap.registerPlugin(ScrollTrigger);
@@ -24,10 +24,11 @@ export function initMotion({ stars, tape, selfref }) {
     const mobile = !!c.conditions.mobile;
     const cleanups = [
       stageScene(gsap, mobile, { stars, tape }),
+      machineIntro(gsap),
       selfrefScene(gsap, ScrollTrigger, mobile, selfref),
-      spliceScene(gsap),
+      cutScene(gsap, ScrollTrigger, mobile),
       chaptersScene(gsap, mobile),
-      demonScene(gsap),
+      demonScene(gsap, ScrollTrigger, mobile, traj),
     ];
     return () => cleanups.forEach((f) => typeof f === 'function' && f());
   });
@@ -117,6 +118,18 @@ function stageScene(gsap, mobile, { stars, tape }) {
   return () => { stars.setWarp(0); tape.resume(); };
 }
 
+/* ---------- Turingmaschine: ruhiger Auftritt ------------------------- */
+function machineIntro(gsap) {
+  const sec = $('#maschine');
+  if (!sec) return null;
+  const items = $$('.scene__label, .scene__title, .machine__lead, .tm', sec);
+  const tw = gsap.fromTo(items, { autoAlpha: 0, y: 28 }, {
+    autoAlpha: 1, y: 0, duration: 0.95, ease: 'power3.out', stagger: 0.08,
+    scrollTrigger: { trigger: sec, start: 'top 78%', once: true },
+  });
+  return () => { tw.scrollTrigger?.kill(); gsap.set(items, { clearProps: 'all' }); };
+}
+
 /* ---------- Selbstbezug ---------------------------------------------------- */
 function selfrefScene(gsap, ScrollTrigger, mobile, selfref) {
   const sec = selfref?.el;
@@ -142,16 +155,122 @@ function selfrefScene(gsap, ScrollTrigger, mobile, selfref) {
   return () => { st.kill(); intro.scrollTrigger?.kill(); selfref.complete(); };
 }
 
-/* ---------- Schere: zerschnitten und wieder zusammengefügt ------------- */
-function spliceScene(gsap) {
-  const fig = $('.splice .plate');
-  const a = $('.splice__a'), b = $('.splice__b'), seam = $('.splice__seam');
-  if (!fig || !a || !b) return null;
-  const tl = gsap.timeline({ scrollTrigger: { trigger: fig, start: 'top 92%', end: 'center 48%', scrub: 0.8 } });
-  tl.fromTo(a, { xPercent: -7, yPercent: -3, rotation: -3 }, { xPercent: 0, yPercent: 0, rotation: 0, ease: 'power2.out' }, 0)
-    .fromTo(b, { xPercent: 7, yPercent: 3, rotation: 3 }, { xPercent: 0, yPercent: 0, rotation: 0, ease: 'power2.out' }, 0)
-    .fromTo(seam, { opacity: 0.9 }, { opacity: 0, ease: 'none', duration: 0.3 }, 0.72);
-  return null;
+/* ---------- Schere und Band (Abschnitt 4.3) -------------------------- */
+// Das Band läuft wie bei einer Turingmaschine unter der feststehenden Schere
+// hindurch: zwei Schnitte, Abschrift heraus, an der Stelle „hier“ einkleben.
+function cutScene(gsap, ScrollTrigger, mobile) {
+  const sec = $('#schere');
+  if (!sec) return null;
+  const q = (s) => $(s, sec);
+  const pin = q('.cut__pin'), head = q('.cut__head'), foot = q('.cut__foot');
+  const theatre = q('.cut__theatre'), plate = q('.cut__plate'), stage = q('.cut__stage');
+  const band = q('[data-band]'), piece = q('[data-piece]'), gap = q('[data-gap]'), copy = q('[data-copy]');
+  const slitA = q('[data-slit="a"]'), slitB = q('[data-slit="b"]'), sc = q('[data-scissors]'), result = q('[data-result]');
+  const steps = $$('[data-steps] li', sec);
+  if (!band || !piece || !sc) return null;
+
+  sec.classList.add('is-live');
+  const fits = () => head.offsetHeight + foot.offsetHeight + (mobile ? 300 : 340) <= window.innerHeight;
+  if (!fits()) { sec.classList.remove('is-live'); return null; }
+
+  const m = {};
+  const cam = { t: 0, s: 1 };
+  const apply = () => { band.style.transform = `translate3d(${(m.cx - cam.t * cam.s).toFixed(2)}px,0,0) scale(${cam.s.toFixed(4)})`; };
+  function measure() {
+    const fs = parseFloat(getComputedStyle(band).fontSize) || 28;
+    m.W = theatre.clientWidth;
+    m.H = theatre.clientHeight;
+    m.cx = m.W / 2;
+    m.x0 = piece.offsetLeft;
+    m.pieceW = piece.offsetWidth - gap.offsetWidth;
+    m.x1 = m.x0 + m.pieceW;
+    m.slot = gap.offsetLeft;
+    m.copyW = copy.offsetWidth;
+    m.bandH = piece.offsetHeight;
+    m.s = mobile ? 0.46 : 0.5;
+    m.gap = fs * 0.28;
+    m.insW = m.copyW * m.s + m.gap * 2;
+    m.lift = -m.bandH * 1.35;
+    const fitAll = Math.min(1, (m.W * 0.92) / (m.pieceW + m.insW + fs * 4));
+    // Schmale Bildschirme: nicht alles zeigen (wäre winzig), sondern die eingesetzte Abschrift
+    m.zoom = Math.max(fitAll, mobile ? 0.36 : 0);
+    m.zoomT = fitAll >= m.zoom ? m.x0 + (m.pieceW + m.insW) / 2 : m.x0 + m.slot + m.insW / 2;
+    m.mid = Math.min(1, mobile ? 0.82 : 1);
+    slitA.style.left = `${m.x0}px`;
+    slitB.style.left = `${m.x1}px`;
+    // Scherenspitze genau über der Bildmitte, knapp unter der Bandkante
+    const sw = sc.offsetWidth, sh = sc.offsetHeight;
+    const bandTop = m.H / 2 - m.bandH / 2;
+    sc.style.left = `${m.cx - 0.13 * sw}px`;
+    sc.style.top = `${bandTop + m.bandH + 4 - 0.96 * sh}px`;
+    apply();
+  }
+  measure();
+  cam.t = m.x0 - m.W * 0.46;
+  apply();
+  ScrollTrigger.addEventListener('refreshInit', measure);
+
+  gsap.set(plate, { xPercent: -50, yPercent: -50, transformOrigin: '62% 24%' });
+  let stepIdx = -1;
+  const setStep = (i) => {
+    if (i === stepIdx) return;
+    stepIdx = i;
+    steps.forEach((li, k) => li.classList.toggle('is-on', k === i));
+  };
+  setStep(0);
+
+  const snip = (tl, at, slit) => {
+    tl.to(sc, { y: 7, rotation: -5, duration: 0.014, ease: 'power2.in' }, at)
+      .to(sc, { y: 0, rotation: 0, duration: 0.026, ease: 'power2.out' }, at + 0.014)
+      .fromTo(slit, { opacity: 0, scaleY: 0.3 }, { opacity: 1, scaleY: 1, duration: 0.012 }, at + 0.01);
+  };
+
+  const tl = gsap.timeline({
+    defaults: { ease: 'none' },
+    scrollTrigger: {
+      trigger: sec,
+      start: 'top top',
+      end: () => `+=${window.innerHeight * (mobile ? 2.6 : 3)}`,
+      pin,
+      scrub: mobile ? 0.5 : 0.9,
+      anticipatePin: 1,
+      invalidateOnRefresh: true,
+      onUpdate(self) {
+        const p = self.progress;
+        setStep(p < 0.19 ? 0 : p < 0.5 ? 1 : p < 0.79 ? 2 : 3);
+      },
+    },
+  });
+  const camTo = (vars, at, dur, ease = 'power2.inOut') => tl.to(cam, { ...vars, duration: dur, ease, onUpdate: apply }, at);
+
+  // 1 · Zeichnung → Band
+  tl.fromTo(plate, { autoAlpha: 1, scale: 1, filter: 'blur(0px)' }, { autoAlpha: 0, scale: 1.7, filter: 'blur(8px)', duration: 0.12, ease: 'power1.in' }, 0.03)
+    .fromTo(stage, { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.07 }, 0.09)
+    .fromTo(sc, { autoAlpha: 0, x: 40, y: -60, rotation: 10 }, { autoAlpha: 1, x: 0, y: 0, rotation: 0, duration: 0.08, ease: 'power3.out' }, 0.12);
+  camTo({ t: () => m.x0 }, 0.09, 0.12, 'power2.out');
+  // 2 · zwei Schnitte, dazwischen läuft der ganze Satz unter der Schere durch
+  snip(tl, 0.215, slitA);
+  camTo({ t: () => m.x1 }, 0.255, 0.2, 'power1.inOut');
+  snip(tl, 0.46, slitB);
+  // 3 · herausheben, Abschrift einsetzen
+  tl.to(sc, { autoAlpha: 0, x: 30, y: -50, rotation: 8, duration: 0.06, ease: 'power2.in' }, 0.5)
+    .to(piece, { y: () => m.lift, duration: 0.08, ease: 'power2.inOut' }, 0.52)
+    .to([slitA, slitB], { opacity: 0, duration: 0.04 }, 0.56);
+  camTo({ t: () => m.x0 + m.slot, s: () => m.mid }, 0.52, 0.12);
+  tl.fromTo(copy, { opacity: 0, x: 0, y: 0, scale: 1 }, { opacity: 1, y: () => -m.bandH * 1.15, duration: 0.06, ease: 'power2.out' }, 0.58)
+    .to(gap, { width: () => m.insW, duration: 0.1, ease: 'power2.inOut' }, 0.63)
+    .to(copy, { x: () => m.slot + m.gap, y: 0, scale: () => m.s, duration: 0.11, ease: 'power2.inOut' }, 0.63)
+    .to(piece, { y: 0, duration: 0.07, ease: 'power2.inOut' }, 0.74);
+  // 4 · Rückblick auf das Ganze
+  camTo({ t: () => m.zoomT, s: () => m.zoom }, 0.8, 0.12);
+  tl.fromTo(result, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.06 }, 0.88)
+    .to({}, { duration: 0.04 }, 0.96);
+
+  return () => {
+    ScrollTrigger.removeEventListener('refreshInit', measure);
+    sec.classList.remove('is-live');
+    gsap.set([plate, stage, band, piece, gap, copy, sc, slitA, slitB, result], { clearProps: 'all' });
+  };
 }
 
 /* ---------- Gliederung als Band (horizontal) -------------------------- */
@@ -203,15 +322,39 @@ function chaptersScene(gsap, mobile) {
   };
 }
 
-/* ---------- Dämon: Blick öffnet sich von der Hand aus ------------------- */
-function demonScene(gsap) {
+/* ---------- Dämon: Blick öffnet sich, Bahnen entstehen, fächern auf ---- */
+function demonScene(gsap, ScrollTrigger, mobile, traj) {
+  const sec = $('#daemon');
   const media = $('.demon__media');
-  if (!media) return null;
-  gsap.fromTo(media, { clipPath: 'circle(8% at 60% 42%)', scale: 1.06 }, {
-    clipPath: 'circle(125% at 60% 42%)', scale: 1, ease: 'power1.out',
-    scrollTrigger: { trigger: media, start: 'top 88%', end: 'center 42%', scrub: 0.8 },
+  const cap = $('[data-demon-cap]');
+  if (!sec || !media) return null;
+  const inner = $('.scene__inner', sec);
+  sec.classList.add('is-live');
+  const pinIt = inner.offsetHeight + 40 <= window.innerHeight;
+  if (!pinIt) sec.classList.remove('is-live');
+  traj?.setDraw(0); traj?.setFan(0);
+  const seg = (p, a, b) => Math.min(1, Math.max(0, (p - a) / (b - a)));
+  const tl = gsap.timeline({
+    defaults: { ease: 'none' },
+    scrollTrigger: {
+      trigger: sec,
+      start: pinIt ? 'top top' : 'top 80%',
+      end: pinIt ? () => `+=${window.innerHeight * (mobile ? 1.6 : 1.9)}` : 'bottom 30%',
+      pin: pinIt,
+      scrub: mobile ? 0.5 : 0.8,
+      anticipatePin: 1,
+      invalidateOnRefresh: true,
+      onUpdate(self) {
+        const p = self.progress;
+        traj?.setDraw(seg(p, 0.2, 0.62));
+        traj?.setFan(seg(p, 0.66, 0.9));
+      },
+    },
   });
-  return null;
+  tl.fromTo(media, { clipPath: 'circle(8% at 58% 42%)', scale: 1.06 }, { clipPath: 'circle(125% at 58% 42%)', scale: 1, ease: 'power1.out', duration: 0.28 }, 0)
+    .fromTo(cap, { autoAlpha: 0, y: 12 }, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.86)
+    .to({}, { duration: 0.06 }, 0.94);
+  return () => { sec.classList.remove('is-live'); traj?.complete(); gsap.set([media, cap], { clearProps: 'all' }); };
 }
 
 /* ---------- Preloader + Hero-Auftritt --------------------------------- */

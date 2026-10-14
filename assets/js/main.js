@@ -7,6 +7,9 @@ import { initArchive, parseRoute } from './archive.js';
 import { initStars } from './stars.js';
 import { initTape } from './tape.js';
 import { initSelfRef } from './selfref.js';
+import { initMachine } from './machine.js';
+import { initTrajectories } from './trajectories.js';
+import { initNet } from './net.js';
 import { initMotion, runPreloader, heroIntro } from './motion.js';
 
 const html = document.documentElement;
@@ -17,6 +20,9 @@ if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 const stars = initStars($('.stars'));
 const tape = initTape();
 const selfref = initSelfRef();
+try { initMachine(); } catch (e) { console.error('[bll] Turingmaschine:', e); }
+const traj = initTrajectories();
+traj.complete();
 const titleEl = $('#hero-title');
 
 let motion = null;
@@ -115,13 +121,25 @@ async function boot() {
     }
   } else showDataError(err);
 
+  if (D && archive) {
+    try {
+      initNet(D, $('[data-net]'), {
+        open: (href) => {
+          if (location.hash !== href) history.pushState(null, '', href);
+          archive.go(parseRoute(href));
+        },
+      });
+    } catch (e) { console.error('[bll] Quellen-Netz:', e); $('[data-net]')?.remove(); }
+  }
+
   if (canCine) {
     try {
-      motion = initMotion({ stars, tape, selfref });
+      motion = initMotion({ stars, tape, selfref, traj });
     } catch (e) {
       console.error('[bll] Kinomodus aus:', e);
       html.classList.remove('cine');
       selfref.complete();
+      traj.complete();
     }
   }
 

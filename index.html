@@ -115,9 +115,79 @@
           <p class="cosmos__readout mono-label" aria-hidden="true">band · zelle <span data-readout>000 000</span> · zustand q₃</p>
           <figcaption class="plate__cap">
             <span class="mono-label">turingmaschine · band ins all</span>
-            <span class="mono-label">zeichnung: <span data-meta="autor">Rouven Wieland</span></span>
+            <span class="mono-label">abbildung aus der arbeit</span>
           </figcaption>
         </figure>
+      </div>
+    </section>
+
+    <!-- 1b · Turingmaschine zum Ausprobieren ------------------------------ -->
+    <section class="scene machine" id="maschine" aria-labelledby="machine-title">
+      <div class="scene__inner">
+        <p class="scene__label mono-label">abschnitt 2.8 · turingmaschine zum ausprobieren</p>
+        <h2 class="scene__title" id="machine-title">Band, Kopf <em>und eine Tabelle</em></h2>
+        <p class="machine__lead">Hier läuft ein echtes kleines Programm. Der Zustand und das gelesene Zeichen legen fest, was der Kopf schreibt, wohin er rückt und welcher Zustand folgt.</p>
+
+        <div class="tm" data-tm data-prog="biber">
+          <div class="tm__main">
+            <div class="seg tm__prog" role="group" aria-label="Programm wählen">
+              <button type="button" aria-pressed="true" data-prog="biber">Fleißiger Biber</button>
+              <button type="button" aria-pressed="false" data-prog="zaehler">Binärzähler</button>
+            </div>
+
+            <div class="tm__tape tape" aria-hidden="true">
+              <div class="tape__viewport"><div class="tape__track tm__track"></div></div>
+              <div class="tape__focus"></div>
+              <div class="tape__head">
+                <div class="tape__state" data-tm-state>q<sub>0</sub></div>
+                <div class="tape__stem"></div>
+                <div class="tape__tip"></div>
+              </div>
+            </div>
+
+            <dl class="tm__readout">
+              <div><dt>schritt</dt><dd data-out="step">0</dd></div>
+              <div><dt>zustand</dt><dd data-out="state">q<sub>0</sub></dd></div>
+              <div><dt>liest</dt><dd data-out="read">0</dd></div>
+              <div><dt data-out-label="extra">einsen</dt><dd data-out="extra">0</dd></div>
+            </dl>
+
+            <div class="tm__controls">
+              <button class="btn" type="button" data-tm="step">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h12M13 7l5 5-5 5"/></svg>
+                Schritt
+              </button>
+              <button class="btn btn--accent tm__run" type="button" data-tm="run" aria-pressed="false">
+                <svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>
+                <svg class="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6.5" y="5.5" width="4" height="13" rx="1"/><rect x="13.5" y="5.5" width="4" height="13" rx="1"/></svg>
+                <span data-run-label>Start</span>
+              </button>
+              <button class="btn btn--ghost" type="button" data-tm="reset">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 4.5v4h4"/></svg>
+                Zurück
+              </button>
+            </div>
+            <div class="tm__speedrow">
+              <span class="mono-label" id="tm-speed-label">tempo</span>
+              <div class="seg tm__speed" role="group" aria-labelledby="tm-speed-label">
+                <button type="button" aria-pressed="false" data-speed="langsam">langsam</button>
+                <button type="button" aria-pressed="true" data-speed="mittel">mittel</button>
+                <button type="button" aria-pressed="false" data-speed="schnell">schnell</button>
+              </div>
+            </div>
+            <p class="tm__status" role="status" aria-live="polite" data-tm-status></p>
+          </div>
+
+          <div class="tm__side">
+            <p class="fact__label">übergangstabelle · schreibt, rückt, neuer zustand</p>
+            <div class="tm__tablewrap" tabindex="0" role="region" aria-label="Übergangstabelle"><table class="tm__table" data-tm-table></table></div>
+            <p class="halting">
+              Hier sieht man das Ende leicht: Der Zähler hat gar keine Halteregel, der Biber erreicht nach wenigen Schritten den Zustand H.
+              Ein Verfahren, das für <em>jedes</em> Programm und jede Eingabe korrekt vorhersagt, ob es anhält, kann es aber nicht geben – das ist das Halteproblem
+              (<a class="ref" href="#/abschnitt/2.8">§&#8239;2.8</a>).
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -136,25 +206,52 @@
       </div>
     </section>
 
-    <!-- Zwischenspiel · Schere ------------------------------------------- -->
-    <section class="interlude splice" aria-label="Zeichnung: Band und Scheren">
-      <div class="scene__inner">
-        <figure class="plate">
-          <div class="plate__media splice__stack">
-            <img class="splice__a" src="assets/img/02-band-schere-schnipsel-1600.webp"
+    <!-- 2b · Schere und Band (Abschnitt 4.3) --------------------------- -->
+    <section class="scene cut" id="schere" aria-labelledby="cut-title">
+      <div class="cut__pin">
+        <div class="scene__inner cut__head">
+          <p class="scene__label mono-label">abschnitt 4.3 · schere und band</p>
+          <h2 class="scene__title" id="cut-title">Ein Satz, <em>der sich selbst einklebt</em></h2>
+        </div>
+
+        <div class="cut__theatre">
+          <figure class="cut__plate plate">
+            <img src="assets/img/02-band-schere-schnipsel-1600.webp"
                  srcset="assets/img/02-band-schere-schnipsel-960.webp 960w, assets/img/02-band-schere-schnipsel-1600.webp 1600w, assets/img/02-band-schere-schnipsel-2400.webp 2400w"
-                 sizes="(max-width: 767px) 132vw, 1180px" width="2434" height="1550" loading="lazy" decoding="async"
+                 sizes="(max-width: 767px) 100vw, 900px" width="2434" height="1550" loading="lazy" decoding="async"
                  alt="Zeichnung im Kupferstich-Stil: Ein beschriftetes Band wird von zwei Scheren zerschnitten; ein ausgeschnittener Schnipsel wird an anderer Stelle wieder eingesetzt.">
-            <img class="splice__b" src="assets/img/02-band-schere-schnipsel-1600.webp"
-                 srcset="assets/img/02-band-schere-schnipsel-960.webp 960w, assets/img/02-band-schere-schnipsel-1600.webp 1600w, assets/img/02-band-schere-schnipsel-2400.webp 2400w"
-                 sizes="(max-width: 767px) 132vw, 1180px" width="2434" height="1550" loading="lazy" decoding="async" alt="" aria-hidden="true">
-            <svg class="splice__seam" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="60.25" y1="0" x2="47.25" y2="100"/></svg>
+            <figcaption class="plate__cap">
+              <span class="mono-label">band · schere · schnipsel</span>
+              <span class="mono-label">abbildung aus der arbeit</span>
+            </figcaption>
+          </figure>
+
+          <div class="cut__stage" aria-hidden="true">
+            <div class="cut__band" data-band>
+              <span class="cut__cells">…<i>0</i><i>1</i><i>1</i><i>0</i></span><span class="cut__piece" data-piece><span class="cut__s1">Folgendes ist nicht beweisbar: Ich nehme eine Schere, isoliere damit diesen Satz und hänge ihn <b data-hier>hier</b></span><span class="cut__gap" data-gap></span><span class="cut__s2" data-s2>&nbsp;an.</span><span class="cut__copy" data-copy><span>Folgendes ist nicht beweisbar: Ich nehme eine Schere, isoliere damit diesen Satz und hänge ihn <b>hier</b>&nbsp;an.</span></span></span><span class="cut__cells cut__cells--r" data-cells-r><i>1</i><i>0</i><i>0</i><i>1</i>…</span>
+              <span class="cut__slit" data-slit="a"></span><span class="cut__slit" data-slit="b"></span>
+            </div>
+            <p class="cut__result" data-result>„Folgendes ist nicht beweisbar: Ich nehme eine Schere, […] hänge ihn hier <span class="cut__ins">Folgendes ist nicht beweisbar: Ich nehme eine Schere, […] hänge ihn hier an.</span> an.“</p>
+            <div class="cut__scissors" data-scissors>
+              <img src="assets/img/02-band-schere-schnipsel-960.webp" srcset="assets/img/02-band-schere-schnipsel-960.webp 960w, assets/img/02-band-schere-schnipsel-1600.webp 1600w" sizes="1100px" width="2434" height="1550" alt="" decoding="async" loading="lazy">
+            </div>
           </div>
-          <figcaption class="plate__cap">
-            <span class="mono-label">band · schere · schnipsel</span>
-            <span class="mono-label">zeichnung: <span data-meta="autor">Rouven Wieland</span></span>
-          </figcaption>
-        </figure>
+
+          <div class="cut__static">
+            <p class="cut__line"><span class="mono-label">auf dem band</span><span class="cut__q">„Folgendes ist nicht beweisbar: Ich nehme eine Schere, isoliere damit diesen Satz und hänge ihn hier an.“</span></p>
+            <p class="cut__line"><span class="mono-label">nach dem schnitt, an der stelle „hier“ eingesetzt</span><span class="cut__q">„Folgendes ist nicht beweisbar: Ich nehme eine Schere, isoliere damit diesen Satz und hänge ihn hier <span class="cut__ins">Folgendes ist nicht beweisbar: Ich nehme eine Schere, isoliere damit diesen Satz und hänge ihn hier an.</span> an.“</span></p>
+          </div>
+        </div>
+
+        <div class="scene__inner cut__foot">
+          <ol class="cut__steps" data-steps>
+            <li class="is-on"><span>1</span>Auf einem Band steht ein Satz – wörtlich aus Abschnitt 4.3.</li>
+            <li><span>2</span>Die Schere isoliert ihn: zwei Schnitte, vorn und hinten.</li>
+            <li><span>3</span>Eine Abschrift wird an der Stelle „hier“ eingeklebt: Substitution.</li>
+            <li><span>4</span>Der Satz enthält jetzt sich selbst – und sagt von sich, er sei nicht beweisbar.</li>
+          </ol>
+          <p class="cut__note"><strong>Illustration.</strong> Dass ein solcher Satz tatsächlich unbeweisbar ist, gilt nur, wenn die Theorie die Bedingungen von Gödels erstem Satz erfüllt (<a class="ref" href="#/abschnitt/4.3">§&#8239;4.3</a>, <a class="ref" href="#/abschnitt/2.4">§&#8239;2.4</a>).</p>
+        </div>
       </div>
     </section>
 
@@ -172,18 +269,20 @@
     </section>
 
     <!-- Zwischenspiel · Dämon -------------------------------------------- -->
-    <section class="interlude demon" aria-label="Zeichnung: Laplacescher Dämon">
+    <section class="interlude demon" id="daemon" aria-label="Zeichnung: Laplacescher Dämon mit Trajektorien">
       <div class="scene__inner">
         <figure class="plate">
           <div class="plate__media demon__media">
             <img src="assets/img/03-daemon-flaches-universum-1600.webp"
                  srcset="assets/img/03-daemon-flaches-universum-960.webp 960w, assets/img/03-daemon-flaches-universum-1600.webp 1600w, assets/img/03-daemon-flaches-universum-2400.webp 2400w"
-                 sizes="(max-width: 767px) 128vw, 1180px" width="2457" height="1441" loading="lazy" decoding="async"
+                 sizes="(max-width: 767px) 110vw, 1180px" width="2457" height="1441" loading="lazy" decoding="async"
                  alt="Zeichnung im Kupferstich-Stil: Ein kleiner gehörnter Dämon mit Fledermausflügeln und Dreizack zeigt grinsend auf ein flaches, scheibenförmiges Universum voller Spiralgalaxien.">
+            <svg class="traj" data-traj viewBox="0 0 1000 586" preserveAspectRatio="none" aria-hidden="true" focusable="false"></svg>
           </div>
+          <p class="demon__caption" data-demon-cap>Eine Bahn durch die Zustände – und mehrere gleichwertige Verläufe: eine Theorie, mehrere Modelle (<a class="ref" href="#/abschnitt/4.6">§&#8239;4.6</a>).</p>
           <figcaption class="plate__cap">
             <span class="mono-label">laplacescher dämon · flaches universum</span>
-            <span class="mono-label">zeichnung: <span data-meta="autor">Rouven Wieland</span></span>
+            <span class="mono-label">abbildung aus der arbeit</span>
           </figcaption>
         </figure>
       </div>
@@ -242,7 +341,7 @@
       <p class="footer__small">
         <span>Stand <time data-meta="stand"></time></span>
         <span><span data-meta="autor">Rouven Wieland</span> · <span data-meta="schule">Andreas-Gymnasium Berlin</span></span>
-        <span>Zeichnungen: <span data-meta="autor">Rouven Wieland</span></span>
+        <span>Abbildungen: mit KI-Unterstützung erzeugt (Python/TikZ)</span>
       </p>
     </div>
   </footer>

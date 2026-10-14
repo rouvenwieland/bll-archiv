@@ -506,6 +506,13 @@ export function initArchive(D, ctx) {
       scrollToArchive(initial);
       return true;
     }
+    if (r.tab === 'netz') {
+      setTab('ueberblick', { updateHash: false });
+      const n = document.getElementById('netz');
+      if (n) requestAnimationFrame(() => scrollToEl(n, initial));
+      else scrollToArchive(initial);
+      return true;
+    }
     if (!built[r.tab]) return false;
     setTab(r.tab, { updateHash: false });
     if (!r.id) { scrollToArchive(initial); return true; }

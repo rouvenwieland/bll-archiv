@@ -467,6 +467,7 @@ export function buildOverview(D) {
       tile('praemissen', 'Prämissen', D.praemissen.length, groupsSub(D.praemissen)),
       tile('glossar', 'Glossar', D.glossar.length, D.glossar.length ? plural(D.glossar.length, 'Begriff', 'Begriffe') : 'noch keine Einträge'),
       tile('prompts', 'Prompts', D.prompts.length, D.prompts.length ? `${plural(D.prompts.length, 'Chat', 'Chats')} · ${plural(nParts, 'Teil', 'Teile')}` : 'noch keine Einträge')),
+    h('section', { class: 'ov-card net', id: 'netz', 'data-net': '', 'aria-label': 'Quellen-Netz' }),
     h('div', { class: 'ov-grid' },
       h('div', { class: 'ov-card' },
         h('h4', null, 'zur arbeit'),

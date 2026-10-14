@@ -216,7 +216,7 @@
     {
      "abschnitt": "5.2",
      "stelle": "",
-     "aussage": "Benacerraf setzt an einer verwandten Stelle an, nämlich an der Prämisse, der Geist beherrsche einfache Arithmetik in genau dem Sinn, den Gödels Satz verlangt."
+     "aussage": "Benacerraf setzt an einer verwandten Stelle an, nämlich an der Prämisse, der Geist könne *beweisen*, dass eine bestimmte Maschine einfache Arithmetik in genau dem Sinn beherrscht, den Gödels Satz verlangt."
     }
    ],
    "verweise_anhang": [
@@ -271,7 +271,7 @@
     {
      "abschnitt": "2.4",
      "stelle": "§ 35",
-     "aussage": "Wenn ein formales System arithmetisch stark genug ist, um Gödelisierung zu ermöglichen, dann können wir Sätze formulieren, die Dinge sagen wie „ich habe diese oder jene Eigenschaft“."
+     "aussage": "Satz (Diagonallemma): Wenn ein formales System arithmetisch stark genug ist, um Gödelisierung zu ermöglichen, dann können wir Sätze formulieren, die Dinge sagen wie „ich habe diese oder jene Eigenschaft“."
     }
    ],
    "verweise_anhang": [
@@ -509,12 +509,12 @@
    "fundstellen": [
     {
      "abschnitt": "4.6",
-     "stelle": "Kap. VI",
+     "stelle": "Satz 6.1.1, S. 91",
      "aussage": "Mit welcher physikalischen Theorie wir auch arbeiten, es gibt immer mehrere Modelle, und darunter stets auch ein abzählbares."
     },
     {
      "abschnitt": "4.6",
-     "stelle": "Kap. VI",
+     "stelle": "Satz 6.1.2, S. 92",
      "aussage": "Jede erststufige Theorie, die überhaupt ein unendliches Modell hat, hat auch ein abzählbares, also eines mit nur so vielen Elementen, wie man durchnummerieren kann."
     }
    ],
@@ -559,7 +559,7 @@
     {
      "abschnitt": "1.1",
      "stelle": "Brief an Menoikeus, §§ 133–134",
-     "aussage": "Schon Epikur"
+     "aussage": "Schon Epikur hat infrage gestellt, ob wirklich alles einen Grund hat."
     }
    ],
    "verweise_anhang": []
@@ -589,7 +589,7 @@
     {
      "abschnitt": "2.5",
      "stelle": "",
-     "aussage": "Genau deshalb fordern wir die rekursive Axiomatisierbarkeit."
+     "aussage": "Genau das schließen wir aus, indem wir die rekursive Axiomatisierbarkeit fordern."
     },
     {
      "abschnitt": "5.2",
@@ -633,7 +633,7 @@
     {
      "abschnitt": "5.3",
      "stelle": "",
-     "aussage": "Die Kritik an Penrose, vorgebracht unter anderem von Feferman und Minsky, läuft denn auch darauf hinaus, dass der Nachweis fehlt."
+     "aussage": "Die Kritik an Penrose, vorgebracht unter anderem von Feferman und Minsky, läuft denn auch darauf hinaus, dass das Argument die Nicht-Berechenbarkeit nicht beweist."
     }
    ],
    "verweise_anhang": [
@@ -692,7 +692,7 @@
     {
      "abschnitt": "4.6",
      "stelle": "",
-     "aussage": "Solange man die Bedingungen, die die Physik an die Trajektorie stellt, lipschitz-stetig formulieren kann, bekommt man eine eindeutige Trajektorie, die man sogar algorithmisch beliebig genau annähern kann."
+     "aussage": "Solange man die Bedingungen, die die Physik an die Trajektorie stellt, lipschitz-stetig formulieren kann, bekommt man eine eindeutige Trajektorie, die man unter milden Zusatzbedingungen sogar algorithmisch beliebig genau annähern kann."
     }
    ],
    "verweise_anhang": [
@@ -737,12 +737,12 @@
     {
      "abschnitt": "2.5",
      "stelle": "S. 187",
-     "aussage": "Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
+     "aussage": "Satz (Erster Gödelscher Unvollständigkeitssatz): Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
     },
     {
      "abschnitt": "2.6",
      "stelle": "Satz XI, S. 196",
-     "aussage": "Ein System, für das der erste Gödelsche Unvollständigkeitssatz gilt und das die Aussage „ich (das System) bin konsistent“ formalisieren kann, kann diese Aussage nicht beweisen."
+     "aussage": "Satz (Zweiter Gödelscher Unvollständigkeitssatz): Ein System, für das der erste Gödelsche Unvollständigkeitssatz gilt und das die Aussage „ich (das System) bin konsistent“ formalisieren kann, kann diese Aussage nicht beweisen."
     },
     {
      "abschnitt": "5.2",
@@ -924,8 +924,8 @@
    "fundstellen": [
     {
      "abschnitt": "2.1",
-     "stelle": "Abschn. 1.2",
-     "aussage": "Sie legen fest, wie man aus einem oder mehreren Sätzen einen neuen Satz schließt."
+     "stelle": "Abschn. 1.2, S. 18–25",
+     "aussage": "Definition (Formales System): Ein formales System $\\mathcal{S}$ besteht aus drei Dingen: einem Alphabet $V$, einer Menge von Axiomen $A$ und einer Menge von Regeln für das logische Schließen, $R$. Diese Regeln sind rein syntaktischer Natur: Sie legen fest, wie man aus einem oder mehreren Sätzen einen neuen Satz schließt."
     }
    ],
    "verweise_anhang": [
@@ -990,6 +990,37 @@
    ]
   },
   {
+   "id": "kripke1975outline",
+   "typ": "article",
+   "gruppe": "Logik und Berechenbarkeit",
+   "autor": "Kripke, Saul",
+   "jahr": "1975",
+   "titel": "Outline of a Theory of Truth",
+   "untertitel": "",
+   "in": "The Journal of Philosophy 72 (19)",
+   "seiten": "690–716",
+   "verlag": "",
+   "ort": "",
+   "auflage": "",
+   "doi": "10.2307/2024634",
+   "url": "",
+   "isbn": "",
+   "verwendung": "",
+   "zitiert_in": [
+    "4.4"
+   ],
+   "fundstellen": [
+    {
+     "abschnitt": "4.4",
+     "stelle": "",
+     "aussage": "Der entscheidende Schritt steckt dabei in einer Annahme, die nicht selbstverständlich ist: dass die zugleich aufgeschriebenen Ebenen damit zu einer einzigen Sprache verschmelzen."
+    }
+   ],
+   "verweise_anhang": [
+    "Prämisse M7"
+   ]
+  },
+  {
    "id": "laplace1886versuch",
    "typ": "book",
    "gruppe": "Primärquellen",
@@ -1013,7 +1044,7 @@
     {
      "abschnitt": "3.1",
      "stelle": "S. 4",
-     "aussage": "Eine Intelligenz, welche für einen gegebenen Augenblick alle Kräfte, von denen die Natur belebt ist, sowie die gegenseitige Lage der Wesen, die sie zusammen setzen, kennen würde, und überdies umfassend genug wäre, um diese gegebenen Grössen einer Analyse zu unterwerfen, würde in derselben Formel die Bewegungen der grössten Weltkörper wie die des leichtesten Atoms ausdrücken: nichts würde für sie ungewiss sein und Zukunft wie Vergangenheit ihr offen vor Augen liegen.“"
+     "aussage": "Definition (Determinismus nach Laplace): „Wir müssen also den gegenwärtigen Zustand des Weltalls als die Wirkung seines früheren Zustandes und andererseits als die Ursache dessen, der folgen wird, betrachten. Eine Intelligenz, welche für einen gegebenen Augenblick alle Kräfte, von denen die Natur belebt ist, sowie die gegenseitige Lage der Wesen, die sie zusammen setzen, kennen würde, und überdies umfassend genug wäre, um diese gegebenen Grössen einer Analyse zu unterwerfen, würde in derselben Formel die Bewegungen der grössten Weltkörper wie die des leichtesten Atoms ausdrücken: nichts würde für sie ungewiss sein und Zukunft wie Vergangenheit ihr offen vor Augen liegen.“"
     }
    ],
    "verweise_anhang": [
@@ -1048,7 +1079,7 @@
     {
      "abschnitt": "3.2",
      "stelle": "S. 460 f.",
-     "aussage": "Wenn \\(w^*\\) dieselben Naturgesetze hat wie \\(w\\) und mit \\(w\\) zu einem bestimmten Zeitpunkt \\(t\\) im exakt gleichen Zustand übereinstimmt, dann stimmt \\(w^*\\) mit \\(w\\) zu allen Zeitpunkten – in der Vergangenheit wie in der Zukunft – überein."
+     "aussage": "Definition (Determinismus nach Lewis, Variante): Eine Welt $w$ ist genau dann deterministisch, wenn für jede andere mögliche Welt \\(w^*\\) gilt: Wenn \\(w^*\\) dieselben Naturgesetze hat wie \\(w\\) und mit \\(w\\) zu einem bestimmten Zeitpunkt \\(t\\) im exakt gleichen Zustand übereinstimmt, dann stimmt \\(w^*\\) mit \\(w\\) zu allen Zeitpunkten – in der Vergangenheit wie in der Zukunft – überein."
     }
    ],
    "verweise_anhang": [
@@ -1079,7 +1110,7 @@
     {
      "abschnitt": "3.2",
      "stelle": "S. 360",
-     "aussage": "Wenn \\(w^*\\) dieselben Naturgesetze hat wie \\(w\\) und mit \\(w\\) zu einem bestimmten Zeitpunkt \\(t\\) im exakt gleichen Zustand übereinstimmt, dann stimmt \\(w^*\\) mit \\(w\\) zu allen Zeitpunkten – in der Vergangenheit wie in der Zukunft – überein."
+     "aussage": "Definition (Determinismus nach Lewis, Variante): Eine Welt $w$ ist genau dann deterministisch, wenn für jede andere mögliche Welt \\(w^*\\) gilt: Wenn \\(w^*\\) dieselben Naturgesetze hat wie \\(w\\) und mit \\(w\\) zu einem bestimmten Zeitpunkt \\(t\\) im exakt gleichen Zustand übereinstimmt, dann stimmt \\(w^*\\) mit \\(w\\) zu allen Zeitpunkten – in der Vergangenheit wie in der Zukunft – überein."
     }
    ],
    "verweise_anhang": [
@@ -1218,7 +1249,7 @@
     {
      "abschnitt": "6.3",
      "stelle": "S. 127",
-     "aussage": "Es genügt zu zeigen, dass, wie Lucas sagt, immer noch Raum bleibt für Forschung und Kreativität,"
+     "aussage": "Es genügt zu zeigen, dass, wie Lucas sagt, immer noch Raum bleibt für Forschung und Kreativität, und dass Philosophie, Kunst und Wissenschaft deshalb nicht ohne Wert und Nutzen sind."
     }
    ],
    "verweise_anhang": [
@@ -1289,7 +1320,7 @@
     {
      "abschnitt": "5.3",
      "stelle": "",
-     "aussage": "Die Kritik an Penrose, vorgebracht unter anderem von Feferman und Minsky, läuft denn auch darauf hinaus, dass der Nachweis fehlt."
+     "aussage": "Die Kritik an Penrose, vorgebracht unter anderem von Feferman und Minsky, läuft denn auch darauf hinaus, dass das Argument die Nicht-Berechenbarkeit nicht beweist."
     }
    ],
    "verweise_anhang": []
@@ -1523,7 +1554,7 @@
     {
      "abschnitt": "2.5",
      "stelle": "",
-     "aussage": "Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
+     "aussage": "Satz (Erster Gödelscher Unvollständigkeitssatz): Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
     }
    ],
    "verweise_anhang": [
@@ -1615,12 +1646,12 @@
     {
      "abschnitt": "2.1",
      "stelle": "§ 4.3",
-     "aussage": "Sie legen fest, wie man aus einem oder mehreren Sätzen einen neuen Satz schließt."
+     "aussage": "Definition (Formales System): Ein formales System $\\mathcal{S}$ besteht aus drei Dingen: einem Alphabet $V$, einer Menge von Axiomen $A$ und einer Menge von Regeln für das logische Schließen, $R$. Diese Regeln sind rein syntaktischer Natur: Sie legen fest, wie man aus einem oder mehreren Sätzen einen neuen Satz schließt."
     },
     {
      "abschnitt": "2.2",
      "stelle": "§ 4.3, S. 31",
-     "aussage": "Wir nennen ein formales System $\\mathcal{S}$ rekursiv axiomatisierbar, wenn seine Axiomenmenge $A$ aus endlich vielen Axiomen besteht und aus solchen, die von endlich vielen Algorithmen erzeugt werden."
+     "aussage": "Definition (Rekursive Axiomatisierbarkeit): Wir nennen ein formales System $\\mathcal{S}$ rekursiv axiomatisierbar, wenn seine Axiomenmenge $A$ aus endlich vielen Axiomen besteht und aus solchen, die von endlich vielen Algorithmen erzeugt werden."
     },
     {
      "abschnitt": "2.2",
@@ -1635,27 +1666,27 @@
     {
      "abschnitt": "2.4",
      "stelle": "§ 24.4, S. 180 f.",
-     "aussage": "Wenn ein formales System arithmetisch stark genug ist, um Gödelisierung zu ermöglichen, dann können wir Sätze formulieren, die Dinge sagen wie „ich habe diese oder jene Eigenschaft“."
+     "aussage": "Satz (Diagonallemma): Wenn ein formales System arithmetisch stark genug ist, um Gödelisierung zu ermöglichen, dann können wir Sätze formulieren, die Dinge sagen wie „ich habe diese oder jene Eigenschaft“."
     },
     {
      "abschnitt": "2.5",
      "stelle": "Thm. 25.5, S. 189",
-     "aussage": "Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
+     "aussage": "Satz (Erster Gödelscher Unvollständigkeitssatz): Jedes formale, rekursiv axiomatisierbare, konsistente System, dessen arithmetische Stärke ausreicht, um die Peano-Axiome zu formalisieren, ist negationsunvollständig."
     },
     {
      "abschnitt": "2.5",
      "stelle": "§ 22.2, S. 163 f.",
-     "aussage": "Genau deshalb fordern wir die rekursive Axiomatisierbarkeit."
+     "aussage": "Genau das schließen wir aus, indem wir die rekursive Axiomatisierbarkeit fordern."
     },
     {
      "abschnitt": "2.7",
      "stelle": "Thm. 27.2, S. 199",
-     "aussage": "Keine Sprache, die stark genug ist, um einfache Arithmetik auszudrücken, kann ein Wahrheitsprädikat für ihre eigenen Sätze definieren, ohne in einen Widerspruch zu geraten."
+     "aussage": "Satz (Tarskis Undefinierbarkeitssatz): Keine Sprache, die stark genug ist, um einfache Arithmetik auszudrücken, kann ein Wahrheitsprädikat für ihre eigenen Sätze definieren, ohne in einen Widerspruch zu geraten."
     },
     {
      "abschnitt": "2.8",
      "stelle": "§ 41.1, S. 310",
-     "aussage": "Eine Turingmaschine besteht aus einem beidseitig unendlichen Band aus Zeichenfeldern, einem beweglichen Schreib- und Lesekopf, einer endlichen Menge innerer Zustände und einer endlichen Übergangstabelle, die zu jedem Paar aus gelesenem Zeichen und Zustand festlegt, welches Zeichen geschrieben, wohin der Kopf bewegt und in welchen Zustand gewechselt wird."
+     "aussage": "Definition (Turingmaschine): Eine Turingmaschine besteht aus einem beidseitig unendlichen Band aus Zeichenfeldern, einem beweglichen Schreib- und Lesekopf, einer endlichen Menge innerer Zustände und einer endlichen Übergangstabelle, die zu jedem Paar aus gelesenem Zeichen und Zustand festlegt, welches Zeichen geschrieben, wohin der Kopf bewegt und in welchen Zustand gewechselt wird."
     },
     {
      "abschnitt": "2.8",
@@ -1760,13 +1791,13 @@
    "fundstellen": [
     {
      "abschnitt": "2.7",
-     "stelle": "",
+     "stelle": "S. 270 f.",
      "aussage": "Das ist die alte Lügner-Paradoxie, und Tarskis Einsicht besteht darin, dass sie kein zufälliger Unfall ist, sondern eine prinzipielle Grenze markiert."
     },
     {
      "abschnitt": "2.7",
-     "stelle": "",
-     "aussage": "Keine Sprache, die stark genug ist, um einfache Arithmetik auszudrücken, kann ein Wahrheitsprädikat für ihre eigenen Sätze definieren, ohne in einen Widerspruch zu geraten."
+     "stelle": "Satz I, S. 370",
+     "aussage": "Satz (Tarskis Undefinierbarkeitssatz): Keine Sprache, die stark genug ist, um einfache Arithmetik auszudrücken, kann ein Wahrheitsprädikat für ihre eigenen Sätze definieren, ohne in einen Widerspruch zu geraten."
     }
    ],
    "verweise_anhang": [
@@ -1775,7 +1806,8 @@
     "Glossar: Tarskis Undefinierbarkeitssatz",
     "Glossar: Wahrheit (Wahrheitswert)",
     "Glossar: Wahrheitsprädikat",
-    "Glossar: Zustandsebene / Aussagenebene"
+    "Glossar: Zustandsebene / Aussagenebene",
+    "Prämisse M7"
    ]
   },
   {
@@ -1977,7 +2009,7 @@
     {
      "abschnitt": "4.6",
      "stelle": "§ 6, S. 241",
-     "aussage": "Jeder gewöhnliche PC ist im Kern eine Turingmaschine,"
+     "aussage": "Jeder gewöhnliche PC ist im Kern eine Turingmaschine, und wenn ein echter Computer alles kann, was eine Turingmaschine kann, dann holt er auch ihre Probleme in diese Welt."
     }
    ],
    "verweise_anhang": [
@@ -2045,7 +2077,7 @@
    "fundstellen": [
     {
      "abschnitt": "5.1",
-     "stelle": "S. 444 f.",
+     "stelle": "S. 445",
      "aussage": "Eine einzige Sache, die die Maschine nicht kann und der Geist schon, genügt, um die Identität zu widerlegen."
     },
     {
@@ -2148,7 +2180,7 @@
     "5.2",
     "5.4"
    ],
-   "einwand": "Es ist unklar, welcher Grad von Beherrschung (implizit oder explizit, fehlerfrei oder fehlbar) ausreichen soll; an dieser Stelle setzt Benacerraf an.",
+   "einwand": "Es ist unklar, welcher Grad von Beherrschung (implizit oder explizit, fehlerfrei oder fehlbar) ausreichen soll. Nach Benacerraf müsste der Geist genauer *beweisen* können, dass eine bestimmte Maschine für die Arithmetik hinreicht.",
    "folge": "Ohne P2 folgt nicht, dass $S_M$ stark genug für Gödels ersten Satz ist (Zwischenkonklusion Z1).",
    "quellen": [
     {
@@ -2380,7 +2412,7 @@
    "id": "M6",
    "gruppe": "Modellprämissen",
    "name": "Ausdrückbarkeit der Beweisbarkeit",
-   "gehalt": "Auf der Aussagenebene steht ein Beweisbarkeitsprädikat zur Verfügung. Erst mit ihm wird aus dem physisch nachgebauten Diagonallemma ein Gödelsatz.",
+   "gehalt": "Auf der Aussagenebene steht ein Beweisbarkeitsprädikat zur Verfügung. Erst mit ihm wird aus dem physisch nachgebauten Diagonallemma ein Gödelsatz. Dafür muss die Theorie der Aussagenebene selbst die Bedingungen von Gödels erstem Satz erfüllen: konsistent, rekursiv axiomatisierbar und stark genug, um ihre eigene Substitution zu beschreiben.",
    "fundstellen": [
     "4.3"
    ],
@@ -2392,13 +2424,22 @@
    "id": "M7",
    "gruppe": "Modellprämissen",
    "name": "Tokenisierbarkeit aller Metaebenen",
-   "gehalt": "Nicht nur die Aussagenebene, sondern auch alle ihre Metaebenen lassen sich zugleich physisch aufschreiben, samt einem Wahrheitsprädikat; was präzise genug formuliert ist, hat einen eindeutigen, formalen Gehalt.",
+   "gehalt": "Nicht nur die Aussagenebene, sondern auch alle ihre Metaebenen lassen sich zugleich physisch aufschreiben, samt einem Wahrheitsprädikat; was präzise genug formuliert ist, hat einen eindeutigen, formalen Gehalt. Die zugleich aufgeschriebenen Ebenen verschmelzen dabei zu einer einzigen Sprache.",
    "fundstellen": [
     "4.4"
    ],
-   "einwand": "",
+   "einwand": "Eine Sprache kann ein partielles Wahrheitsprädikat für ihre eigenen Sätze enthalten, ohne in den Widerspruch zu geraten (Fußnote in Abschnitt 4.4).",
    "folge": "Dann bleibt die Stufe darüber erhalten, auf die man sich nach Tarski rettet, und die Metaebenen stürzen nicht zusammen (Abschnitt 4.4).",
-   "quellen": []
+   "quellen": [
+    {
+     "id": "tarski1935wahrheitsbegriff",
+     "stelle": ""
+    },
+    {
+     "id": "kripke1975outline",
+     "stelle": ""
+    }
+   ]
   },
   {
    "id": "M8",
@@ -2499,7 +2540,7 @@
    "quellen": [
     {
      "id": "ebbinghaus2018einfuehrung",
-     "stelle": "Kap. VI"
+     "stelle": "Kap. 6, S. 91–103"
     }
    ]
   }
@@ -3069,8 +3110,8 @@
    "begriff": "Diagonalisierung",
    "slug": "diagonalisierung",
    "kategorie": "Arithmetik, Gödel und Tarski",
-   "einfach": "Im Text bedeutet das Wort, dass man Sätze als Zahlen darstellt und dadurch über Sätze Aussagen treffen kann.",
-   "praezise": "Im Text (2.4): Darstellung von Sätzen als Zahlen; dieser Vorgang heißt fachlich Gödelisierung (Arithmetisierung der Syntax). Üblich bedeutet Diagonalisierung etwas Engeres: Die Gödelnummer einer Formel $\\varphi(x)$ wird in diese Formel selbst eingesetzt, es entsteht $\\varphi(\\ulcorner\\varphi\\urcorner)$, und dadurch Selbstbezug. Der Name erinnert an Cantors Diagonalverfahren (siehe *Diagonalargument*). Auf diesem Einsetzen beruht das Diagonallemma.",
+   "einfach": "Man setzt die Nummer eines Satzes in diesen Satz selbst ein. So entsteht ein Satz, der über sich selbst spricht.",
+   "praezise": "Die Gödelnummer einer Formel $\\varphi(x)$ wird in diese Formel selbst eingesetzt; es entsteht $\\varphi(\\ulcorner\\varphi\\urcorner)$ und dadurch Selbstbezug. Davon zu unterscheiden ist die Gödelisierung, die Darstellung der Sätze als Zahlen, auf der die Diagonalisierung aufbaut (2.4). Der Name erinnert an Cantors Diagonalverfahren (siehe *Diagonalargument*). Auf diesem Einsetzen beruht das Diagonallemma.",
    "quellen": [
     {
      "id": "smith2013",
@@ -3326,7 +3367,7 @@
    "quellen": [
     {
      "id": "tarski1935wahrheitsbegriff",
-     "stelle": ""
+     "stelle": "Satz I, S. 370"
     },
     {
      "id": "smith2013",
@@ -3351,7 +3392,7 @@
    "quellen": [
     {
      "id": "tarski1935wahrheitsbegriff",
-     "stelle": ""
+     "stelle": "Satz I, S. 370"
     },
     {
      "id": "smith2013",
@@ -3810,7 +3851,7 @@
     },
     {
      "id": "ebbinghaus2018einfuehrung",
-     "stelle": "Kap. VI"
+     "stelle": "Kap. 6, S. 91–103"
     }
    ],
    "abschnitte": [
@@ -4627,10 +4668,10 @@
    "werkzeug": "Claude Code, Desktop-App (Claude Opus 5.5)",
    "url": "https://claude.ai",
    "verfasser": "Rouven Wieland",
-   "zweck": "Formale Überarbeitung des Anhangs (Theorem-Umgebungen, Prämissenverzeichnis, Glossar, Literaturverzeichnis und Fußnotenbelege) sowie Bau dieser Webseite. Ausdrücklich ohne Änderung am Wortlaut des Haupttexts.",
-   "ergebnis": "Theorem-Umgebungen „Satz“ und „Problem“, neu erstelltes Prämissenverzeichnis und Glossar, geprüfte Quellenbelege, QR-Code im Anhang und diese Webseite. Der Haupttext wurde nicht umformuliert; Rückmeldungen zur Schlüssigkeit kamen nur als Feedback.",
+   "zweck": "12.10.: Formale Überarbeitung des Anhangs (Theorem-Umgebungen, Prämissenverzeichnis, Glossar, Literaturverzeichnis, Fußnotenbelege), Prüfung auf Schlüssigkeit, Bau dieser Webseite. 13.10.: Umsetzung ausgewählter Korrekturvorschläge, Gestaltung, Dokumentation der KI-Nutzung.",
+   "ergebnis": "Theorem-Umgebungen „Satz“ und „Problem“, neu erstelltes Prämissenverzeichnis und Glossar, geprüfte Quellenbelege, QR-Code im Anhang und diese Webseite. Am 12.10. wurde der Haupttext nur bei einem Zitat (Laplace, auf den Wortlaut der Originalausgabe) geändert; die Prüfung auf Schlüssigkeit ergab eine schriftliche Rückmeldung mit Formulierungsvorschlägen. Am 13.10. hat die KI auf ausdrückliche Auswahl des Verfassers etwa 25 dieser Vorschläge im Haupttext eingesetzt (sachliche Präzisierungen, z. B. zu Rosser, Lewis, Löwenheim-Skolem, Penrose) und einen Entwurf für die Reflexion der KI-Nutzung geschrieben, den der Verfasser selbst überarbeitet.",
    "reihenfolge": 1,
-   "zitierweise": "https://claude.ai prompted by Rouven Wieland, 12.10.2026, siehe Prompt 1",
+   "zitierweise": "https://claude.ai prompted by Rouven Wieland, 12.10.2026, siehe Prompt 1–3",
    "teile": [
     {
      "titel": "Prompt 1",
@@ -4638,7 +4679,19 @@
     },
     {
      "titel": "Antworten auf Rückfragen",
-     "markdown": "- Welche Umgebungen werden „Satz“? → Diagonallemma, erster und zweiter Unvollständigkeitssatz, Tarskis Undefinierbarkeitssatz als „Satz“; Halteproblem als „Problem“; gemeinsame Nummerierung.\n- Dürfen Fußnotenbelege im Haupttext ergänzt und schwache Belege ausgetauscht werden? → Ja, ergänzen und austauschen, ohne ein Wort des Texts zu ändern.\n- Zotero-Sammlung → „BLL Gödel & Determinismus“.\n- Hosting der Webseite → GitHub Pages in einem neuen öffentlichen Repository."
+     "markdown": "- Welche Umgebungen werden „Satz“? → Diagonallemma, erster und zweiter Unvollständigkeitssatz, Tarskis Undefinierbarkeitssatz als „Satz“; Halteproblem als „Problem“; gemeinsame Nummerierung.\n- Dürfen Fußnotenbelege im Haupttext ergänzt und schwache Belege ausgetauscht werden? → Ja, ergänzen und austauschen, ohne ein Wort des Texts zu ändern.\n- Zotero-Sammlung → „BLL Gödel & Determinismus“.\n- Hosting der Webseite → GitHub Pages in einem neuen öffentlichen Repository.\n- Laplace-Zitat (Wortlaut in keiner Ausgabe belegt) → „Schwaiger 1886 wörtlich“.\n- Weitere Abweichungen zwischen Text und Quelle → „Nur Fußnote + Feedback“.\n- Zotero-Import → „ist jetzt offen mach das mit dem Skript selbst“.\n- Aufräumen → „In _archiv/ verschieben“; Bilder-Ordner → „weder noch beide ins archiv“."
+    },
+    {
+     "titel": "Prompt 2",
+     "markdown": "mach weiter, du warst durch das Nutzungslimit unterbrochen"
+    },
+    {
+     "titel": "Prompt 3",
+     "markdown": "Also bitte ändere Alle A Punkte ausser A5 und alle B Punkte ausser B1, B5 bis B9, B11 bis B13  und B21 bis B27 die anderen (nicht genannten) Punkte von A und B kannst du ändern.  Bei C nur C4 ändern und bei D bitte alles Prüfen. Ich bitte dich dahingehend halbwegs minimal invasiv zu, äh, zu ändern, aber ähm, da bitte dann nochmal drüber gehen, noch einen zweiten Scan machen nach Kohärenz, Widersprüchen und Richtigkeit und gucken, dass es sich, dass es jetzt nicht aus der Reihe fällt, die Änderungen, die du gemacht hast, dass es trotzdem noch stimmig und fließend ist, der Text. Und mir dazu im Zweifel nochmal ähm, Rückmeldungen geben. Kannst du Definition und Sätze und Lemma irgendwie ein bisschen hervorheben? Am besten irgendwie unterschiedlich, dass klar wird, dass es was anderes ist. Aber irgendwie trotzdem soll beides seriös aussehen, nur eben ein bisschen schicker. Dass man eben also ein bisschen Detailverliebtheit da drin noch zu sehen ist. Wenn dir sonst noch was einfällt, was man daran schöner machen könnte, es soll immer noch super seriös aussehen, aber so ein bisschen Detailverliebt, dann frag mich bitte, sag, sag Bescheid. Also wirklich, sei kreativ, mach mir da gute Vorschläge. Das soll wirklich ein i-Tüpfelchen, i-Tüpfelchen haben. Ähm, ich finde die Webseite ist auch noch sehr schön. Wenn dir selber noch irgendwas einfällt, wie man sie optimieren kann, dann mach, beziehungsweise frag mich, ob ich das gut finde. Ich finde sie jetzt schon gut, aber da geht natürlich noch immer mehr. Ich finde, beim Wow-Effekt kann man da auch noch mehr machen. Ähm, im Zweifel überlegt dir auch nochmal, was man noch für Bilder erstellen kann. Du hast ja jetzt drei Bilder, die wirklich cool sind. Ähm, überleg dir, was passend, was man passend noch an Bildern erstellen kann und versuch die nochmal ein bisschen stilistisch durchzuoptimieren und zu verbessern. Ähm, ja, genau. Ein Kumpel von mir zeichnet auch Bilder dafür, quasi die handgemacht sind. Die kommen später dann auch noch da rein. Äh, werde ich dir noch übergeben. wenn sie denn dann fertig sind. Ähm, aber ja, du kannst ja auch dich schon mal ins Zeug legen und äh, die Bilder verbessern und andere Bilder noch erstellen mit neuen Bildideen, die dir quasi dabei einfallen. Ich weiß nicht, ob du das hinbekommst, aber kannst du bei den anderen äh, Chats, eigentlich sind die alle in dem BLL-Philo-Projekt, diese Chats und äh, die Cowork-Sessions, kannst du dir die ziehen, ähm, die ganzen Prompts mit Markdown, äh, als Markdown-Datei, beziehungsweise die brauche ich ja gar nicht als Markdown-Datei hier, die kannst du ja direkt hochladen. Ähm, kannst du, kannst du dir die ziehen? Ähm, und das dann schon auf die Seite bringen. Und was ganz gut wäre, ähm, wäre, wenn du mir auch so eine, einfach eine Übersicht gibst, ob m, im Rahmen quasi dessen, was erlaubt ist, meine Prompts oder das, was ich gemacht habe, problematisch ist. Ähm, ja, da wäre es ganz gut, wenn du also dir einfach ziehst, was da ist. Ähm, definitiv nicht aus dem BLL Philo Stil Überarbeitungsding, der andere Code Chat, sondern nur aus dem Projekt ähm, und mir dann auch eine Einschätzung gibt, ob das irgendwie riskant ist, ob man da ja, äh, ja ob das, ob ich da irgendwie Probleme kriegen könnte. Ähm, das soll natürlich eine saubere Sache sein, da will ich keine Fehler machen ähm, und Dann als längerfristige Sache, die quasi ein bisschen unabhängig vom Projekt weiter bestehen soll, möchte ich, dass du mein Zotero mit ähm, Obsidian verbindest und quasi, also das, das ist so ein bisschen, dass, dass, mein, dass mein Second Brain in Obsidian quasi ähm, Zugriff auf mein äh, Zotero hat und da alles quasi zitiermäßig belegbar ist und andererseits natürlich, also dass es das so, da so eine Connection gibt, dass, ähm, dass, dass die beiden verbunden sind auf eine effiziente Art und Weise. Finde ich es ganz gut, wenn du mein Zotero schon mal darauf vorbereitest, dass es effizient ähm, ja, gen genutzt werden kann, irgendwie unter Bibliotheken. Ähm, und ja, wenn du schon dabei bist und dir sicher bist, dass es nicht irgendwie inhaltliche Vermischung gibt, was zu Problemen bei diesem Projekt führen kann, könntest du auch schon mal mit ein paar Subagenten meinen Rechner scannen nach allen möglichen ja, wichtigen oder interessanten Quellendokumenten, äh, die interessant wären, in Zotero einzupflegen und du kannst mir ähm, ja, beziehungsweise dem Vault-Chat, ähm, vielleicht teilst du das auch auf, dass es das dann quasi der dedizierte Vault-Chat macht, aber dass dann mal alle Quellendokumente, die ich habe, irgendwie ordentlich in Zotero eingepflegt werden. Das heißt auch mit Browsersuche, dass deren Angaben vervollständigt werden. Manchmal sind ja nicht alle Informationen hier auf diesem Rechner, dann sollen sie natürlich vervollständigt werden mit dem, was man im Internet dazu findet und dann auch entsprechend die Sachen ins Vault einpflegen, sodass ich irgendwie das nicht nochmal nachträglich machen muss. Aber wirklich nur, äh, wenn das jetzt irgendwie da nicht interferiert mit dem Projekt, am besten ist, du übergibst es irgendwie diese Aufgabe an den Vault, an den Vault-Kram. Wenn dir sonst noch irgendwas einfällt, was man bezüglich dieses Themas machen könnte, dann ähm, wäre das ganz, ganz cool, wenn du, äh, also an sich dieses, äh, dieses Projekt machen könnte, um es noch zu verbessern, dann sag Bescheid, mach ein Brainstorm oder sag mir, sag mir einfach deine Ideen. Und, naja, theoretisch muss ich auch noch alle äh, Quellen und so grüßen. Deswegen, wenn du mir einfach so briefly ähm, quasi mal erzählen würdest, am besten ähnlich wie du es hier bei den Sachen, die du korrigieren willst, gemacht hast, ähm, so briefly erzählen würdest, was du womit belegt hast. Also einfach quasi ähm, die, Stell- die, die Aussage von mir und äh, womit du sie belegt hast, damit ich also mal überprüfen kann, ob die Quellen stimmen. Ich vertraue dir da eigentlich, aber wie gesagt, ich muss das ja für die Schule so ein bisschen gegenprüfen. Also das mir einfach mal so mög- dass ich möglichst wenig machen muss. Ich möchte ja einfach nur drüber gucken, so dass ich sagen kann, ich habe drüber geguckt. Okay? Also, dass du mir vielleicht das auch noch so ein bisschen erleichterst. Und wie gesagt, wenn du selber noch Ideen hast, was man besser machen könnte, was man irgendwie optimieren kann, was mir wirklich wichtig ist, dann sag Bescheid und mach's im Zweifel, beziehungsweise frag mich erst, weil wir wollen, wir wollen nicht kaputt machen."
+    },
+    {
+     "titel": "Antworten auf Rückfragen (13.10.)",
+     "markdown": "- Gestaltung von Definition/Satz/Problem → Variante „Stich und Zierlinie“.\n- Weitere PDF-Feinheiten → Kapitelöffner, Lucas-Argument als Argumentkarte, Glossar zweispaltig, Typografie-Schliff; dazu: „pass auf das du nicht zu viele seiten brauchst, es sollen ja noch bilder eingebunden werden und wir müssen die Formatvorgaben einhalten recherchiere die nochmal genau.“\n- Webseite → interaktive Turingmaschine, Schere-Animation des Gödelsatzes, Dämon-Szene mit Trajektorien, Quellen-Netz; „ich mag wie du denkst mach weiter mir fällt gerade nichts ein (ich melde mich im zweifel später nochmal) liefer du erstmal noch weitere Ideen“.\n- Neue Bilder → Wendeltreppe der Metaebenen, einstürzender Turm der Metaebenen, Filmrolle des Determinismus; bestehende drei verfeinern.\n- Dokumentationslücken → „Stil-Überarbeitung bleibt draußen“.\n- KI-Hilfsmittel im Literaturverzeichnis → ja.\n- Reflexion der KI-Nutzung → Entwurf von der KI, Überarbeitung durch den Verfasser.\n- Gefundene MindsHub-Prompts → erst selbst lesen."
     }
    ]
   },

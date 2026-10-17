@@ -618,6 +618,13 @@ export function initArchive(D, ctx) {
       toast(ok ? 'Zitierzeile kopiert.' : 'Kopieren nicht möglich.');
       return;
     }
+    const cz = t.closest('[data-copy-zitat]');
+    if (cz) {
+      const [i, j] = cz.dataset.copyZitat.split(':').map(Number);
+      const ok = await copyText(D.prompts[i]?.teile[j]?.zitat || '');
+      toast(ok ? 'Zitierzeile kopiert.' : 'Kopieren nicht möglich.');
+      return;
+    }
     const cp = t.closest('[data-copy-part]');
     if (cp) {
       const [i, j] = cp.dataset.copyPart.split(':').map(Number);

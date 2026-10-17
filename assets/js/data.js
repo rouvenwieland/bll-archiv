@@ -181,6 +181,7 @@ export function normalize(raw) {
       teile: arr(p.teile).map((t, j) => ({
         titel: str(t && t.titel) || `Teil ${j + 1}`,
         markdown: typeof t === 'string' ? t : (t && typeof t.markdown === 'string' ? t.markdown : str(t && t.text)),
+        zitat: str(t && t.zitat),
       })).filter((t) => t.markdown || t.titel),
     };
     if (!o.zitierweise && tpl) {

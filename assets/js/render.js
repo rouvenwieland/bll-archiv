@@ -300,7 +300,8 @@ function promptCard(p, i, D) {
   const parts = p.teile.map((t, j) => {
     const body = h('div', { class: 'part__body' },
       h('div', { class: 'part__tools' },
-        h('button', { class: 'btn btn--sm', type: 'button', 'data-copy-part': `${i}:${j}` }, icon('copy'), 'Text kopieren')),
+        h('button', { class: 'btn btn--sm', type: 'button', 'data-copy-part': `${i}:${j}` }, icon('copy'), 'Text kopieren'),
+        t.zitat ? h('button', { class: 'btn btn--sm', type: 'button', 'data-copy-zitat': `${i}:${j}`, title: 'Zitierzeile nach KI-Infoblatt: URL prompted by Name, Datum, Prompt' }, icon('copy'), 'Zitierzeile') : null),
       h('div', { class: 'prose', 'data-md': `${i}:${j}`, 'data-hl': '' }),
       h('div', { class: 'part__foot' },
         h('button', { class: 'btn btn--sm btn--ghost', type: 'button', 'data-collapse': '' }, 'Einklappen', icon('up'))));

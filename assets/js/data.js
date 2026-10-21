@@ -24,6 +24,14 @@ const TYP = {
   inreference: 'Lexikonartikel', manual: 'Handbuch', booklet: 'Broschüre', periodical: 'Zeitschrift',
 };
 
+// Sortier- und Gruppierschlüssel: führende Zeichen weg, griechische Buchstaben umschreiben
+// (ω-Widerspruchsfreiheit gehört unter O, aber hinter A … N)
+const GRIECHISCH = { α: 'alpha', β: 'beta', γ: 'gamma', δ: 'delta', ε: 'epsilon', λ: 'lambda', μ: 'my', π: 'pi', σ: 'sigma', φ: 'phi', ω: 'omega', Ω: 'Omega' };
+function sortKey(s) {
+  const t = String(s || '').replace(/^[^\p{L}\p{N}]+/u, '');
+  return (GRIECHISCH[t.charAt(0)] || t.charAt(0)) + t.slice(1);
+}
+
 function uniqueId(base, used) {
   let id = base, n = 2;
   while (used.has(id)) id = `${base}-${n++}`;
@@ -151,14 +159,14 @@ export function normalize(raw) {
       quellen: arr(g.quellen).map(normRef).filter((r) => r && r.id),
     };
     o.id = o.slug;
-    const first = begriff.replace(/^[^\p{L}\p{N}]+/u, '').charAt(0).toLocaleUpperCase('de-DE');
+    const first = sortKey(begriff).charAt(0).toLocaleUpperCase('de-DE');
     o.letter = first.normalize('NFD').replace(/[̀-ͯ]/g, '') || '#';
     if (!/[A-Z]/.test(o.letter)) o.letter = '#';
     o.sections = new Set(o.abschnitte);
     o.text = fold([o.begriff, o.kategorie, o.einfach, o.praezise,
       ...o.quellen.map((r) => `${r.id} ${(quellenById.get(r.id) || {}).label || ''} ${r.stelle}`)].join(' \u0001 '));
     return o;
-  }).sort((a, b) => a.begriff.localeCompare(b.begriff, 'de', { sensitivity: 'base' }));
+  }).sort((a, b) => sortKey(a.begriff).localeCompare(sortKey(b.begriff), 'de', { sensitivity: 'base' }));
   const glossarBySlug = new Map(glossar.map((g) => [g.slug, g]));
   const glossarByLower = new Map(glossar.map((g) => [fold(g.begriff), g]));
 

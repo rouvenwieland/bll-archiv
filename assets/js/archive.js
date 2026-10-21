@@ -495,7 +495,12 @@ export function initArchive(D, ctx) {
     el.classList.remove('is-flash');
     void el.offsetWidth;
     el.classList.add('is-flash');
-    el.addEventListener('animationend', () => el.classList.remove('is-flash'), { once: true });
+    const ende = (ev) => {
+      if (ev.target !== el) return;  // Animationen von Kindelementen ignorieren
+      el.classList.remove('is-flash');
+      el.removeEventListener('animationend', ende);
+    };
+    el.addEventListener('animationend', ende);
   }
 
   function go(r, { initial = false } = {}) {
@@ -529,6 +534,7 @@ export function initArchive(D, ctx) {
       toast('Suche und Filter zurückgesetzt, um den Eintrag zu zeigen.');
     }
     if (r.tab === 'quellen') e.details.forEach((d) => { d.open = true; });
+    if (r.tab === 'prompts') { const erster = e.el.querySelector('details.part'); if (erster) erster.open = true; }
     e.el.classList.add('rv-in');
     requestAnimationFrame(() => {
       scrollToEl(e.el, initial);

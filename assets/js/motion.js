@@ -124,9 +124,9 @@ function machineIntro(gsap) {
   const sec = $('#maschine');
   if (!sec) return null;
   const items = $$('.scene__label, .scene__title, .machine__lead, .tm', sec);
-  const tw = gsap.fromTo(items, { autoAlpha: 0, y: 28 }, {
-    autoAlpha: 1, y: 0, duration: 0.95, ease: 'power3.out', stagger: 0.08,
-    scrollTrigger: { trigger: sec, start: 'top 78%', once: true },
+  const tw = gsap.fromTo(items, { opacity: 0, y: 28 }, {
+    opacity: 1, y: 0, duration: 0.8, ease: 'power3.out', stagger: 0.06,
+    scrollTrigger: { trigger: sec, start: 'top 95%', once: true },
   });
   return () => { tw.scrollTrigger?.kill(); gsap.set(items, { clearProps: 'all' }); };
 }
@@ -240,6 +240,8 @@ function cutScene(gsap, ScrollTrigger, mobile) {
         const p = self.progress;
         setStep(p < 0.19 ? 0 : p < 0.5 ? 1 : p < 0.79 ? 2 : 3);
       },
+      onLeave: () => setStep(3),
+      onLeaveBack: () => setStep(0),
     },
   });
   const camTo = (vars, at, dur, ease = 'power2.inOut') => tl.to(cam, { ...vars, duration: dur, ease, onUpdate: apply }, at);
@@ -288,8 +290,8 @@ function chaptersScene(gsap, mobile) {
   if (!fitsV || dist() < 24) {
     sec.classList.remove('is-track');
     // Statische Variante: Karten gestaffelt einblenden
-    const tw = gsap.fromTo(cards, { autoAlpha: 0, y: 30 }, {
-      autoAlpha: 1, y: 0, duration: 1, ease: 'power3.out', stagger: 0.08,
+    const tw = gsap.fromTo(cards, { opacity: 0, y: 30 }, {
+      opacity: 1, y: 0, duration: 1, ease: 'power3.out', stagger: 0.08,
       scrollTrigger: { trigger: track, start: 'top 85%', once: true },
     });
     return () => { tw.scrollTrigger?.kill(); gsap.set(cards, { clearProps: 'all' }); };

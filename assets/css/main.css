@@ -813,7 +813,9 @@ html.cine .selfref { padding: calc(var(--topbar-h) + var(--safe-t) + 12px) 0 24p
 }
 
 /* --- Standbilder: Wendeltreppe, Zusammensturz, Filmrolle --------------- */
-.still .scene__label { justify-content: center; text-align: center; margin-bottom: 18px; }
+.still .scene__label { display: block; text-align: center; margin-bottom: 18px; text-wrap: balance; }
+.still .scene__label::before,
+.still .scene__label::after { content: ""; display: inline-block; width: 22px; height: 1px; background: var(--t3); vertical-align: middle; margin: 0 10px; }
 .still__media { position: relative; }
 .still__quote {
   margin: 18px auto 0;
@@ -1492,6 +1494,9 @@ a.chapter__row:active { background: var(--s3); }
   .card:hover::after { opacity: 1; }
 }
 .card.is-flash { animation: flash 1.8s var(--ease-out); }
+@media (prefers-reduced-motion: reduce) {
+  .card.is-flash { animation: none; outline: 1px solid var(--t2); outline-offset: 4px; }
+}
 @keyframes flash {
   0%, 18% { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-30), 0 0 48px var(--accent-18); background: var(--s2); }
   100% { box-shadow: 0 0 0 0 transparent; }

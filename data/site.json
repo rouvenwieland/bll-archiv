@@ -290,7 +290,7 @@
     {
      "nr": 234,
      "ort": "Glossar: Regress (unendlicher)",
-     "aussage": "Ein unendlicher Regress entsteht, wenn eine Begründung oder Konstruktion auf jeder Stufe die nächste Stufe gleicher Art voraussetzt. Im Text (5.2) ist es die Leiter immer stärkerer Systeme, bei der jede Stufe die Korrektheit der vorigen voraussetzt; in 4.7 betrifft er Sätze, die auf unendlichen Regressionen aufbauen.",
+     "aussage": "Ein unendlicher Regress entsteht, wenn eine Begründung oder Konstruktion auf jeder Stufe die nächste Stufe gleicher Art voraussetzt. Im Text (5.2) ist es die Leiter immer stärkerer Systeme, bei der jede Stufe die Konsistenz der vorigen voraussetzt; in 4.7 betrifft er Sätze, die auf unendlichen Regressionen aufbauen.",
      "stelle": "",
      "fundort": "Einleitung",
      "ausschnitt": "An infinite regress is a series of appropriately related elements with a first member but no last member, where each element leads to or generates the next in some sense.",
@@ -402,7 +402,7 @@
     {
      "nr": 170,
      "ort": "Glossar: Rekursiv (im Sinne von berechenbar)",
-     "aussage": "Eine rekursive Funktion ist eine berechenbare Funktion; Church fasst den Begriff über Systeme von Gleichungen (nach Herbrand und Gödel); gleichwertig ist die heute übliche Definition über Grundfunktionen, Komposition, primitive Rekursion und Minimierung. Der Begriff und stimmt nach der Church-Turing-These mit der Turing-Berechenbarkeit überein. Eine rekursive Menge ist entscheidbar. Im Text (4. …",
+     "aussage": "Eine rekursive Funktion ist eine berechenbare Funktion; Church fasst den Begriff über Systeme von Gleichungen (nach Herbrand und Gödel); gleichwertig ist die heute übliche Definition über Grundfunktionen, Komposition, primitive Rekursion und Minimierung. Der Begriff stimmt nach der Church-Turing-These mit der Turing-Berechenbarkeit überein. Eine rekursive Menge ist entscheidbar. Im Text (4.3) s …",
      "stelle": "§ 4; § 7, S. 356",
      "fundort": "S. 346 Fn. 3; S. 350 f. (§ 4); S. 356 (§ 7)",
      "ausschnitt": "this definition of effective calculability can be stated in either of two equivalent forms, (1) that a function of positive integers shall be called effectively calculable if it is λ-definable in the sense of § 2 below, (2) that a function of positive integers shall be called effectively calculable if it is recursive in the sense of § 4 below. [Fn. 3, S. 346]",
@@ -498,7 +498,7 @@
     {
      "nr": 169,
      "ort": "Glossar: Physikalische Church-Turing-These",
-     "aussage": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der nur die physikalisch berechenbaren Funktionen Turing-berechenbar sind. Im Text (4.3, …",
+     "aussage": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der jede physikalisch berechenbare Funktion Turing-berechenbar ist. Im Text (4.3) wird s …",
      "stelle": "Abschn. 6.4",
      "fundort": "Abschn. 6.4, 6.4.1",
      "ausschnitt": "In the wake of this early work by Deutsch and Wolfram, the phrases \"physical form of the Church-Turing thesis\", \"physical version of the Church-Turing thesis\"—and even \"the physical Church-Turing thesis\"—are now quite common in the current literature. However, such terms are probably better avoided, since these physical theses are very distant from Turing's thesis and Church's thesis.",
@@ -583,7 +583,7 @@
     {
      "nr": 167,
      "ort": "Glossar: Physikalische Church-Turing-These",
-     "aussage": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der nur die physikalisch berechenbaren Funktionen Turing-berechenbar sind. Im Text (4.3, …",
+     "aussage": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der jede physikalisch berechenbare Funktion Turing-berechenbar ist. Im Text (4.3) wird s …",
      "stelle": "S. 99",
      "fundort": "S. 99 (Prinzip 1.2), S. 97 (Abstract), S. 100",
      "ausschnitt": "I can now state the physical version of the Church-Turing principle: 'Every finitely realizible physical system can be perfectly simulated by a universal model computing machine operating by finite means'. (1.2) […] [S. 97, Abstract:] Classical physics and the universal Turing machine, because the former is continuous and the latter discrete, do not obey the principle, at least in the strong form above.",
@@ -1661,7 +1661,7 @@
      "nr": 204,
      "ort": "Glossar: Epistemisch / Erkenntnistheorie",
      "aussage": "Erkenntnistheorie (Epistemologie) untersucht Wissen, Rechtfertigung und die Grenzen der Erkenntnis; „epistemisch“ betrifft den Wissensstatus. Im Text (1.2, 4.1) sind Vorhersagbarkeit, Berechenbarkeit und Beweisbarkeit epistemische Begriffe, im Gegensatz zum ontologischen Determinismus.",
-     "stelle": "Abschn. 3",
+     "stelle": "Abschn. 1",
      "fundort": "Abschn. 1",
      "ausschnitt": "Prediction and determinism are also easy to disentangle […]. When it comes to predictability of future events by humans or other finite agents in the world, then, predictability and determinism are simply not logically connected at all.",
      "bild": "assets/belege/204.png"
@@ -1670,7 +1670,7 @@
      "nr": 205,
      "ort": "Glossar: Epistemischer Determinismus",
      "aussage": "Begriff dieser Arbeit (Abschnitt 1.4): die These, dass sich in einer determinierten Welt auch wissen lässt, was geschehen wird, also dass Determiniertheit Vorhersagbarkeit nach sich zieht. Er ist vom Determinismus als ontologischer These darüber, wie die Welt ist, zu unterscheiden (siehe *Determinismus*).",
-     "stelle": "Abschn. 1 und 3",
+     "stelle": "Abschn. 1",
      "fundort": "Abschn. 1",
      "ausschnitt": "When it comes to predictability of future events by humans or other finite agents in the world, then, predictability and determinism are simply not logically connected at all.",
      "bild": "assets/belege/205.png"
@@ -1706,7 +1706,7 @@
      "nr": 227,
      "ort": "Glossar: Ontologie / ontologisch",
      "aussage": "Ontologie ist die philosophische Lehre vom Seienden und seiner Grundstruktur. „Ontologisch“ bezeichnet im Text Aussagen darüber, was der Fall ist (der Determinismus als These über die Welt), im Unterschied zu epistemischen Aussagen über das, was wir wissen können.",
-     "stelle": "Abschn. 1 und 3",
+     "stelle": "Abschn. 1",
      "fundort": "Abschn. 1",
      "ausschnitt": "Prediction and determinism are also easy to disentangle […]. When it comes to predictability of future events by humans or other finite agents in the world, then, predictability and determinism are simply not logically connected at all.",
      "bild": "assets/belege/227.png"
@@ -1715,7 +1715,7 @@
      "nr": 239,
      "ort": "Glossar: Vorhersagbarkeit",
      "aussage": "Im Text (1.2) festgelegt als epistemische Eigenschaft: Aus begrenztem Wissen über Gegenwart und Vergangenheit wird mittels eines Kalküls neues Wissen über die Zukunft gewonnen. Vorhersagbarkeit ist von der Determiniertheit der Welt zu unterscheiden: Auch Determiniertes kann unvorhersagbar sein, das Halteproblem zeigt es im Kleinen (2.8).",
-     "stelle": "Abschn. 1 und 3",
+     "stelle": "Abschn. 1",
      "fundort": "Abschn. 1",
      "ausschnitt": "But even if our aim is only to predict a well-defined subsystem of the world, for a limited period of time, this may be impossible for any reasonable finite agent embedded in the world, as many studies of chaos […] show. Conversely, certain parts of the world could be highly predictable, in some senses, without the world being deterministic.",
      "bild": "assets/belege/239.png"
@@ -2014,7 +2014,7 @@
     {
      "nr": 220,
      "ort": "Glossar: Mechanistischer Determinismus",
-     "aussage": "Begriff dieser Arbeit (Abschnitt 3.4, Definition 14). Anders als bei Laplace genügt nicht der Momentanzustand, verlangt wird die gesamte Vergangenheit. Die „Maschine“ ist kein äußerer Beobachter, sondern der Regelvollzug des Universums selbst (siehe *Dämon (Regelvollzug)*).",
+     "aussage": "Begriff dieser Arbeit (Abschnitt 3.4, Definition 14). Anders als bei Laplace wird nicht behauptet, dass der Momentanzustand genügt; vorausgesetzt wird die gesamte Vergangenheit. Die „Maschine“ ist kein äußerer Beobachter, sondern der Regelvollzug des Universums selbst (siehe *Dämon (Regelvollzug)*).",
      "stelle": "S. 4",
      "fundort": "S. 4",
      "ausschnitt": "Eine Intelligenz, welche für einen gegebenen Augenblick alle Kräfte, von denen die Natur belebt ist, sowie die gegenseitige Lage der Wesen […] kennen würde",
@@ -2136,7 +2136,7 @@
     {
      "nr": 221,
      "ort": "Glossar: Mechanistischer Determinismus",
-     "aussage": "Begriff dieser Arbeit (Abschnitt 3.4, Definition 14). Anders als bei Laplace genügt nicht der Momentanzustand, verlangt wird die gesamte Vergangenheit. Die „Maschine“ ist kein äußerer Beobachter, sondern der Regelvollzug des Universums selbst (siehe *Dämon (Regelvollzug)*).",
+     "aussage": "Begriff dieser Arbeit (Abschnitt 3.4, Definition 14). Anders als bei Laplace wird nicht behauptet, dass der Momentanzustand genügt; vorausgesetzt wird die gesamte Vergangenheit. Die „Maschine“ ist kein äußerer Beobachter, sondern der Regelvollzug des Universums selbst (siehe *Dämon (Regelvollzug)*).",
      "stelle": "S. 360",
      "fundort": "S. 360 (und S. 359)",
      "ausschnitt": "A better approach is as follows. First, a system of laws of nature is Deterministic iff no two divergent worlds both conform perfectly to the laws of that system.",
@@ -2679,7 +2679,7 @@
      "nr": 139,
      "ort": "Glossar: Peano-Axiome / Peano-Arithmetik",
      "aussage": "Die Peano-Arithmetik $\\mathsf{PA}$ ist die Theorie erster Stufe in der Sprache mit $0$, $S$, $+$ und $\\cdot$, mit Axiomen über Nachfolger, den rekursiven Gleichungen für Addition und Multiplikation und dem Induktionsschema; sie ist nicht endlich axiomatisierbar. Peanos Axiome von 1889 waren nicht erststufig formuliert. Um den ersten Unvollständigkeitssatz zu erhalten, genügt eine schwächere The …",
-     "stelle": "§ 1, Axiom 6",
+     "stelle": "§ 1, Axiome 6 und 9",
      "fundort": "S. 1 (§ 1, Axiom 9)",
      "ausschnitt": "k ε K ∴ 1 ε k ∴ x ε N . x ε k : ⊃x . x + 1 ε k :: ⊃ . N ⊃ k.",
      "bild": "assets/belege/139.png"
@@ -2746,7 +2746,7 @@
     {
      "nr": 166,
      "ort": "Glossar: Nicht-algorithmisch / nicht berechenbar",
-     "aussage": "Eine Funktion oder ein Problem, das nicht Turing-berechenbar ist, wie das Halteproblem. Nicht berechenbar ist nicht dasselbe wie nicht determiniert: Ob eine bestimmte Maschine bei einer bestimmten Eingabe anhält, steht fest, ohne dass es ein allgemeines Verfahren dafür gibt. Penrose behauptet, die mathematische Einsicht und die zugrunde liegende Physik seien nicht algorithmisch (5.3).",
+     "aussage": "Eine Funktion oder ein Problem, das nicht Turing-berechenbar ist, wie das Halteproblem. Nicht berechenbar ist nicht dasselbe wie nicht determiniert: Ob eine bestimmte Maschine bei einer bestimmten Eingabe anhält, steht fest, ohne dass es ein allgemeines Verfahren dafür gibt. Penrose behauptet, die mathematische Einsicht sei nicht algorithmisch, und vermutet dasselbe für die zugrunde liegende Ph …",
      "stelle": "Kap. 4 und 10",
      "fundort": "Kap. 4: S. 143 f.; Kap. 10: S. 538-541, 557 f.",
      "ausschnitt": "Mathematical truth is not something that we ascertain merely by use of an algorithm. I believe, also, that our consciousness is a crucial ingredient in our comprehension of mathematical truth. [S. 540] / This would imply that the future would not be computable from the present, even though it might be determined by it. […] It seems to me to be quite plausible that CQG might be a deterministic but non-computable theory. [S. 558]",
@@ -2816,7 +2816,7 @@
     {
      "nr": 168,
      "ort": "Glossar: Physikalische Church-Turing-These",
-     "aussage": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der nur die physikalisch berechenbaren Funktionen Turing-berechenbar sind. Im Text (4.3, …",
+     "aussage": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der jede physikalisch berechenbare Funktion Turing-berechenbar ist. Im Text (4.3) wird s …",
      "stelle": "Abschn. 4.1–4.2",
      "fundort": "Abschn. 4.1, 4.2",
      "ausschnitt": "Bold Physical CTT holds that any physical process — anything doable by a physical system — is computable by some TM. […] Modest Physical CTT asserts that every function that can be physically computed, i.e., every usable transformation of input strings into output strings in accordance with a process-independent rule defined over the strings, is Turing-computable.",
@@ -3582,7 +3582,7 @@
     {
      "nr": 165,
      "ort": "Glossar: Nicht-algorithmisch / nicht berechenbar",
-     "aussage": "Eine Funktion oder ein Problem, das nicht Turing-berechenbar ist, wie das Halteproblem. Nicht berechenbar ist nicht dasselbe wie nicht determiniert: Ob eine bestimmte Maschine bei einer bestimmten Eingabe anhält, steht fest, ohne dass es ein allgemeines Verfahren dafür gibt. Penrose behauptet, die mathematische Einsicht und die zugrunde liegende Physik seien nicht algorithmisch (5.3).",
+     "aussage": "Eine Funktion oder ein Problem, das nicht Turing-berechenbar ist, wie das Halteproblem. Nicht berechenbar ist nicht dasselbe wie nicht determiniert: Ob eine bestimmte Maschine bei einer bestimmten Eingabe anhält, steht fest, ohne dass es ein allgemeines Verfahren dafür gibt. Penrose behauptet, die mathematische Einsicht sei nicht algorithmisch, und vermutet dasselbe für die zugrunde liegende Ph …",
      "stelle": "Thm. 43.3, S. 329 f.",
      "fundort": "329 f.",
      "ausschnitt": "Theorem 43.3 The self-halting problem is not recursively solvable. […] The recursive unsolvability of the self-halting problem shows that there is indeed no effective way of telling of an arbitrary […] whether it will halt on input e.",
@@ -3600,7 +3600,7 @@
     {
      "nr": 175,
      "ort": "Glossar: Turingmaschine",
-     "aussage": "Fachlich: ein Band mit Feldern, ein Lese-Schreib-Kopf und ein endliches Programm, das für jeden Zustand und jedes gelesene Zeichen festlegt, was geschrieben wird, wohin der Kopf rückt und welcher Zustand folgt (bei Smith als Menge von Vierertupeln). Turing (1936, §1) nennt endlich viele „m-Konfigurationen“ und ein Band mit Feldern; die Beschreibung mit beidseitig unbegrenztem Band ist die moder …",
+     "aussage": "Fachlich: ein Band mit Feldern, ein Lese-Schreib-Kopf und ein endliches Programm, das für jeden Zustand und jedes gelesene Zeichen festlegt, was geschrieben wird, wohin der Kopf rückt und welcher Zustand folgt (Smith fasst das Programm als Menge von Vierertupeln, bei denen je Schritt nur eine Aktion ausgeführt wird, Schreiben oder Bewegen; beide Fassungen sind gleichwertig). Turing (1936, §1) n …",
      "stelle": "§§ 41.1–41.2, S. 310–314",
      "fundort": "312; 320; 310",
      "ausschnitt": "We define an instruction-quadruple (or 'i-quadruple' for short) to be an ordered quadruple of the form […] it is common enough to read 'A Turing Machine is a set of quadruples",
@@ -3609,8 +3609,8 @@
     {
      "nr": 206,
      "ort": "Glossar: Explikation (Begriffsexplikation)",
-     "aussage": "Nach Carnap der Ersatz eines vorwissenschaftlichen, unklaren Begriffs (Explikandum) durch einen exakten Begriff (Explikat), der dem alten hinreichend ähnlich, exakt, fruchtbar und einfach sein soll. Im Text (3.4) ist die „dritte Explikation“ die eigene, präzisierte Fassung des Determinismus.",
-     "stelle": "§ 44.5, S. 347",
+     "aussage": "Nach Carnap der Ersatz eines vorwissenschaftlichen, unklaren Begriffs (Explikandum) durch einen exakten Begriff (Explikat), der fruchtbar und einfach sein soll. Im Text (3.4) ist die „dritte Explikation“ die eigene, präzisierte Fassung des Determinismus.",
+     "stelle": "§ 44.5, S. 347 mit Anm. 15 (Verweis auf Carnap)",
      "fundort": "S. 347 (Abschn. 44.5)",
      "ausschnitt": "adopting recursiveness/Turing-computability at least as an `explication' of our intuitive concept of effective computability -- i.e. as a fruitful, simple, clean replacement for our proto-theoretic concept. […] For more on the idea of an explication, see Carnap (1950, ch. 1).",
      "bild": "assets/belege/206.png"
@@ -4145,7 +4145,7 @@
     {
      "nr": 173,
      "ort": "Glossar: Turingmaschine",
-     "aussage": "Fachlich: ein Band mit Feldern, ein Lese-Schreib-Kopf und ein endliches Programm, das für jeden Zustand und jedes gelesene Zeichen festlegt, was geschrieben wird, wohin der Kopf rückt und welcher Zustand folgt (bei Smith als Menge von Vierertupeln). Turing (1936, §1) nennt endlich viele „m-Konfigurationen“ und ein Band mit Feldern; die Beschreibung mit beidseitig unbegrenztem Band ist die moder …",
+     "aussage": "Fachlich: ein Band mit Feldern, ein Lese-Schreib-Kopf und ein endliches Programm, das für jeden Zustand und jedes gelesene Zeichen festlegt, was geschrieben wird, wohin der Kopf rückt und welcher Zustand folgt (Smith fasst das Programm als Menge von Vierertupeln, bei denen je Schritt nur eine Aktion ausgeführt wird, Schreiben oder Bewegen; beide Fassungen sind gleichwertig). Turing (1936, §1) n …",
      "stelle": "S. 231 f.",
      "fundort": "S. 231 f. (§ 1); S. 241 f. (§ 6)",
      "ausschnitt": "We may compare a man in the process of computing a real number to a machine which is only capable of a finite number of conditions q1, q2, …, qI; which will be called \"m-configurations\". The machine is supplied with a \"tape\" (the analogue of paper) running through it, and divided into sections (called \"squares\") each capable of bearing a \"symbol\". […] It is possible to invent a single machine which can be used to compute any computable sequence. If this machine U is supplied with a tape on the beginning of which is written the S.D of some computing machine M, then U will compute the same sequence as M.",
@@ -4154,7 +4154,7 @@
     {
      "nr": 174,
      "ort": "Glossar: Turingmaschine",
-     "aussage": "Fachlich: ein Band mit Feldern, ein Lese-Schreib-Kopf und ein endliches Programm, das für jeden Zustand und jedes gelesene Zeichen festlegt, was geschrieben wird, wohin der Kopf rückt und welcher Zustand folgt (bei Smith als Menge von Vierertupeln). Turing (1936, §1) nennt endlich viele „m-Konfigurationen“ und ein Band mit Feldern; die Beschreibung mit beidseitig unbegrenztem Band ist die moder …",
+     "aussage": "Fachlich: ein Band mit Feldern, ein Lese-Schreib-Kopf und ein endliches Programm, das für jeden Zustand und jedes gelesene Zeichen festlegt, was geschrieben wird, wohin der Kopf rückt und welcher Zustand folgt (Smith fasst das Programm als Menge von Vierertupeln, bei denen je Schritt nur eine Aktion ausgeführt wird, Schreiben oder Bewegen; beide Fassungen sind gleichwertig). Turing (1936, §1) n …",
      "stelle": "§ 6, S. 241",
      "fundort": "S. 241 (§ 6); S. 231 f. (§ 1)",
      "ausschnitt": "It is possible to invent a single machine which can be used to compute any computable sequence. If this machine U is supplied with a tape on the beginning of which is written the S.D of some computing machine M, then U will compute the same sequence as M. […] We may compare a man in the process of computing a real number to a machine which is only capable of a finite number of conditions q1, q2, …, qI; which will be called \"m-configurations\". The machine is supplied with a \"tape\" (the analogue of paper) running through it, and divided into sections (called \"squares\") each capable of bearing a \"symbol\".",
@@ -4652,8 +4652,7 @@
     "4.3",
     "5.3",
     "5.4",
-    "6.2",
-    "6.3"
+    "6.2"
    ],
    "einwand": "Penrose bestreitet genau diese Prämisse: Die Natur könnte nicht berechenbare Prozesse vollziehen (Abschnitt 5.3).",
    "folge": "Die Welt kann dann vollkommen determiniert und trotzdem nicht berechenbar sein (Abschnitt 5.3).",
@@ -5570,7 +5569,7 @@
    "quellen": [
     {
      "id": "peano1889arithmetices",
-     "stelle": "§ 1, Axiom 6"
+     "stelle": "§ 1, Axiome 6 und 9"
     },
     {
      "id": "smith2013",
@@ -5849,7 +5848,7 @@
    "slug": "nicht-algorithmisch-nicht-berechenbar",
    "kategorie": "Berechenbarkeit",
    "einfach": "Etwas, das sich durch kein Rechenverfahren ausrechnen lässt, auch wenn das Ergebnis eindeutig feststeht.",
-   "praezise": "Eine Funktion oder ein Problem, das nicht Turing-berechenbar ist, wie das Halteproblem. Nicht berechenbar ist nicht dasselbe wie nicht determiniert: Ob eine bestimmte Maschine bei einer bestimmten Eingabe anhält, steht fest, ohne dass es ein allgemeines Verfahren dafür gibt. Penrose behauptet, die mathematische Einsicht und die zugrunde liegende Physik seien nicht algorithmisch (5.3).",
+   "praezise": "Eine Funktion oder ein Problem, das nicht Turing-berechenbar ist, wie das Halteproblem. Nicht berechenbar ist nicht dasselbe wie nicht determiniert: Ob eine bestimmte Maschine bei einer bestimmten Eingabe anhält, steht fest, ohne dass es ein allgemeines Verfahren dafür gibt. Penrose behauptet, die mathematische Einsicht sei nicht algorithmisch, und vermutet dasselbe für die zugrunde liegende Physik (5.3).",
    "quellen": [
     {
      "id": "smith2013",
@@ -5862,10 +5861,7 @@
    ],
    "abschnitte": [
     "5.2",
-    "5.3",
-    "5.4",
-    "6.1",
-    "6.2"
+    "5.3"
    ]
   },
   {
@@ -5873,7 +5869,7 @@
    "slug": "physikalische-church-turing-these",
    "kategorie": "Berechenbarkeit",
    "einfach": "Die Annahme, dass sich jeder Vorgang in der Natur durch eine Turingmaschine beliebig genau nachrechnen lässt, die Natur also nichts „Unberechenbares“ tut.",
-   "praezise": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der nur die physikalisch berechenbaren Funktionen Turing-berechenbar sind. Im Text (4.3, 4.7) wird sie in der zugespitzten Form gebraucht, dass auch die physische Substitution Turing-berechenbar ist. Copeland rät von der Bezeichnung „physikalische Church-Turing-These“ ab, weil sich diese Thesen weit von den Thesen Churchs und Turings entfernen.",
+   "praezise": "In der kühnen Fassung: Jeder physikalische Prozess lässt sich durch eine Turingmaschine simulieren (nach Deutsch: jedes endlich realisierbare physikalische System lässt sich von einer universellen Rechenmaschine mit endlichen Mitteln perfekt simulieren). Davon zu unterscheiden ist die maßvolle Fassung, nach der jede physikalisch berechenbare Funktion Turing-berechenbar ist. Im Text (4.3) wird sie in der zugespitzten Form gebraucht, dass auch die physische Substitution Turing-berechenbar ist. Copeland rät von der Bezeichnung „physikalische Church-Turing-These“ ab, weil sich diese Thesen weit von den Thesen Churchs und Turings entfernen.",
    "quellen": [
     {
      "id": "deutsch1985quantum",
@@ -5900,7 +5896,7 @@
    "slug": "rekursiv-im-sinne-von-berechenbar",
    "kategorie": "Berechenbarkeit",
    "einfach": "In der Logik heißt „rekursiv“ nicht einfach „sich selbst aufrufend“, sondern „durch ein Rechenverfahren bestimmbar“.",
-   "praezise": "Eine rekursive Funktion ist eine berechenbare Funktion; Church fasst den Begriff über Systeme von Gleichungen (nach Herbrand und Gödel); gleichwertig ist die heute übliche Definition über Grundfunktionen, Komposition, primitive Rekursion und Minimierung. Der Begriff und stimmt nach der Church-Turing-These mit der Turing-Berechenbarkeit überein. Eine rekursive Menge ist entscheidbar. Im Text (4.3, 4.7) steht „rekursiv“ in diesem Sinn; die Wendung „rekursiv axiomatisiert“ bezieht sich auf die Axiomenmenge.",
+   "praezise": "Eine rekursive Funktion ist eine berechenbare Funktion; Church fasst den Begriff über Systeme von Gleichungen (nach Herbrand und Gödel); gleichwertig ist die heute übliche Definition über Grundfunktionen, Komposition, primitive Rekursion und Minimierung. Der Begriff stimmt nach der Church-Turing-These mit der Turing-Berechenbarkeit überein. Eine rekursive Menge ist entscheidbar. Im Text (4.3) steht „rekursiv“ in diesem Sinn; die Wendung „rekursiv axiomatisiert“ bezieht sich auf die Axiomenmenge.",
    "quellen": [
     {
      "id": "church1936unsolvable",
@@ -5936,7 +5932,7 @@
    "slug": "turingmaschine",
    "kategorie": "Berechenbarkeit",
    "einfach": "Ein Gedankenmodell eines Computers: ein unendlich langes Band mit Feldern, ein Kopf, der liest, schreibt und ein Feld weiterrückt, und eine endliche Regeltabelle, die zu jedem gelesenen Zeichen und inneren Zustand sagt, was zu tun ist.",
-   "praezise": "Fachlich: ein Band mit Feldern, ein Lese-Schreib-Kopf und ein endliches Programm, das für jeden Zustand und jedes gelesene Zeichen festlegt, was geschrieben wird, wohin der Kopf rückt und welcher Zustand folgt (bei Smith als Menge von Vierertupeln). Turing (1936, §1) nennt endlich viele „m-Konfigurationen“ und ein Band mit Feldern; die Beschreibung mit beidseitig unbegrenztem Band ist die moderne Lehrbuchfassung. Es gibt eine universelle Turingmaschine, die jede andere simuliert (§6). Ein realer Computer hat endlichen Speicher und entspricht der Turingmaschine nur als Idealisierung.",
+   "praezise": "Fachlich: ein Band mit Feldern, ein Lese-Schreib-Kopf und ein endliches Programm, das für jeden Zustand und jedes gelesene Zeichen festlegt, was geschrieben wird, wohin der Kopf rückt und welcher Zustand folgt (Smith fasst das Programm als Menge von Vierertupeln, bei denen je Schritt nur eine Aktion ausgeführt wird, Schreiben oder Bewegen; beide Fassungen sind gleichwertig). Turing (1936, §1) nennt endlich viele „m-Konfigurationen“ und ein Band mit Feldern; die Beschreibung mit beidseitig unbegrenztem Band ist die moderne Lehrbuchfassung. Es gibt eine universelle Turingmaschine, die jede andere simuliert (§6). Ein realer Computer hat endlichen Speicher und entspricht der Turingmaschine nur als Idealisierung.",
    "quellen": [
     {
      "id": "turing1936computable",
@@ -6138,7 +6134,9 @@
     }
    ],
    "abschnitte": [
-    "4.6"
+    "4.1",
+    "4.6",
+    "5.1"
    ]
   },
   {
@@ -6390,7 +6388,7 @@
    "quellen": [
     {
      "id": "hoefer2023causal",
-     "stelle": "Abschn. 3"
+     "stelle": "Abschn. 1"
     }
    ],
    "abschnitte": [
@@ -6412,7 +6410,7 @@
    "quellen": [
     {
      "id": "hoefer2023causal",
-     "stelle": "Abschn. 1 und 3"
+     "stelle": "Abschn. 1"
     }
    ],
    "abschnitte": [
@@ -6425,11 +6423,11 @@
    "slug": "explikation-begriffsexplikation",
    "kategorie": "Philosophische Begriffe",
    "einfach": "Einen unscharfen Alltagsbegriff durch einen genaueren ersetzen, der für einen bestimmten Zweck brauchbar ist.",
-   "praezise": "Nach Carnap der Ersatz eines vorwissenschaftlichen, unklaren Begriffs (Explikandum) durch einen exakten Begriff (Explikat), der dem alten hinreichend ähnlich, exakt, fruchtbar und einfach sein soll. Im Text (3.4) ist die „dritte Explikation“ die eigene, präzisierte Fassung des Determinismus.",
+   "praezise": "Nach Carnap der Ersatz eines vorwissenschaftlichen, unklaren Begriffs (Explikandum) durch einen exakten Begriff (Explikat), der fruchtbar und einfach sein soll. Im Text (3.4) ist die „dritte Explikation“ die eigene, präzisierte Fassung des Determinismus.",
    "quellen": [
     {
      "id": "smith2013",
-     "stelle": "§ 44.5, S. 347"
+     "stelle": "§ 44.5, S. 347 mit Anm. 15 (Verweis auf Carnap)"
     }
    ],
    "abschnitte": [
@@ -6595,7 +6593,7 @@
    "slug": "mechanistischer-determinismus",
    "kategorie": "Philosophische Begriffe",
    "einfach": "Das Universum ist mechanistisch deterministisch, wenn eine Maschine, die nur die Naturgesetze und die gesamte Vergangenheit kennt, durch bloßes Befolgen der Regeln genau vorausberechnet, was als Nächstes geschieht.",
-   "praezise": "Begriff dieser Arbeit (Abschnitt 3.4, Definition 14). Anders als bei Laplace genügt nicht der Momentanzustand, verlangt wird die gesamte Vergangenheit. Die „Maschine“ ist kein äußerer Beobachter, sondern der Regelvollzug des Universums selbst (siehe *Dämon (Regelvollzug)*).",
+   "praezise": "Begriff dieser Arbeit (Abschnitt 3.4, Definition 14). Anders als bei Laplace wird nicht behauptet, dass der Momentanzustand genügt; vorausgesetzt wird die gesamte Vergangenheit. Die „Maschine“ ist kein äußerer Beobachter, sondern der Regelvollzug des Universums selbst (siehe *Dämon (Regelvollzug)*).",
    "quellen": [
     {
      "id": "laplace1886versuch",
@@ -6617,7 +6615,7 @@
    "begriff": "Metamaschine",
    "slug": "metamaschine",
    "kategorie": "Philosophische Begriffe",
-   "einfach": "Bei Lucas: eine zweite, übergeordnete Maschine, die eine Maschine bräuchte, um etwas über sich selbst zu sagen. Der Geist dagegen sei seine eigene Metamaschine.",
+   "einfach": "Ein Bild dieser Arbeit, angelehnt an Lucas: Eine Maschine, die sich selbst betrachten soll, braucht dafür einen neuen Teil und wird so zu einer anderen Maschine. Der Geist dagegen sei nach Lucas eine Einheit, die sich selbst betrachten kann.",
    "praezise": "Begriff dieser Arbeit (5.1), angelehnt an Lucas' Bild: Eine Maschine, die sich selbst betrachten will, braucht dafür einen neuen Teil und wird so zu einer anderen Maschine; dieser Schritt wiederholt sich ohne Ende. Lucas selbst sieht den Geist ausdrücklich nicht als Folge solcher Stufen, sondern als Einheit, die sich selbst betrachten kann. Die Wendung steht der Unterscheidung von Objekt- und Metasprache nahe (siehe *Objektsprache / Metasprache*).",
    "quellen": [
     {
@@ -6695,7 +6693,7 @@
    "quellen": [
     {
      "id": "hoefer2023causal",
-     "stelle": "Abschn. 1 und 3"
+     "stelle": "Abschn. 1"
     }
    ],
    "abschnitte": [
@@ -6771,7 +6769,7 @@
    "slug": "regress-unendlicher",
    "kategorie": "Philosophische Begriffe",
    "einfach": "Eine Kette, die nie endet: Jede Antwort wirft dieselbe Frage erneut auf, etwa wenn der Grund selbst wieder einen Grund braucht.",
-   "praezise": "Ein unendlicher Regress entsteht, wenn eine Begründung oder Konstruktion auf jeder Stufe die nächste Stufe gleicher Art voraussetzt. Im Text (5.2) ist es die Leiter immer stärkerer Systeme, bei der jede Stufe die Korrektheit der vorigen voraussetzt; in 4.7 betrifft er Sätze, die auf unendlichen Regressionen aufbauen.",
+   "praezise": "Ein unendlicher Regress entsteht, wenn eine Begründung oder Konstruktion auf jeder Stufe die nächste Stufe gleicher Art voraussetzt. Im Text (5.2) ist es die Leiter immer stärkerer Systeme, bei der jede Stufe die Konsistenz der vorigen voraussetzt; in 4.7 betrifft er Sätze, die auf unendlichen Regressionen aufbauen.",
    "quellen": [
     {
      "id": "cameron2022regress",
@@ -6837,12 +6835,13 @@
    "quellen": [
     {
      "id": "hoefer2023causal",
-     "stelle": "Abschn. 1 und 3"
+     "stelle": "Abschn. 1"
     }
    ],
    "abschnitte": [
     "1.2",
     "1.4",
+    "2.8",
     "4.1",
     "4.6",
     "6.1",

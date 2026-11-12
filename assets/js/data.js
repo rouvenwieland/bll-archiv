@@ -113,6 +113,10 @@ export function normalize(raw) {
           : { abschnitt: str(f.abschnitt), stelle: str(f.stelle), aussage: cleanTex(str(f.aussage)) }
       ).filter((f) => f.abschnitt || f.stelle || f.aussage),
       verweise_anhang: arr(q.verweise_anhang),
+      nachweise: arr(q.nachweise).filter((n) => n && typeof n === 'object').map((n) => ({
+        nr: str(n.nr), ort: str(n.ort), aussage: cleanTex(str(n.aussage)), stelle: str(n.stelle),
+        fundort: str(n.fundort), ausschnitt: str(n.ausschnitt), bild: /^assets\/belege\/\d+\.png$/.test(str(n.bild)) ? str(n.bild) : '',
+      })),
     };
     o.typLabel = TYP[o.typ.toLowerCase()] || o.typ;
     o.autorDisplay = authorList(o.autor).join('; ');

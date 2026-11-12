@@ -1655,6 +1655,35 @@ button.chip:active { transform: scale(0.96); }
 .find__what::before { content: "„"; color: var(--accent-text); }
 .find__what::after { content: "“"; color: var(--accent-text); }
 
+/* Nachweise im Original: Aussage der Arbeit, wörtlicher Ausschnitt, Bild der Quellseite */
+.proof__note { margin: 0 0 10px; font-size: 0.875rem; color: var(--t3); }
+.proofs { display: grid; gap: 14px; padding: 0; margin: 0; list-style: none; }
+.proof {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  border-radius: var(--r2);
+  background: var(--s2);
+  border: 1px solid var(--line);
+  min-width: 0;
+}
+.proof__head { margin: 0; font-family: var(--f-mono); font-size: 0.75rem; color: var(--t3); overflow-wrap: anywhere; }
+.proof__ort { color: var(--t2); }
+.proof__text { margin: 0; font-size: 0.9375rem; line-height: 1.45; color: var(--t2); overflow-wrap: break-word; }
+.proof__quelle {
+  margin: 0;
+  padding-left: 12px;
+  border-left: 2px solid var(--accent-text);
+  font-family: var(--f-serif);
+  font-style: italic;
+  font-size: 1.0625rem;
+  line-height: 1.42;
+  color: var(--t1);
+  overflow-wrap: break-word;
+}
+.proof__bild { display: block; justify-self: start; max-width: 100%; border-radius: 6px; overflow: hidden; border: 1px solid var(--line); background: #fff; }
+.proof__bild img { display: block; max-width: 100%; height: auto; }
+
 .quote {
   margin-top: 12px;
   padding: 4px 0 4px 16px;

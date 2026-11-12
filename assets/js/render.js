@@ -227,6 +227,21 @@ function quelleCard(q, i, D, multiGroup) {
   }
   if (q.zitat) findBody.push(h('blockquote', { class: 'quote math', 'data-hl': '' }, q.zitat));
   let more = null;
+  let proof = null;
+  if (q.nachweise.length) {
+    proof = details(plural(q.nachweise.length, 'Nachweis im Original', 'Nachweise im Original'), [
+      h('p', { class: 'proof__note' }, 'Zu jeder Belegstelle der wörtliche Ausschnitt aus der Quelle und ein Bild der Seite, auf der er steht.'),
+      h('ol', { class: 'proofs' }, q.nachweise.map((n) => h('li', { class: 'proof' },
+        h('p', { class: 'proof__head' },
+          h('span', { class: 'proof__ort', 'data-hl': '' }, n.ort),
+          n.stelle ? h('span', { class: 'proof__stelle', 'data-hl': '' }, ` · zitiert: ${n.stelle}`) : null,
+          n.fundort ? h('span', { class: 'proof__fund', 'data-hl': '' }, ` · im Original: ${n.fundort}`) : null),
+        h('blockquote', { class: 'proof__text math' }, h('span', { 'data-hl': '' }, n.aussage)),
+        h('blockquote', { class: 'proof__quelle', lang: /[äöüß]/i.test(n.ausschnitt) ? 'de' : 'en' }, h('span', { 'data-hl': '' }, `„${n.ausschnitt}“`)),
+        n.bild ? h('a', { class: 'proof__bild', href: n.bild, target: '_blank', rel: 'noopener', 'aria-label': 'Ausschnitt aus dem Original vergrößern' },
+          h('img', { src: n.bild, alt: `Ausschnitt aus dem Original: ${n.fundort}`, loading: 'lazy', decoding: 'async' })) : null))),
+    ]);
+  }
   if (findBody.length) {
     const label = [q.fundstellen.length ? plural(q.fundstellen.length, 'Fundstelle', 'Fundstellen') : null, q.zitat ? 'Zitat' : null].filter(Boolean).join(' · ');
     more = details(label, findBody);
@@ -246,8 +261,9 @@ function quelleCard(q, i, D, multiGroup) {
     (sections.length || anhang.length) ? h('div', { class: 'facts' },
       chips('zitiert in', sections, D),
       anhang.length ? fact('im anhang', h('ul', { class: 'reflist' }, anhang)) : null) : null,
-    more);
-  return { el: card, details: more ? [more] : [] };
+    more,
+    proof);
+  return { el: card, details: [more, proof].filter(Boolean) };
 }
 
 function praemisseCard(p, i, D) {

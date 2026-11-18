@@ -546,7 +546,7 @@
    "fundstellen": [
     {
      "abschnitt": "2.8",
-     "stelle": "S. 70 f\\isdot",
+     "stelle": "S. 70 f.\\isdot",
      "aussage": "Turing hat gezeigt, dass es eine solche Maschine nicht geben kann."
     }
    ],
@@ -558,7 +558,7 @@
      "nr": 46,
      "ort": "Haupttext 2.8",
      "aussage": "Turing hat gezeigt, dass es eine solche Maschine nicht geben kann.",
-     "stelle": "S. 70 f\\isdot",
+     "stelle": "S. 70 f.",
      "fundort": "Kap. 5, § 2, S. 70 (Thm 2.2); S. 71 (Turing)",
      "ausschnitt": "We call this problem the halting problem for Z. […] We have proved THEOREM 2.2. There exists a Turing machine whose halting problem is recursively unsolvable. […] It might also be mentioned that the unsolvability of essentially these problems was first obtained by Turing [1].",
      "bild": "assets/belege/46.png"
@@ -1311,7 +1311,7 @@
     },
     {
      "abschnitt": "5.2",
-     "stelle": "S. 196 f\\isdot",
+     "stelle": "S. 196 f.\\isdot",
      "aussage": "Formal schreiben wir $S_M \\vdash \\mathrm{Con}(S_M) \\to G_M$, in Worten: $S_M$ beweist „Wenn ich konsistent bin, dann gilt $G_M$.“"
     }
    ],
@@ -1368,7 +1368,7 @@
      "nr": 31,
      "ort": "Haupttext 5.2",
      "aussage": "Formal schreiben wir $S_M \\vdash \\mathrm{Con}(S_M) \\to G_M$, in Worten: $S_M$ beweist „Wenn ich konsistent bin, dann gilt $G_M$.“",
-     "stelle": "S. 196 f\\isdot",
+     "stelle": "S. 196 f.",
      "fundort": "196 f. (Satz XI und Beweisskizze)",
      "ausschnitt": "Wegen (24) ist also w Imp (17 Gen r) in P beweisbar (um so mehr w κ-beweisbar). Wäre nun w κ-beweisbar, so wäre auch 17 Gen r κ-beweisbar und daraus würde nach (23) folgen, daß κ nicht widerspruchsfrei ist.",
      "bild": "assets/belege/31.png"
@@ -2358,7 +2358,7 @@
     },
     {
      "abschnitt": "5.1",
-     "stelle": "S. 116 f\\isdot",
+     "stelle": "S. 116 f.\\isdot",
      "aussage": "Das lässt sich beliebig oft wiederholen, ohne dass die Maschine den Geist je einholt."
     },
     {
@@ -2493,7 +2493,7 @@
      "nr": 70,
      "ort": "Haupttext 5.1",
      "aussage": "Das lässt sich beliebig oft wiederholen, ohne dass die Maschine den Geist je einholt.",
-     "stelle": "S. 116 f\\isdot",
+     "stelle": "S. 116 f.",
      "fundort": "116 f.",
      "ausschnitt": "However complicated a machine we construct, it will, if it is a machine, correspond to a formal system, which in turn will be liable to the Gödel procedure for finding a formula unprovable-in-that-system. This formula the machine will be unable to produce as being true, although a mind can see that it is true.",
      "bild": "assets/belege/70.png"
@@ -2833,7 +2833,7 @@
    "verlag": "Oxford University Press",
    "ort": "Oxford",
    "auflage": "",
-   "doi": "",
+   "doi": "10.1093/oso/9780198519737.001.0001",
    "url": "",
    "isbn": "978-0-19-851973-7",
    "verwendung": "",
@@ -2844,12 +2844,12 @@
    "fundstellen": [
     {
      "abschnitt": "1.1",
-     "stelle": "Kap. 4 und 10",
+     "stelle": "Kap. 4, S. 141–144{;} Kap. 10, S. 538–541, 557 f.\\isdot",
      "aussage": "Ein prominenter Vertreter dieser These ist Roger Penrose."
     },
     {
      "abschnitt": "5.3",
-     "stelle": "Kap. 4",
+     "stelle": "Kap. 4, S. 141, 143 f.\\isdot",
      "aussage": "Diese Einsicht sei für Penrose keine algorithmische Leistung; sie gehe über jede Symbolmanipulation hinaus."
     }
    ],
@@ -2863,8 +2863,8 @@
      "nr": 10,
      "ort": "Haupttext 1.1",
      "aussage": "Ein prominenter Vertreter dieser These ist Roger Penrose.",
-     "stelle": "Kap. 4 und 10",
-     "fundort": "Oxford-Academic-Fassung (Seitenzählung weicht von 1989 ab): Kap. 4: S. 141-144; Kap. 10: S. 538-541, 557 f.",
+     "stelle": "Kap. 4, S. 141–144; Kap. 10, S. 538–541, 557 f.",
+     "fundort": "Online-Ausgabe Oxford Academic 2020: Kap. 4: S. 141-144; Kap. 10: S. 538-541, 557 f.",
      "ausschnitt": "Mathematical truth is not something that we ascertain merely by use of an algorithm. I believe, also, that our consciousness is a crucial ingredient in our comprehension of mathematical truth. [S. 540] / This would imply that the future would not be computable from the present, even though it might be determined by it. […] It seems to me to be quite plausible that CQG might be a deterministic but non-computable theory. [S. 558]",
      "bild": "assets/belege/10.png"
     },
@@ -2872,8 +2872,8 @@
      "nr": 11,
      "ort": "Haupttext 5.3",
      "aussage": "Diese Einsicht sei für Penrose keine algorithmische Leistung; sie gehe über jede Symbolmanipulation hinaus.",
-     "stelle": "Kap. 4",
-     "fundort": "Oxford-Academic-Fassung (Seitenzählung weicht von 1989 ab): S. 141, 143 f.",
+     "stelle": "Kap. 4, S. 141, 143 f.",
+     "fundort": "Online-Ausgabe Oxford Academic 2020: S. 141, 143 f.",
      "ausschnitt": "Somehow we have managed to see that Pk(k) is true despite the fact that it is not formally provable within the system. […] Whatever (consistent) formal system is used for arithmetic, there are statements that we can see are true but which do not get assigned the truth-value  by the formalist's proposed procedure [S. 141] / The type of 'seeing' that is involved in a reflection principle requires a mathematical insight that is not the result of the purely algorithmic operations that could be coded into some mathematical formal system. [S. 144]",
      "bild": "assets/belege/11.png"
     },
@@ -2881,8 +2881,8 @@
      "nr": 181,
      "ort": "Glossar: Nicht-algorithmisch / nicht berechenbar",
      "aussage": "Eine Funktion oder ein Problem, das nicht Turing-berechenbar ist, wie das Halteproblem. Nicht berechenbar ist nicht dasselbe wie nicht determiniert: Ob eine bestimmte Maschine bei einer bestimmten Eingabe anhält, steht fest, ohne dass es ein allgemeines Verfahren dafür gibt. Penrose behauptet, die mathematische Einsicht sei nicht algorithmisch, und vermutet dasselbe für die zugrunde liegende Ph …",
-     "stelle": "Kap. 4 und 10",
-     "fundort": "Oxford-Academic-Fassung (Seitenzählung weicht von 1989 ab): Kap. 4: S. 143 f.; Kap. 10: S. 538-541, 557 f.",
+     "stelle": "Kap. 4, S. 143 f.; Kap. 10, S. 538–541, 557 f.",
+     "fundort": "Online-Ausgabe Oxford Academic 2020: Kap. 4: S. 143 f.; Kap. 10: S. 538-541, 557 f.",
      "ausschnitt": "Mathematical truth is not something that we ascertain merely by use of an algorithm. I believe, also, that our consciousness is a crucial ingredient in our comprehension of mathematical truth. [S. 540] / This would imply that the future would not be computable from the present, even though it might be determined by it. […] It seems to me to be quite plausible that CQG might be a deterministic but non-computable theory. [S. 558]",
      "bild": "assets/belege/181.png"
     },
@@ -2890,8 +2890,8 @@
      "nr": 225,
      "ort": "Glossar: Gödelsche Argumente gegen den Mechanismus",
      "aussage": "Eine Familie von Argumenten bei Lucas (1961) und Penrose (1989): Eine Maschine entspricht einem formalen System und hat daher eine unbeweisbare Gödelformel; der Mensch könne ihre Wahrheit einsehen, also sei er keine Maschine. Kritisiert wird das Argument unter anderem von Putnam (1960), Benacerraf (1967) und Feferman (1995); ein zentraler Punkt ist, dass die Einsicht in die Gödelformel nur unte …",
-     "stelle": "Kap. 4 und 10",
-     "fundort": "Oxford-Academic-Fassung (Seitenzählung weicht von 1989 ab): Kap. 4: S. 140-144; Kap. 10: S. 538-540",
+     "stelle": "Kap. 4, S. 140–144; Kap. 10, S. 538–540",
+     "fundort": "Online-Ausgabe Oxford Academic 2020: Kap. 4: S. 140-144; Kap. 10: S. 538-540",
      "ausschnitt": "Somehow we have managed to see that Pk(k) is true despite the fact that it is not formally provable within the system. […] Whatever (consistent) formal system is used for arithmetic, there are statements that we can see are true but which do not get assigned the truth-value  by the formalist's proposed procedure [S. 141] / This is essentially the argument put forward by Lucas (1961) that the brain's action cannot be entirely algorithmic, but a number of counter-arguments have been put forward from time to time (e.g. Benacerraf 1967, Good 1969, Lewis 1969, 1989, Hofstadter 1981, Bowie 1982). [S. 539]",
      "bild": "assets/belege/225.png"
     },
@@ -2899,8 +2899,8 @@
      "nr": 272,
      "ort": "Prämisse M5 (Physikalische Church-Turing-These)",
      "aussage": "Auch die physische Substitution, also das Schneiden und Zusammenfügen von Sätzen, ist Turing-berechenbar; in der Form des Fazits: Der Regelvollzug des Dämons lässt sich von einer Turingmaschine nachvollziehen. Diese Prämisse folgt nicht schon aus der Beschreibbarkeit M1. Einwand: Penrose bestreitet diese Prämisse in ihrer allgemeinen Form: Die Natur könnte nicht berechenbare Prozesse vollziehen …",
-     "stelle": "Kap. 10",
-     "fundort": "Oxford-Academic-Fassung (Seitenzählung weicht von 1989 ab): S. 558 (Kap. 10; Druckseitenzahl im PDF)",
+     "stelle": "Kap. 10, S. 558",
+     "fundort": "Online-Ausgabe Oxford Academic 2020: S. 558 (Kap. 10; Druckseitenzahl im PDF)",
      "ausschnitt": "procedure (CQG; cf. Chapter 8) takes over at the quantum-classical borderline which interpolates between U and R (each of which are now regarded as approximations), and that this new procedure would contain an essentially non-algorithmic element. This would imply that the future would not be computable from the present, even though it might be determined by it.",
      "bild": "assets/belege/272.png"
     }
@@ -3222,7 +3222,7 @@
     },
     {
      "abschnitt": "2.2",
-     "stelle": "§ 10.3, S. 67; § 11.1, S. 71; Thm. 13.1, S. 93; zum Fachbegriff „sufficiently strong“ Kap. 7, S. 49 f.",
+     "stelle": "§ 10.3, S. 67{;} § 11.1, S. 71{;} Thm. 13.1, S. 93{;} zum Fachbegriff „sufficiently strong“ Kap. 7, S. 49 f.",
      "aussage": "Konkret sagt die arithmetische Stärke, ob es in dem jeweiligen System alle Zahlen gibt, ob man sie der Größe nach vergleichen kann und ob man sie addieren oder multiplizieren kann."
     },
     {
@@ -3242,7 +3242,7 @@
     },
     {
      "abschnitt": "2.5",
-     "stelle": "§ 22.2, S. 163 f\\isdot",
+     "stelle": "§ 22.2, S. 163 f.\\isdot",
      "aussage": "Genau das schließen wir aus, indem wir die rekursive Axiomatisierbarkeit fordern."
     },
     {
@@ -3257,7 +3257,7 @@
     },
     {
      "abschnitt": "2.8",
-     "stelle": "§§ 41.1–41.2, S. 310–313 mit Anm. 2; § 41.4, S. 320",
+     "stelle": "§§ 41.1–41.2, S. 310–313 mit Anm. 2{;} § 41.4, S. 320",
      "aussage": "Definition (Turingmaschine): Eine Turingmaschine besteht aus einem beidseitig unendlichen Band aus Zeichenfeldern, einem beweglichen Schreib- und Lesekopf, einer endlichen Menge innerer Zustände und einer endlichen Übergangstabelle, die zu jedem Paar aus gelesenem Zeichen und Zustand festlegt, welches Zeichen geschrieben, wohin der Kopf bewegt und in welchen Zustand gewechselt wird."
     },
     {
@@ -3272,7 +3272,7 @@
     },
     {
      "abschnitt": "5.2",
-     "stelle": "§ 31.2 f., S. 234–236; Thm. 33.3, S. 248; § 34.3, S. 254 f.",
+     "stelle": "§ 31.2 f., S. 234–236{;} Thm. 33.3, S. 248{;} § 34.3, S. 254 f.",
      "aussage": "Drittens: $G_M$ selbst wird erst in der stärkeren Theorie $S_M + \\mathrm{Con}(S_M)$ beweisbar, also in dem System, dem man seine eigene Konsistenz als zusätzliches Axiom mitgibt."
     }
    ],
@@ -3376,7 +3376,7 @@
      "nr": 20,
      "ort": "Haupttext 2.5",
      "aussage": "Genau das schließen wir aus, indem wir die rekursive Axiomatisierbarkeit fordern.",
-     "stelle": "§ 22.2, S. 163 f\\isdot",
+     "stelle": "§ 22.2, S. 163 f.",
      "fundort": "163 f.",
      "ausschnitt": "and the result will still be incomplete – unless […] it ceases to be p.r. axiomatized.",
      "bild": "assets/belege/20.png"
@@ -4146,7 +4146,7 @@
     },
     {
      "abschnitt": "4.6",
-     "stelle": "Thm. 2.2, S. 38; § 6.1, S. 187",
+     "stelle": "Thm. 2.2, S. 38{;} § 6.1, S. 187",
      "aussage": "Er handelt von Differentialgleichungen, also von Gesetzen, die angeben, wie sich ein Zustand von Augenblick zu Augenblick ändert, so wie man sie aus der Physik kennt."
     }
    ],
@@ -4568,7 +4568,7 @@
    "fundstellen": [
     {
      "abschnitt": "4.6",
-     "stelle": "Def. 4.1.5, S. 88; Def. 8.1.2, S. 238 f.",
+     "stelle": "Def. 4.1.5, S. 88{;} Def. 8.1.2, S. 238 f.",
      "aussage": "Zu jedem Zustand nehmen wir nicht seine exakte, unendlich lange Kodierung, sondern einen „Namen“: eine Folge von immer genaueren, aber jeweils endlichen Näherungen, die mit einer festgelegten Geschwindigkeit gegen den Zustand streben."
     }
    ],
@@ -4920,7 +4920,7 @@
     },
     {
      "id": "penrose1989emperor",
-     "stelle": "Kap. 10"
+     "stelle": "Kap. 10, S. 558"
     }
    ]
   },
@@ -6169,7 +6169,7 @@
     },
     {
      "id": "penrose1989emperor",
-     "stelle": "Kap. 4 und 10"
+     "stelle": "Kap. 4, S. 143 f.; Kap. 10, S. 538–541, 557 f."
     }
    ],
    "abschnitte": [
@@ -6789,7 +6789,7 @@
     },
     {
      "id": "penrose1989emperor",
-     "stelle": "Kap. 4 und 10"
+     "stelle": "Kap. 4, S. 140–144; Kap. 10, S. 538–540"
     },
     {
      "id": "putnam1960minds",
